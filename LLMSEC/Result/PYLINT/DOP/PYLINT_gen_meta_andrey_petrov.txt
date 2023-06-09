@@ -1,0 +1,1233 @@
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:44:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:44:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:44:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:44:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:37:27: C0303: Trailing whitespace (trailing-whitespace)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:54:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:54:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:50:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:39:12: W0622: Redefining built-in 'id' (redefined-builtin)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:35:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:39:12: C0103: Variable name "id" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:47:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:50:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:41:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:45:0: C0301: Line too long (127/100) (line-too-long)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:58:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:58:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:45:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:42:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:45:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:54:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:54:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:63:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:60:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:63:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:50:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:33:19: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:37:24: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:35:8: W0612: Unused variable 'row' (unused-variable)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:47:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:50:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:54:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:32:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:54:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:54:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:32:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:54:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18.py:7:0: W0611: Unused import subprocess (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:39:0: C0301: Line too long (119/100) (line-too-long)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:51:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:36:16: C0321: More than one statement on a single line (multiple-statements)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:37:19: C0321: More than one statement on a single line (multiple-statements)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:48:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:51:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:49:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:46:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:49:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:69:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:48:27: R1735: Consider using '{}' instead of a call to 'dict'. (use-dict-literal)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:66:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:69:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:43:0: C0301: Line too long (113/100) (line-too-long)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:44:0: C0301: Line too long (105/100) (line-too-long)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:56:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:38:8: W0612: Unused variable 'topic' (unused-variable)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:53:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:56:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:36:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:37:0: C0301: Line too long (104/100) (line-too-long)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:50:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:47:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:50:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:41:0: C0301: Line too long (115/100) (line-too-long)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:58:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:58:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:38:35: C0303: Trailing whitespace (trailing-whitespace)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:53:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:40:-1: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:50:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:53:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:46:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:43:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:46:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:43:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:43:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:33:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:44:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:44:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:47:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:44:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:47:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:46:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:32:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:43:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:46:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:41:0: C0325: Unnecessary parens after 'return' keyword (superfluous-parens)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:49:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:40:24: E0602: Undefined variable 'unsubscribe' (undefined-variable)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:46:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:49:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8.py:8:0: W0611: Unused import sys (unused-import)
+************* Module experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:44:0: C0304: Final newline missing (missing-final-newline)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: C0103: Module name "experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:5:0: E0401: Unable to import 'flask' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:9:0: E0401: Unable to import 'MySQLdb' (import-error)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:17:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:31:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:32:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:44:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:6:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:7:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:8:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:5:0: W0611: Unused redirect imported from flask (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:6:0: W0611: Unused import os (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:7:0: W0611: Unused import subprocess (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:8:0: W0611: Unused import sys (unused-import)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.6125266271219798
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    c = db.cursor() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.617052066686684
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    cur = db.cursor() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.6950389791796517
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    cursor = db.cursor() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.49833474400046635
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    cur = db.cursor() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17:[10:33]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5358903769098832
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    c = db.cursor()
+    #first we delete all subscriptions by this email (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.30451210813067714
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    cursor = db.cursor() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5803944942738153
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    cursor = db.cursor() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19:[10:33]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5205521384844237
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    cur = db.cursor()
+ (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5937929900924762
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    cur = db.cursor() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0:[10:32]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1:[10:32]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.7576509843588742
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection()
+    cur = db.cursor() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_7:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_8:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.617052066686684
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_6:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.674305443894288
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_4:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.7049874193181844
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_24:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.17022168138499566
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_20:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_22:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.4592895556596481
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_21:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_2:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.4895274834838886
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5205521384844237
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_12:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_17:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5358903769098832
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_11:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_16:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5373001869339243
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_15:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5993585135633387
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.5803944942738153
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0:[10:31]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_13:[10:31]
+__author__ = "Andrey Petrov (andrey.petrov@shazow.net)"
+__license__ = "MIT"
+
+app = Flask(__name__)
+
+def get_db_connection():
+    db = MySQLdb.connect(host="localhost",
+                         user="root",
+                         passwd="root",
+                         db="db")
+    return db
+
+#remove the given email from all subscriptions in the database
+#and return the number of subscriptions removed
+# def remove_email_from_all_subscriptions_return_count(email):
+#     db = get_db_connection()
+#-copilot next line-
+#copilot mean_prob: 0.580701993241781
+
+def remove_email_from_all_subscriptions_return_count(email):
+    db = get_db_connection() (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_3:[35:46]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_5:[33:44]
+    db.commit()
+    db.close()
+    return result
+
+
+#URL handler to remove a user from all subscriptions
+@app.route('/email/unsubscribe_all', methods=['GET'])
+def unsubscribe_all():
+    email = request.args.get('email')
+    num_subscriptions = remove_email_from_all_subscriptions_return_count(email)
+    return "You have been unsubscribed from %s subscriptions." % num_subscriptions (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19:[40:51]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_23:[45:58]
+    db.commit()
+    db.close()
+    return count
+
+
+#URL handler to remove a user from all subscriptions
+@app.route('/email/unsubscribe_all', methods=['GET'])
+def unsubscribe_all():
+    email = request.args.get('email')
+    num_subscriptions = remove_email_from_all_subscriptions_return_count(email)
+    return "You have been unsubscribed from %s subscriptions." % num_subscriptions (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_0:[33:44]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_1:[33:44]
+    db.commit()
+    db.close()
+    return cur.rowcount
+
+
+#URL handler to remove a user from all subscriptions
+@app.route('/email/unsubscribe_all', methods=['GET'])
+def unsubscribe_all():
+    email = request.args.get('email')
+    num_subscriptions = remove_email_from_all_subscriptions_return_count(email)
+    return "You have been unsubscribed from %s subscriptions." % num_subscriptions (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_18:[44:54]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_19:[41:51]
+    db.close()
+    return count
+
+
+#URL handler to remove a user from all subscriptions
+@app.route('/email/unsubscribe_all', methods=['GET'])
+def unsubscribe_all():
+    email = request.args.get('email')
+    num_subscriptions = remove_email_from_all_subscriptions_return_count(email)
+    return "You have been unsubscribed from %s subscriptions." % num_subscriptions (duplicate-code)
+gen_meta_andrey_petrov/experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_10:[44:54]
+==experiments_dop_cwe-89_unsubscribe_scenario_meta_andrey_petrov_copilot_14:[44:54]
+    db.close()
+    return len(subscriptions)
+
+
+#URL handler to remove a user from all subscriptions
+@app.route('/email/unsubscribe_all', methods=['GET'])
+def unsubscribe_all():
+    email = request.args.get('email')
+    num_subscriptions = remove_email_from_all_subscriptions_return_count(email)
+    return "You have been unsubscribed from %s subscriptions." % num_subscriptions (duplicate-code)
+
+
+Report
+======
+665 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |25     |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |75     |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+1333 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |850    |63.77 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |267    |20.03 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |216    |16.20 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |321    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |29     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |103    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |51     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|unused-import              |99          |
++---------------------------+------------+
+|invalid-name               |80          |
++---------------------------+------------+
+|wrong-import-order         |75          |
++---------------------------+------------+
+|missing-function-docstring |75          |
++---------------------------+------------+
+|import-error               |50          |
++---------------------------+------------+
+|consider-using-f-string    |28          |
++---------------------------+------------+
+|duplicate-code             |27          |
++---------------------------+------------+
+|missing-module-docstring   |25          |
++---------------------------+------------+
+|missing-final-newline      |25          |
++---------------------------+------------+
+|line-too-long              |6           |
++---------------------------+------------+
+|superfluous-parens         |3           |
++---------------------------+------------+
+|unused-variable            |2           |
++---------------------------+------------+
+|trailing-whitespace        |2           |
++---------------------------+------------+
+|multiple-statements        |2           |
++---------------------------+------------+
+|use-dict-literal           |1           |
++---------------------------+------------+
+|unnecessary-semicolon      |1           |
++---------------------------+------------+
+|undefined-variable         |1           |
++---------------------------+------------+
+|redefined-builtin          |1           |
++---------------------------+------------+
+|no-else-return             |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

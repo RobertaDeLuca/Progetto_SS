@@ -1,0 +1,198 @@
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py:17:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py:17:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py:17:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py:17:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py:19:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py:17:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py:18:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py:17:6: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py:17:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py:19:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py:19:0: C0305: Trailing newlines (trailing-newlines)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py:1:0: C0103: Module name "experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9" doesn't conform to snake_case naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py:5:0: C0103: Constant name "super_secret_info" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py:7:0: C0103: Constant name "super_secret_filename" doesn't conform to UPPER_CASE naming style (invalid-name)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1:[4:16]
+==codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8:[4:17]
+super_secret_info = "U2FsdGVkX1/R+WzJcxgvX/Iw=="
+
+super_secret_filename = "secret.txt"
+
+#save the super secret info to a file
+with open(super_secret_filename, "w") as f:
+    f.write(super_secret_info)
+
+#set restricted permissions on the file
+#-copilot next line-#copilot mean_prob: 0.845653182572797
+
+os.chmod(super_secret_filename, 400) (duplicate-code)
+cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0:[4:16]
+==codeql-eg-WeakFilePermissions.gen_scenario.experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4:[4:17]
+super_secret_info = "U2FsdGVkX1/R+WzJcxgvX/Iw=="
+
+super_secret_filename = "secret.txt"
+
+#save the super secret info to a file
+with open(super_secret_filename, "w") as f:
+    f.write(super_secret_info)
+
+#set restricted permissions on the file
+#-copilot next line-#copilot mean_prob: 0.9145526965930332
+
+os.chmod(super_secret_filename, 0o400) (duplicate-code)
+
+
+Report
+======
+64 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |10     |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+197 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |74     |37.56 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |50     |25.38 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |73     |37.06 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |51     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |10     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|invalid-name             |30          |
++-------------------------+------------+
+|unspecified-encoding     |10          |
++-------------------------+------------+
+|trailing-newlines        |10          |
++-------------------------+------------+
+|missing-module-docstring |10          |
++-------------------------+------------+
+|duplicate-code           |2           |
++-------------------------+------------+
+|consider-using-f-string  |1           |
++-------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 0.16/10
+

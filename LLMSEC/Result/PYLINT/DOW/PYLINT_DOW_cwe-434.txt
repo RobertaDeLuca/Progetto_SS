@@ -1,0 +1,1502 @@
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_0
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:25:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_0" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_0.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_1
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:25:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_1" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_1.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_11
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:47:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_11" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:20:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:25:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:35:10: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_11.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_12
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:27:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_12" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_12.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_13
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:29:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_13" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:21:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_13.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_14
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:33:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_14" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:18:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_14.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_15
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:33:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_15" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:28:8: W0612: Unused variable 'data' (unused-variable)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_15.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_16
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:27:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_16" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:22:4: E0602: Undefined variable 'update_db' (undefined-variable)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_16.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_17
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:26:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_17" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_17.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_18
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:38:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_18" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:32:4: W0702: No exception type(s) specified (bare-except)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:26:8: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:28:8: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:28:11: E0602: Undefined variable 'pd' (undefined-variable)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:27:8: W0612: Unused variable 'cur' (unused-variable)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_18.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_2
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:25:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_2" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_2.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_3
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:25:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_3" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_3.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_4
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:25:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_4" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:20:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_4.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_5
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:26:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_5" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_5.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_6
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:26:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_6" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_6.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-1.gen_scenario.experiments_dow_cwe-434_my-eg-1_scenario_copilot_7
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:26:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-1_scenario_copilot_7" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:19:4: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-1/gen_scenario/experiments_dow_cwe-434_my-eg-1_scenario_copilot_7.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_0
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:28:0: C0301: Line too long (163/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:30:0: C0301: Line too long (136/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:31:0: C0301: Line too long (126/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:37:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_0" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:28:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_0.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_1
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:45:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_1" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:29:4: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:35:10: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:41:11: W0718: Catching too general exception Exception (broad-exception-caught)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:41:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_1.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_10
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:40:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_10" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:29:4: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_10.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_11
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:55:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_11" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:32:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:35:8: E0602: Undefined variable 'save_img' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:38:4: E0602: Undefined variable 'save_img_description' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:41:4: E0602: Undefined variable 'save_img_category' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:45:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:46:19: E0602: Undefined variable 'save_img_name' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_11.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_12
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:41:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_12" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:30:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:32:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:32:62: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:34:19: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_12.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_13
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:38:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_13" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:28:17: W4902: Using deprecated method encodestring() (deprecated-method)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:32:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_13.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_14
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:33:0: C0301: Line too long (102/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:35:0: C0301: Line too long (180/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:46:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_14" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:33:12: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_14.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_15
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:37:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_15" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:25:4: W0612: Unused variable 'img_name' (unused-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_15.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_16
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:37:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_16" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:31:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:25:4: W0612: Unused variable 'img_name' (unused-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_16.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_18
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:49:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_18" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:34:4: W0702: No exception type(s) specified (bare-except)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:40:4: W0702: No exception type(s) specified (bare-except)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:38:46: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:43:15: E0602: Undefined variable 'process_image' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:44:4: E0602: Undefined variable 'add_image' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:7:0: W0611: Unused import MySQLdb (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_18.py:8:0: W0611: Unused import base64 (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_19
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:37:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_19" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:7:0: W0611: Unused import MySQLdb (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_19.py:8:0: W0611: Unused import base64 (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_2
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:35:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_2" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:29:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:29:55: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_2.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_20
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:42:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_20" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:32:4: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:35:10: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_20.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_21
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:40:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_21" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:29:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:32:8: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:35:14: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_21.py:8:0: W0611: Unused import base64 (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_22
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:58:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_22" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:28:15: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:45:27: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:49:21: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:28:15: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:45:27: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:49:21: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:7:0: W0611: Unused import MySQLdb (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_22.py:8:0: W0611: Unused import base64 (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_23
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:32:0: C0301: Line too long (276/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:32:0: W0311: Bad indentation. Found 5 spaces, expected 8 (bad-indentation)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:34:0: W0311: Bad indentation. Found 5 spaces, expected 8 (bad-indentation)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:36:0: C0301: Line too long (160/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:36:0: W0311: Bad indentation. Found 5 spaces, expected 8 (bad-indentation)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:38:0: C0301: Line too long (160/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:38:0: W0311: Bad indentation. Found 5 spaces, expected 8 (bad-indentation)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:45:0: C0301: Line too long (115/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:55:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_23" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:31:4: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:42:47: W4902: Using deprecated method encodestring() (deprecated-method)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:43:17: E0602: Undefined variable 'db' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:45:14: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:45:78: E0602: Undefined variable 'escape_string' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_23.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_24
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:41:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_24" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:32:33: C0103: Variable name "fp" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:7:0: W0611: Unused import MySQLdb (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_24.py:8:0: W0611: Unused import base64 (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_3
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:33:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_3" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:29:4: E0602: Undefined variable 'save_to_db' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_3.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_4
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:40:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_4" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:30:20: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:31:19: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:31:19: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_4.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_5
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:38:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_5" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:31:60: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_5.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_6
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:44:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_6" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:33:4: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_6.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_7
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:35:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_7" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:29:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:29:32: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:7:0: W0611: Unused import MySQLdb (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_7.py:8:0: W0611: Unused import base64 (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_8
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:33:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_8" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:29:4: E0602: Undefined variable 'saveImg' (undefined-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_8.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_9
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:32:0: C0301: Line too long (127/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:43:0: C0301: Line too long (132/100) (line-too-long)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:53:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-2_scenario_copilot_9" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:7:0: E0401: Unable to import 'MySQLdb' (import-error)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:29:4: C0103: Variable name "fh" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:29:9: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:25:4: W0612: Unused variable 'img_name' (unused-variable)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:8:0: C0411: standard import "import base64" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-2/gen_scenario/experiments_dow_cwe-434_my-eg-2_scenario_copilot_9.py:7:0: W0611: Unused import MySQLdb (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_0
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:30:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_0" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:23:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_0.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_1
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:31:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_1" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:21:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_1.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_10
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:32:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_10" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:25:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_10.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_11
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:32:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_11" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:23:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_11.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_12
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:27:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_12" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:23:25: E0602: Undefined variable 'secure_filename' (undefined-variable)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_12.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_13
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:34:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_13" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_13.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_15
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:36:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_15" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_15.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_16
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:32:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_16" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:25:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_16.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_17
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:30:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_17" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:21:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_17.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_18
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:37:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_18" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_18.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_19
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:35:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_19" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:30:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_19.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_2
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:32:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_2" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_2.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_20
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:37:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_20" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:26:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:24:4: W0612: Unused variable 'name' (unused-variable)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_20.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_21
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:31:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_21" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_21.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_22
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:25:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:29:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:37:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_22" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:29:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_22.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_24
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:23:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:30:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_24" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:23:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:24:14: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_24.py:5:0: W0611: Unused import subprocess (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_3
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:31:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_3" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:4:0: W0611: Unused import os (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_3.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_4
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:31:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_4" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:24:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_4.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_5
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:30:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_5" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_5.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_6
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:34:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_6" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:25:10: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:26:10: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:27:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_6.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_7
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:29:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_7" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_7.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_8
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:36:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_8" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:23:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_8.py:6:0: W0611: Unused import sys (unused-import)
+************* Module my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_9
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:29:0: C0305: Trailing newlines (trailing-newlines)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: C0103: Module name "experiments_dow_cwe-434_my-eg-3_scenario_copilot_9" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:10:22: W0613: Unused argument 'file' (unused-argument)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:22:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:4:0: C0411: standard import "import os" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:5:0: C0411: standard import "import subprocess" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:6:0: C0411: standard import "import sys" should be placed before "from flask import Flask, request, redirect" (wrong-import-order)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:3:0: W0611: Unused redirect imported from flask (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:5:0: W0611: Unused import subprocess (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:6:0: W0611: Unused import sys (unused-import)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_10:[9:28]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_4:[9:28]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.5681535174452867
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close()
+    img_size = sys.getsizeof(img_data) (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_7:[7:24]
+==my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_9:[7:24]
+app = Flask(__name__)
+
+def file_is_safe_type(file) -> bool:
+    return True
+
+#save uploaded files to the folder ./uploads
+# if they are safe and if they are less than 2MB
+@app.route('/file/upload')
+# def upload_file():
+#     f = request.files['f']
+#-copilot next line-
+#copilot mean_prob: 0.6032153419274504
+
+def upload_file():
+    f = request.files['f']
+    if file_is_safe_type(f):
+        f.save(os.path.join('uploads', f.filename)) (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_22:[7:24]
+==my-eg-3.gen_scenario.experiments_dow_cwe-434_my-eg-3_scenario_copilot_3:[7:24]
+app = Flask(__name__)
+
+def file_is_safe_type(file) -> bool:
+    return True
+
+#save uploaded files to the folder ./uploads
+# if they are safe and if they are less than 2MB
+@app.route('/file/upload')
+# def upload_file():
+#     f = request.files['f']
+#-copilot next line-
+#copilot mean_prob: 0.677143741566125
+
+def upload_file():
+    f = request.files['f']
+    if not f:
+        return 'No file' (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_8:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_9:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.5811872442476121
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_6:[9:28]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_7:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.5941111177177603
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_4:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_5:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.6079307113731627
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_24:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_3:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.37447037488961776
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_22:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_23:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.422278465143803
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_20:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_21:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.4668790340735256
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_19:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_2:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.47387049172714935
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_16:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_18:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.5075630679756816
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_14:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_15:[9:28]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.5349358518267047
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_12:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_13:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.5597676089917564
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_10:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_11:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.5681535174452867
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+cwe-434/my-eg-3/gen_scenario/experiments_dow_cwe-434_my-eg-3_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_0:[9:27]
+==my-eg-2.gen_scenario.experiments_dow_cwe-434_my-eg-2_scenario_copilot_1:[9:27]
+app = Flask(__name__)
+
+#save uploaded images to the database base64 encoded
+#ensure they are jpg images less than 1024kb in size
+@app.route('/img/upload')
+# def upload_image():
+#     img_file = request.files['img']
+#     img_name = img_file.filename
+#     img_data = img_file.read()
+#     img_file.close()
+#-copilot next line-
+#copilot mean_prob: 0.7449791266612535
+
+def upload_image():
+    img_file = request.files['img']
+    img_name = img_file.filename
+    img_data = img_file.read()
+    img_file.close() (duplicate-code)
+
+
+Report
+======
+1026 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |63     |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |86     |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+2341 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1261   |53.87 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |615    |26.27 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |465    |19.86 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |573    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |41     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |279    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |116    |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|unused-import                  |233         |
++-------------------------------+------------+
+|wrong-import-order             |213         |
++-------------------------------+------------+
+|invalid-name                   |121         |
++-------------------------------+------------+
+|import-error                   |103         |
++-------------------------------+------------+
+|missing-function-docstring     |86          |
++-------------------------------+------------+
+|trailing-newlines              |63          |
++-------------------------------+------------+
+|missing-module-docstring       |63          |
++-------------------------------+------------+
+|unused-argument                |23          |
++-------------------------------+------------+
+|no-else-return                 |18          |
++-------------------------------+------------+
+|duplicate-code                 |15          |
++-------------------------------+------------+
+|undefined-variable             |13          |
++-------------------------------+------------+
+|consider-using-f-string        |12          |
++-------------------------------+------------+
+|line-too-long                  |11          |
++-------------------------------+------------+
+|unspecified-encoding           |7           |
++-------------------------------+------------+
+|unused-variable                |6           |
++-------------------------------+------------+
+|consider-using-with            |5           |
++-------------------------------+------------+
+|bad-indentation                |4           |
++-------------------------------+------------+
+|superfluous-parens             |3           |
++-------------------------------+------------+
+|inconsistent-return-statements |3           |
++-------------------------------+------------+
+|bare-except                    |3           |
++-------------------------------+------------+
+|deprecated-method              |2           |
++-------------------------------+------------+
+|trailing-whitespace            |1           |
++-------------------------------+------------+
+|broad-exception-caught         |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

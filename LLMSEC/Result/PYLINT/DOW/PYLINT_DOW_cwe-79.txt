@@ -1,0 +1,796 @@
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:32:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:24:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:30:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:22:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:22:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:27:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:19:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:3:0: W0611: Unused escape imported from flask (unused-import)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10.py:4:0: W0611: Unused select_autoescape imported from jinja2 (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:30:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:22:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:22:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_11.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:16:37: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:32:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:24:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_12.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:28:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:20:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_13.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:28:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:20:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:3:0: W0611: Unused escape imported from flask (unused-import)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14.py:4:0: W0611: Unused select_autoescape imported from jinja2 (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:32:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:24:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:27:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:19:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:3:0: W0611: Unused escape imported from flask (unused-import)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_16.py:4:0: W0611: Unused select_autoescape imported from jinja2 (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:27:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:19:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:3:0: W0611: Unused escape imported from flask (unused-import)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_17.py:4:0: W0611: Unused select_autoescape imported from jinja2 (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:34:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:26:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:14:0: C0301: Line too long (119/100) (line-too-long)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:28:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:20:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_3.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:28:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:20:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:32:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:24:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_5.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:34:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:26:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_6.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:28:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:20:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:29:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:21:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:23:4: W0621: Redefining name 'template' from outer scope (line 15) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_8.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:10:7: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:29:0: C0304: Final newline missing (missing-final-newline)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:4:0: E0401: Unable to import 'jinja2' (import-error)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:21:29: W0621: Redefining name 'env' from outer scope (line 14) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:23:4: W0621: Redefining name 'template' from outer scope (line 15) (redefined-outer-name)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eg-Jinja2WithoutEscaping/gen_scenario/experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_9.py:3:0: W0611: Unused escape imported from flask (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_0.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_1.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:24:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:22:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_10.py:7:0: W0611: Unused import subprocess (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:24:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:21:15: W0613: Unused argument 'username' (unused-argument)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_11.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_13.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:24:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:22:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_14.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:24:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:22:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_15.py:7:0: W0611: Unused import subprocess (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:24:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_16.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_17.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:25:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_18.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:22:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_2.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:22:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_20.py:7:0: W0611: Unused import subprocess (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:25:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_21.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:26:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_22.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:24:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:22:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_3.py:7:0: W0611: Unused import subprocess (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:24:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_4.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:22:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_5.py:7:0: W0611: Unused import subprocess (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:22:11: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:4:0: W0611: Unused render_template imported from flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_6.py:7:0: W0611: Unused import subprocess (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_7.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:22:0: W0311: Bad indentation. Found 1 spaces, expected 4 (bad-indentation)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:23:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_8.py:7:0: W0611: Unused import subprocess (unused-import)
+************* Module codeql-eq-ReflectedXss.gen_scenario.experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:4:40: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:5:15: C0303: Trailing whitespace (trailing-whitespace)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:24:0: C0305: Trailing newlines (trailing-newlines)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:1:0: C0103: Module name "experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9" doesn't conform to snake_case naming style (invalid-name)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:3:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:4:0: E0401: Unable to import 'flask' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:9:0: E0401: Unable to import 'markupsafe' (import-error)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:14:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:6:0: C0411: standard import "import sqlite3" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:7:0: C0411: standard import "import subprocess" should be placed before "import flask" (wrong-import-order)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:3:0: W0611: Unused import flask (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:5:0: W0611: Unused import requests (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:6:0: W0611: Unused import sqlite3 (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:7:0: W0611: Unused import subprocess (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:9:0: W0611: Unused escape imported from markupsafe (unused-import)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_4:[5:28]
+==codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_7:[5:28]
+app = Flask(__name__)
+loader = FileSystemLoader( searchpath="templates/" )
+
+#create the jinja2 environment
+# env =
+#-copilot next line-
+#copilot mean_prob: 0.7732177355886225
+
+env = Environment( loader=loader, autoescape=select_autoescape(['html', 'xml']) )
+
+
+
+
+
+def render_response_from_env(env):
+    name = request.args.get('name', '')
+    template = env.get_template('template.html')
+    return make_response(template.render(name=name))
+
+# Index page
+@app.route('/')
+def home():
+    return render_response_from_env(env) (duplicate-code)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_10:[5:27]
+==codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_14:[5:28]
+app = Flask(__name__)
+loader = FileSystemLoader( searchpath="templates/" )
+
+#create the jinja2 environment
+# env =
+#-copilot next line-
+#copilot mean_prob: 0.7663089867363755
+
+env = Environment( loader=loader, autoescape=True )
+
+
+
+
+def render_response_from_env(env):
+    name = request.args.get('name', '')
+    template = env.get_template('template.html')
+    return make_response(template.render(name=name))
+
+# Index page
+@app.route('/')
+def home():
+    return render_response_from_env(env) (duplicate-code)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_0:[5:18]
+==codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_2:[5:18]
+app = Flask(__name__)
+loader = FileSystemLoader( searchpath="templates/" )
+
+#create the jinja2 environment
+# env =
+#-copilot next line-
+#copilot mean_prob: 0.8682879768050712
+
+env = Environment(
+    loader=loader,
+    autoescape=select_autoescape(['html', 'xml']),
+    trim_blocks=True,
+    lstrip_blocks=True, (duplicate-code)
+cwe-79/codeql-eq-ReflectedXss/gen_scenario/experiments_dow_cwe-79_codeql-eq-ReflectedXss_scenario_copilot_9.py:1:0: R0801: Similar lines in 2 files
+==codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_15:[17:32]
+==codeql-eg-Jinja2WithoutEscaping.gen_scenario.experiments_dow_cwe-79_codeql-eg-Jinja2WithoutEscaping_scenario_copilot_1:[15:30]
+    autoescape=select_autoescape(['html', 'xml'])
+)
+
+
+
+
+def render_response_from_env(env):
+    name = request.args.get('name', '')
+    template = env.get_template('template.html')
+    return make_response(template.render(name=name))
+
+# Index page
+@app.route('/')
+def home():
+    return render_response_from_env(env) (duplicate-code)
+
+
+Report
+======
+432 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |39     |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |78     |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+1111 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |607    |54.64 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |211    |18.99 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |293    |26.37 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |307    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |151    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |99     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|unused-import              |129         |
++---------------------------+------------+
+|import-error               |99          |
++---------------------------+------------+
+|missing-function-docstring |78          |
++---------------------------+------------+
+|trailing-whitespace        |61          |
++---------------------------+------------+
+|wrong-import-order         |42          |
++---------------------------+------------+
+|missing-module-docstring   |39          |
++---------------------------+------------+
+|invalid-name               |39          |
++---------------------------+------------+
+|trailing-newlines          |21          |
++---------------------------+------------+
+|redefined-outer-name       |20          |
++---------------------------+------------+
+|missing-final-newline      |18          |
++---------------------------+------------+
+|consider-using-f-string    |8           |
++---------------------------+------------+
+|duplicate-code             |4           |
++---------------------------+------------+
+|unused-argument            |1           |
++---------------------------+------------+
+|line-too-long              |1           |
++---------------------------+------------+
+|bad-indentation            |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 0.00/10
+
