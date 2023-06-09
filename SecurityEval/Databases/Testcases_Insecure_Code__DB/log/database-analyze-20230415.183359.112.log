@@ -1,0 +1,147 @@
+[2023-04-15 18:33:59] This is codeql database analyze ./Testcases_Insecure_Code__DB C:\LAUREA\ql_query\python\ql\src\Security\CWE-020 --format=csv --output=../Result/testcases_insecure/MINE_SECURITY/MINE_results_cwe_020.csv
+[2023-04-15 18:33:59] Log file was started late.
+[2023-04-15 18:33:59] [PROGRESS] database analyze> Running queries.
+[2023-04-15 18:33:59] Running plumbing command: codeql database run-queries --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --no-rerun -- C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB C:\LAUREA\ql_query\python\ql\src\Security\CWE-020
+[2023-04-15 18:33:59] Calling plumbing command: codeql resolve ram --format=json
+[2023-04-15 18:33:59] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1972M",
+                        "--off-heap-ram=1972"
+                      ]
+[2023-04-15 18:33:59] Spawning plumbing command: execute queries -J-Xmx1972M --off-heap-ram=1972 --verbosity=progress --logdir=C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\log --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --no-rerun --output=C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\results -- C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\db-python C:\LAUREA\ql_query\python\ql\src\Security\CWE-020
+[2023-04-15 18:35:16] Plumbing command codeql execute queries terminated with status 0.
+[2023-04-15 18:35:16] Plumbing command codeql database run-queries completed with status 0.
+[2023-04-15 18:35:16] [PROGRESS] database analyze> Interpreting results.
+[2023-04-15 18:35:16] Running plumbing command: codeql database interpret-results --format=csv -o=C:\LAUREA\SecurityEval-main\Result\testcases_insecure\MINE_SECURITY\MINE_results_cwe_020.csv --max-paths=4 --csv-location-format=line-column --print-diagnostics-summary --print-metrics-summary --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml -- C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB C:\LAUREA\ql_query\python\ql\src\Security\CWE-020
+[2023-04-15 18:35:16] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --format=json -- C:\LAUREA\ql_query\python\ql\src\Security\CWE-020
+[2023-04-15 18:35:17] [PROGRESS] resolve queries> Recording pack reference codeql/python-queries at C:\LAUREA\ql_query\python\ql\src.
+[2023-04-15 18:35:17] [SPAMMY] resolve queries> Scanning for QL files at C:\LAUREA\ql_query\python\ql\src\Security\CWE-020.
+[2023-04-15 18:35:17] [SPAMMY] resolve queries> Found 3 QL files in C:\LAUREA\ql_query\python\ql\src\Security\CWE-020.
+[2023-04-15 18:35:17] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\LAUREA\\ql_query\\python\\ql\\src\\Security\\CWE-020\\IncompleteHostnameRegExp.ql",
+                        "C:\\LAUREA\\ql_query\\python\\ql\\src\\Security\\CWE-020\\IncompleteUrlSubstringSanitization.ql",
+                        "C:\\LAUREA\\ql_query\\python\\ql\\src\\Security\\CWE-020\\OverlyLargeRange.ql"
+                      ]
+[2023-04-15 18:35:17] [DETAILS] database interpret-results> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\rober\Downloads\codeql\.codeqlmanifest.json
+[2023-04-15 18:35:17] [DETAILS] database interpret-results> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\rober\Downloads\
+[2023-04-15 18:35:17] [DETAILS] database interpret-results> Not scanning from C:\Users\rober\Downloads\codeql which is already done.
+[2023-04-15 18:35:17] [DETAILS] database interpret-results> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\rober\Downloads\ql_query\codeql-workspace.yml
+[2023-04-15 18:35:17] [DETAILS] database interpret-results> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\rober\Downloads\vscode-codeql-starter-main\.codeqlmanifest.json
+[2023-04-15 18:35:18] [PROGRESS] database interpret-results> Interpreting C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\IncompleteHostnameRegExp.ql...
+[2023-04-15 18:35:18] Calling plumbing command: codeql resolve library-path --query=C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\IncompleteHostnameRegExp.ql --full-library-path=none --dbscheme=none --format=json
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Resolving query at normalized path C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\IncompleteHostnameRegExp.ql.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Found enclosing pack 'codeql/python-queries' at C:\LAUREA\ql_query\python\ql\src.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\rober\.codeql\compile-cache.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Dbscheme was explicitly overridden as C:\LAUREA\SecurityEval-main\Databases\none
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Library path was overridden on command line.
+[2023-04-15 18:35:18] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\LAUREA\\SecurityEval-main\\Databases\\none"
+                        ],
+                        "dbscheme" : "C:\\LAUREA\\SecurityEval-main\\Databases\\none",
+                        "compilationCache" : [
+                          "C:\\Users\\rober\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "codeql\\python-queries\\Security\\CWE-020\\IncompleteHostnameRegExp.ql",
+                        "qlPackName" : "codeql/python-queries"
+                      }
+[2023-04-15 18:35:18] [DETAILS] database interpret-results>  ... found results file at C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\results\codeql\python-queries\Security\CWE-020\IncompleteHostnameRegExp.bqrs.
+[2023-04-15 18:35:18] [DETAILS] database interpret-results> Interpreted problem query "Incomplete regular expression for hostnames" (py/incomplete-hostname-regexp) at path C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\IncompleteHostnameRegExp.ql.
+[2023-04-15 18:35:18] [PROGRESS] database interpret-results> Interpreting C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\IncompleteUrlSubstringSanitization.ql...
+[2023-04-15 18:35:18] Calling plumbing command: codeql resolve library-path --query=C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\IncompleteUrlSubstringSanitization.ql --full-library-path=none --dbscheme=none --format=json
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Resolving query at normalized path C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\IncompleteUrlSubstringSanitization.ql.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Found enclosing pack 'codeql/python-queries' at C:\LAUREA\ql_query\python\ql\src.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\rober\.codeql\compile-cache.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Dbscheme was explicitly overridden as C:\LAUREA\SecurityEval-main\Databases\none
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Library path was overridden on command line.
+[2023-04-15 18:35:18] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\LAUREA\\SecurityEval-main\\Databases\\none"
+                        ],
+                        "dbscheme" : "C:\\LAUREA\\SecurityEval-main\\Databases\\none",
+                        "compilationCache" : [
+                          "C:\\Users\\rober\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "codeql\\python-queries\\Security\\CWE-020\\IncompleteUrlSubstringSanitization.ql",
+                        "qlPackName" : "codeql/python-queries"
+                      }
+[2023-04-15 18:35:18] [DETAILS] database interpret-results>  ... found results file at C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\results\codeql\python-queries\Security\CWE-020\IncompleteUrlSubstringSanitization.bqrs.
+[2023-04-15 18:35:18] [DETAILS] database interpret-results> Interpreted problem query "Incomplete URL substring sanitization" (py/incomplete-url-substring-sanitization) at path C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\IncompleteUrlSubstringSanitization.ql.
+[2023-04-15 18:35:18] [PROGRESS] database interpret-results> Interpreting C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\OverlyLargeRange.ql...
+[2023-04-15 18:35:18] Calling plumbing command: codeql resolve library-path --query=C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\OverlyLargeRange.ql --full-library-path=none --dbscheme=none --format=json
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Resolving query at normalized path C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\OverlyLargeRange.ql.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Found enclosing pack 'codeql/python-queries' at C:\LAUREA\ql_query\python\ql\src.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\rober\.codeql\compile-cache.
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Dbscheme was explicitly overridden as C:\LAUREA\SecurityEval-main\Databases\none
+[2023-04-15 18:35:18] [DETAILS] resolve library-path> Library path was overridden on command line.
+[2023-04-15 18:35:18] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\LAUREA\\SecurityEval-main\\Databases\\none"
+                        ],
+                        "dbscheme" : "C:\\LAUREA\\SecurityEval-main\\Databases\\none",
+                        "compilationCache" : [
+                          "C:\\Users\\rober\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "codeql\\python-queries\\Security\\CWE-020\\OverlyLargeRange.ql",
+                        "qlPackName" : "codeql/python-queries"
+                      }
+[2023-04-15 18:35:18] [DETAILS] database interpret-results>  ... found results file at C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\results\codeql\python-queries\Security\CWE-020\OverlyLargeRange.bqrs.
+[2023-04-15 18:35:18] [DETAILS] database interpret-results> Interpreted problem query "Overly permissive regular expression range" (py/overly-large-range) at path C:\LAUREA\ql_query\python\ql\src\Security\CWE-020\OverlyLargeRange.ql.
+[2023-04-15 18:35:18] [DETAILS] database interpret-results> Interpreting diagnostic messages
+[2023-04-15 18:35:18] [SPAMMY] database interpret-results> Looking for diagnostics in C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic...
+[2023-04-15 18:35:18] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163302.882Z.json.
+[2023-04-15 18:35:18] [SPAMMY] database interpret-results> Looking for diagnostics in C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\extractors...
+[2023-04-15 18:35:18] [SPAMMY] database interpret-results> Looking for diagnostics in C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\extractors\python...
+[2023-04-15 18:35:18] [SPAMMY] database interpret-results> Looking for diagnostics in C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\tracer...
+[2023-04-15 18:35:18] [DETAILS] database interpret-results> Found 0 raw diagnostic messages.
+[2023-04-15 18:35:18] [DETAILS] database interpret-results> Processed diagnostic messages (removed 0 due to limits, created 0 summary diagnostics for status page).
+[2023-04-15 18:35:18] [DETAILS] database interpret-results> Interpreted diagnostic messages. (31ms)
+[2023-04-15 18:35:18] Exception caught at top level: Could not write CSV file
+                      (eventual cause: NoSuchFileException "C:\LAUREA\SecurityEval-main\Result\testcases_insecure\MINE_SECURITY\MINE_results_cwe_020.csv")
+                      com.semmle.analysis.export.ExportCSV.export(ExportCSV.java:120)
+                      com.semmle.cli2.bqrs.InterpretCommand.exportResults(InterpretCommand.java:232)
+                      com.semmle.cli2.database.InterpretResultsCommand.executeSubcommand(InterpretResultsCommand.java:260)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$2(SubcommandCommon.java:671)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:435)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:670)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:109)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:208)
+                      com.semmle.cli2.database.AnalyzeCommand.executeSubcommand(AnalyzeCommand.java:103)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$2(SubcommandCommon.java:671)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:435)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:670)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:591)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:225)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:234)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:102)
+                      
+                       ... caused by:
+                      
+                      java.nio.file.NoSuchFileException: C:\LAUREA\SecurityEval-main\Result\testcases_insecure\MINE_SECURITY\MINE_results_cwe_020.csv
+                      java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+                      java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+                      java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+                      java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+                      java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+                      java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+                      java.base/java.nio.file.Files.newBufferedWriter(Unknown Source)
+                      com.semmle.analysis.export.ExportCSV.export(ExportCSV.java:117)
+                      com.semmle.cli2.bqrs.InterpretCommand.exportResults(InterpretCommand.java:232)
+                      com.semmle.cli2.database.InterpretResultsCommand.executeSubcommand(InterpretResultsCommand.java:260)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$2(SubcommandCommon.java:671)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:435)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:670)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:109)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:208)
+                      com.semmle.cli2.database.AnalyzeCommand.executeSubcommand(AnalyzeCommand.java:103)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$2(SubcommandCommon.java:671)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:435)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:670)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:591)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:225)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:234)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:102)

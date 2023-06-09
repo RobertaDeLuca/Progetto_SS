@@ -1,0 +1,201 @@
+[2023-05-26 20:30:26] This is codeql database analyze ./Testcases_Insecure_Code__DB C:\LAUREA\ql_query\python\ql\src\Security\CWE-918 --format=csv --output=../Result/testcases_insecure/MINE_SECURITY/MINE_results_cwe_918.csv
+[2023-05-26 20:30:26] Log file was started late.
+[2023-05-26 20:30:26] [PROGRESS] database analyze> Running queries.
+[2023-05-26 20:30:26] Running plumbing command: codeql database run-queries --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --no-rerun -- C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB C:\LAUREA\ql_query\python\ql\src\Security\CWE-918
+[2023-05-26 20:30:26] Calling plumbing command: codeql resolve ram --format=json
+[2023-05-26 20:30:26] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1972M",
+                        "--off-heap-ram=1972"
+                      ]
+[2023-05-26 20:30:26] Spawning plumbing command: execute queries -J-Xmx1972M --off-heap-ram=1972 --verbosity=progress --logdir=C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\log --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --no-rerun --output=C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\results -- C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\db-python C:\LAUREA\ql_query\python\ql\src\Security\CWE-918
+[2023-05-26 20:30:29] Plumbing command codeql execute queries terminated with status 0.
+[2023-05-26 20:30:29] Plumbing command codeql database run-queries completed with status 0.
+[2023-05-26 20:30:29] [PROGRESS] database analyze> Interpreting results.
+[2023-05-26 20:30:29] Running plumbing command: codeql database interpret-results --format=csv -o=C:\LAUREA\SecurityEval-main\Result\testcases_insecure\MINE_SECURITY\MINE_results_cwe_918.csv --max-paths=4 --csv-location-format=line-column --print-diagnostics-summary --print-metrics-summary --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml -- C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB C:\LAUREA\ql_query\python\ql\src\Security\CWE-918
+[2023-05-26 20:30:29] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --format=json -- C:\LAUREA\ql_query\python\ql\src\Security\CWE-918
+[2023-05-26 20:30:29] [PROGRESS] resolve queries> Recording pack reference codeql/python-queries at C:\LAUREA\ql_query\python\ql\src.
+[2023-05-26 20:30:29] [SPAMMY] resolve queries> Scanning for QL files at C:\LAUREA\ql_query\python\ql\src\Security\CWE-918.
+[2023-05-26 20:30:29] [SPAMMY] resolve queries> Found 2 QL files in C:\LAUREA\ql_query\python\ql\src\Security\CWE-918.
+[2023-05-26 20:30:29] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\LAUREA\\ql_query\\python\\ql\\src\\Security\\CWE-918\\FullServerSideRequestForgery.ql",
+                        "C:\\LAUREA\\ql_query\\python\\ql\\src\\Security\\CWE-918\\PartialServerSideRequestForgery.ql"
+                      ]
+[2023-05-26 20:30:29] [DETAILS] database interpret-results> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\rober\Downloads\codeql\.codeqlmanifest.json
+[2023-05-26 20:30:29] [DETAILS] database interpret-results> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\rober\Downloads\
+[2023-05-26 20:30:29] [DETAILS] database interpret-results> Not scanning from C:\Users\rober\Downloads\codeql which is already done.
+[2023-05-26 20:30:29] [DETAILS] database interpret-results> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\rober\Downloads\ql_query\codeql-workspace.yml
+[2023-05-26 20:30:30] [DETAILS] database interpret-results> Scanning for [codeql-pack.yml, qlpack.yml] from C:\Users\rober\Downloads\vscode-codeql-starter-main\.codeqlmanifest.json
+[2023-05-26 20:30:30] [PROGRESS] database interpret-results> Interpreting C:\LAUREA\ql_query\python\ql\src\Security\CWE-918\FullServerSideRequestForgery.ql...
+[2023-05-26 20:30:30] Calling plumbing command: codeql resolve library-path --query=C:\LAUREA\ql_query\python\ql\src\Security\CWE-918\FullServerSideRequestForgery.ql --full-library-path=none --dbscheme=none --format=json
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Resolving query at normalized path C:\LAUREA\ql_query\python\ql\src\Security\CWE-918\FullServerSideRequestForgery.ql.
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Found enclosing pack 'codeql/python-queries' at C:\LAUREA\ql_query\python\ql\src.
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\rober\.codeql\compile-cache.
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Dbscheme was explicitly overridden as C:\LAUREA\SecurityEval-main\Databases\none
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Library path was overridden on command line.
+[2023-05-26 20:30:30] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\LAUREA\\SecurityEval-main\\Databases\\none"
+                        ],
+                        "dbscheme" : "C:\\LAUREA\\SecurityEval-main\\Databases\\none",
+                        "compilationCache" : [
+                          "C:\\Users\\rober\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "codeql\\python-queries\\Security\\CWE-918\\FullServerSideRequestForgery.ql",
+                        "qlPackName" : "codeql/python-queries"
+                      }
+[2023-05-26 20:30:30] [DETAILS] database interpret-results>  ... found results file at C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\results\codeql\python-queries\Security\CWE-918\FullServerSideRequestForgery.bqrs.
+[2023-05-26 20:30:30] [DETAILS] database interpret-results> Interpreted pathproblem query "Full server-side request forgery" (py/full-ssrf) at path C:\LAUREA\ql_query\python\ql\src\Security\CWE-918\FullServerSideRequestForgery.ql.
+[2023-05-26 20:30:30] [PROGRESS] database interpret-results> Interpreting C:\LAUREA\ql_query\python\ql\src\Security\CWE-918\PartialServerSideRequestForgery.ql...
+[2023-05-26 20:30:30] Calling plumbing command: codeql resolve library-path --query=C:\LAUREA\ql_query\python\ql\src\Security\CWE-918\PartialServerSideRequestForgery.ql --full-library-path=none --dbscheme=none --format=json
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Resolving query at normalized path C:\LAUREA\ql_query\python\ql\src\Security\CWE-918\PartialServerSideRequestForgery.ql.
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Found enclosing pack 'codeql/python-queries' at C:\LAUREA\ql_query\python\ql\src.
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\rober\.codeql\compile-cache.
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Dbscheme was explicitly overridden as C:\LAUREA\SecurityEval-main\Databases\none
+[2023-05-26 20:30:30] [DETAILS] resolve library-path> Library path was overridden on command line.
+[2023-05-26 20:30:30] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\LAUREA\\SecurityEval-main\\Databases\\none"
+                        ],
+                        "dbscheme" : "C:\\LAUREA\\SecurityEval-main\\Databases\\none",
+                        "compilationCache" : [
+                          "C:\\Users\\rober\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "codeql\\python-queries\\Security\\CWE-918\\PartialServerSideRequestForgery.ql",
+                        "qlPackName" : "codeql/python-queries"
+                      }
+[2023-05-26 20:30:30] [DETAILS] database interpret-results>  ... found results file at C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\results\codeql\python-queries\Security\CWE-918\PartialServerSideRequestForgery.bqrs.
+[2023-05-26 20:30:30] [DETAILS] database interpret-results> Interpreted pathproblem query "Partial server-side request forgery" (py/partial-ssrf) at path C:\LAUREA\ql_query\python\ql\src\Security\CWE-918\PartialServerSideRequestForgery.ql.
+[2023-05-26 20:30:30] [DETAILS] database interpret-results> Interpreting diagnostic messages
+[2023-05-26 20:30:30] [SPAMMY] database interpret-results> Looking for diagnostics in C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic...
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163302.882Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163518.657Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163625.990Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163656.608Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163813.418Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163844.087Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163909.443Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T163935.168Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164000.367Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164023.686Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164049.367Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164111.792Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164129.038Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164154.688Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164213.931Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164240.965Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164300.324Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164335.714Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164355.645Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164412.258Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164438.184Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164504.439Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164532.971Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164557.943Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164630.203Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164646.786Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164714.344Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164755.334Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164826.064Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T164950.724Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165020.476Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165216.338Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165244.265Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165432.955Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165500.711Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165521.313Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165536.510Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165557.315Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165617.127Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165635.746Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165655.929Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165720.705Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165736.503Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165805.382Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165827.887Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230415T165856.878Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182428.180Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182434.058Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182440.192Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182448.107Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182455.469Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182501.269Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182506.741Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182512.241Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182517.865Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182523.383Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182529.064Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182534.585Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182540.097Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182545.533Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182551.129Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182556.751Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182602.341Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182803.203Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182808.944Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182814.692Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182820.413Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182826.257Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182831.826Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182837.369Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182842.973Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182848.580Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182854.207Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182859.782Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182905.453Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182911.210Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182916.871Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182922.440Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182928.298Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182933.890Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182939.492Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182945.155Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182950.968Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T182956.664Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T183002.358Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T183008.214Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T183013.857Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T183019.557Z.json.
+[2023-05-26 20:30:30] [SPAMMIER] database interpret-results> Found diagnostics file C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\cli-diagnostics-add-20230526T183025.287Z.json.
+[2023-05-26 20:30:30] [SPAMMY] database interpret-results> Looking for diagnostics in C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\extractors...
+[2023-05-26 20:30:30] [SPAMMY] database interpret-results> Looking for diagnostics in C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\extractors\python...
+[2023-05-26 20:30:30] [SPAMMY] database interpret-results> Looking for diagnostics in C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\diagnostic\tracer...
+[2023-05-26 20:30:30] [DETAILS] database interpret-results> Found 1 raw diagnostic messages.
+[2023-05-26 20:30:30] [DETAILS] database interpret-results> Processed diagnostic messages (removed 0 due to limits, created 0 summary diagnostics for status page).
+[2023-05-26 20:30:30] [DETAILS] database interpret-results> Interpreted diagnostic messages. (290ms)
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to process graph parents: 0ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to process graph nodes: 5ms
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing target: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing target: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing target: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing source: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing source: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing source: (no string representation)
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to process graph edges: 4ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to create graph: 17ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to initialize subpaths: 2ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to calculate subpath scopes: 0ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Executing 1 path computations, each computing up to 4 different paths.
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to process results: 27ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to link relevant graph parents: 0ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to process graph parents: 0ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to process graph nodes: 0ms
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing target: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing target: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing target: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing source: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing source: (no string representation)
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping edge with missing source: (no string representation)
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to process graph edges: 0ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to create graph: 2ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to initialize subpaths: 0ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to calculate subpath scopes: 0ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Executing 1 path computations, each computing up to 4 different paths.
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to process results: 0ms
+[2023-05-26 20:30:31] [SPAMMIER] database interpret-results> Time to link relevant graph parents: 0ms
+[2023-05-26 20:30:31] [SPAMMY] database interpret-results> Skipping non-rule analysis cli/database/analyze
+[2023-05-26 20:30:31] Plumbing command codeql database interpret-results completed.
+[2023-05-26 20:30:31] Terminating normally.

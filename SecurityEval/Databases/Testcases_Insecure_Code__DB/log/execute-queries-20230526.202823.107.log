@@ -1,0 +1,109 @@
+[2023-05-26 20:28:23] This is codeql execute queries -J-Xmx1972M --off-heap-ram=1972 --verbosity=progress --logdir=C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\log --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --no-rerun --output=C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\results -- C:\LAUREA\SecurityEval-main\Databases\Testcases_Insecure_Code__DB\db-python C:\LAUREA\ql_query\python\ql\src\Security\CWE-089
+[2023-05-26 20:28:23] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --format=json -- C:\LAUREA\ql_query\python\ql\src\Security\CWE-089
+[2023-05-26 20:28:23] [PROGRESS] resolve queries> Recording pack reference codeql/python-queries at C:\LAUREA\ql_query\python\ql\src.
+[2023-05-26 20:28:23] [SPAMMY] resolve queries> Scanning for QL files at C:\LAUREA\ql_query\python\ql\src\Security\CWE-089.
+[2023-05-26 20:28:23] [SPAMMY] resolve queries> Found 1 QL files in C:\LAUREA\ql_query\python\ql\src\Security\CWE-089.
+[2023-05-26 20:28:23] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\LAUREA\\ql_query\\python\\ql\\src\\Security\\CWE-089\\SqlInjection.ql"
+                      ]
+[2023-05-26 20:28:23] Refusing fancy output: The terminal is not an xterm: 
+[2023-05-26 20:28:23] Creating executor with 1 threads.
+[2023-05-26 20:28:24] Calling plumbing command: codeql resolve extensions --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml C:\LAUREA\ql_query\python\ql\src\Security\CWE-089
+[2023-05-26 20:28:24] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --format startingpacks -- C:\LAUREA\ql_query\python\ql\src\Security\CWE-089
+[2023-05-26 20:28:24] [PROGRESS] resolve queries> Recording pack reference codeql/python-queries at C:\LAUREA\ql_query\python\ql\src.
+[2023-05-26 20:28:24] [SPAMMY] resolve queries> Scanning for QL files at C:\LAUREA\ql_query\python\ql\src\Security\CWE-089.
+[2023-05-26 20:28:24] [SPAMMY] resolve queries> Found 1 QL files in C:\LAUREA\ql_query\python\ql\src\Security\CWE-089.
+[2023-05-26 20:28:24] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\LAUREA\\ql_query\\python\\ql\\src"
+                      ]
+[2023-05-26 20:28:24] [PROGRESS] resolve extensions> Loading data extensions in C:\LAUREA\ql_query\python\ql\lib\semmle\python\frameworks\data\internal\model.yml.
+[2023-05-26 20:28:24] [DETAILS] resolve extensions>   Found extension targeting codeql/python-all:sourceModel: 0 tuples.
+[2023-05-26 20:28:24] [DETAILS] resolve extensions>   Found extension targeting codeql/python-all:sinkModel: 0 tuples.
+[2023-05-26 20:28:24] [DETAILS] resolve extensions>   Found extension targeting codeql/python-all:summaryModel: 0 tuples.
+[2023-05-26 20:28:24] [DETAILS] resolve extensions>   Found extension targeting codeql/python-all:typeModel: 0 tuples.
+[2023-05-26 20:28:24] [DETAILS] resolve extensions>   Found extension targeting codeql/python-all:typeVariableModel: 0 tuples.
+[2023-05-26 20:28:24] Plumbing command codeql resolve extensions completed:
+                      {
+                        "models" : [ ],
+                        "data" : {
+                          "C:\\LAUREA\\ql_query\\python\\ql\\src" : [
+                            {
+                              "predicate" : "sinkModel",
+                              "file" : "C:\\LAUREA\\ql_query\\python\\ql\\lib\\semmle\\python\\frameworks\\data\\internal\\model.yml",
+                              "index" : 1
+                            },
+                            {
+                              "predicate" : "sourceModel",
+                              "file" : "C:\\LAUREA\\ql_query\\python\\ql\\lib\\semmle\\python\\frameworks\\data\\internal\\model.yml",
+                              "index" : 0
+                            },
+                            {
+                              "predicate" : "summaryModel",
+                              "file" : "C:\\LAUREA\\ql_query\\python\\ql\\lib\\semmle\\python\\frameworks\\data\\internal\\model.yml",
+                              "index" : 2
+                            },
+                            {
+                              "predicate" : "typeModel",
+                              "file" : "C:\\LAUREA\\ql_query\\python\\ql\\lib\\semmle\\python\\frameworks\\data\\internal\\model.yml",
+                              "index" : 3
+                            },
+                            {
+                              "predicate" : "typeVariableModel",
+                              "file" : "C:\\LAUREA\\ql_query\\python\\ql\\lib\\semmle\\python\\frameworks\\data\\internal\\model.yml",
+                              "index" : 4
+                            }
+                          ]
+                        }
+                      }
+[2023-05-26 20:28:24] [DETAILS] execute queries> Did not find any ML models.
+[2023-05-26 20:28:24] Calling plumbing command: codeql resolve library-path --qlconfig-file=C:\LAUREA\SecurityEval-main\Databases\qlconfig.yml --query=C:\LAUREA\ql_query\python\ql\src\Security\CWE-089\SqlInjection.ql --format=json
+[2023-05-26 20:28:24] [DETAILS] resolve library-path> Resolving query at normalized path C:\LAUREA\ql_query\python\ql\src\Security\CWE-089\SqlInjection.ql.
+[2023-05-26 20:28:24] [DETAILS] resolve library-path> Found enclosing pack 'codeql/python-queries' at C:\LAUREA\ql_query\python\ql\src.
+[2023-05-26 20:28:24] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\rober\.codeql\compile-cache.
+[2023-05-26 20:28:24] [DETAILS] resolve library-path> Resolving library dependencies from C:\LAUREA\ql_query\python\ql\src\qlpack.yml.
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [INCOMPATIBILITY] codeql/python-queries: not 0.6.5 {root: codeql/python-queries@0.6.5}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DERIVATION] codeql/python-queries: 0.6.5 {codeql/python-queries: not 0.6.5 {root: codeql/python-queries@0.6.5}}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [INCOMPATIBILITY] codeql/python-queries: * [*], codeql/python-all: not * [*] {dependency: codeql/python-queries@* [*] requires codeql/python-all@0.8.2}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [INCOMPATIBILITY] codeql/python-queries: * [*], codeql/suite-helpers: not * [*] {dependency: codeql/python-queries@* [*] requires codeql/suite-helpers@0.4.5}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [INCOMPATIBILITY] codeql/python-queries: * [*], codeql/util: not * [*] {dependency: codeql/python-queries@* [*] requires codeql/util@0.0.6}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DECISION 1] codeql/python-queries: 0.6.5
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DERIVATION] codeql/util: * [*] {codeql/python-queries: * [*], codeql/util: not * [*] {dependency: codeql/python-queries@* [*] requires codeql/util@0.0.6}}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DERIVATION] codeql/suite-helpers: * [*] {codeql/python-queries: * [*], codeql/suite-helpers: not * [*] {dependency: codeql/python-queries@* [*] requires codeql/suite-helpers@0.4.5}}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DERIVATION] codeql/python-all: * [*] {codeql/python-queries: * [*], codeql/python-all: not * [*] {dependency: codeql/python-queries@* [*] requires codeql/python-all@0.8.2}}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/regex: not * [*] {dependency: codeql/python-all@* [*] requires codeql/regex@0.0.9}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [INCOMPATIBILITY] codeql/python-all: * [*], codeql/tutorial: not * [*] {dependency: codeql/python-all@* [*] requires codeql/tutorial@0.0.6}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DECISION 2] codeql/python-all: 0.8.2
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DERIVATION] codeql/tutorial: * [*] {codeql/python-all: * [*], codeql/tutorial: not * [*] {dependency: codeql/python-all@* [*] requires codeql/tutorial@0.0.6}}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DERIVATION] codeql/regex: * [*] {codeql/python-all: * [*], codeql/regex: not * [*] {dependency: codeql/python-all@* [*] requires codeql/regex@0.0.9}}
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DECISION 3] codeql/regex: 0.0.9
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DECISION 4] codeql/suite-helpers: 0.4.5
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DECISION 5] codeql/tutorial: 0.0.6
+[2023-05-26 20:28:24] [SPAMMY] resolve library-path> [DECISION 6] codeql/util: 0.0.6
+[2023-05-26 20:28:24] [DETAILS] resolve library-path> QL pack dependencies for C:\LAUREA\ql_query\python\ql\src resolved OK.
+[2023-05-26 20:28:24] [DETAILS] resolve library-path> Found dbscheme through QL packs: C:\LAUREA\ql_query\python\ql\lib\semmlecode.python.dbscheme.
+[2023-05-26 20:28:24] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\LAUREA\\ql_query\\python\\ql\\src",
+                          "C:\\LAUREA\\ql_query\\python\\ql\\lib",
+                          "C:\\LAUREA\\ql_query\\shared\\regex",
+                          "C:\\LAUREA\\ql_query\\misc\\suite-helpers",
+                          "C:\\LAUREA\\ql_query\\shared\\tutorial",
+                          "C:\\LAUREA\\ql_query\\shared\\util"
+                        ],
+                        "dbscheme" : "C:\\LAUREA\\ql_query\\python\\ql\\lib\\semmlecode.python.dbscheme",
+                        "compilationCache" : [
+                          "C:\\Users\\rober\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "codeql\\python-queries\\Security\\CWE-089\\SqlInjection.ql",
+                        "qlPackName" : "codeql/python-queries"
+                      }
+[2023-05-26 20:28:24] [PROGRESS] execute queries> [1/1] No need to rerun C:\LAUREA\ql_query\python\ql\src\Security\CWE-089\SqlInjection.ql.
+[2023-05-26 20:28:24] [PROGRESS] execute queries> Shutting down query evaluator.
+[2023-05-26 20:28:24] Sequence stamp origin is -6316326204907475294
+[2023-05-26 20:28:24] Pausing evaluation to close the cache at sequence stamp o+0
+[2023-05-26 20:28:24] The disk cache is freshly trimmed; leave it be.
+[2023-05-26 20:28:24] Unpausing evaluation
+[2023-05-26 20:28:24] Terminating normally.
