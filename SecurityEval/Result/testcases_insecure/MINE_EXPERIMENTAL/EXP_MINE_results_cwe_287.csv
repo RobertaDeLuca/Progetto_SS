@@ -1,0 +1,1 @@
+"Improper LDAP Authentication","A user-controlled query carries no authentication","warning","The following LDAP bind operation is executed without authentication.","/CWE-090/codeql_2.py","20","12","20","57"

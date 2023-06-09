@@ -1,0 +1,9 @@
+"Construction of a cookie using user-supplied input.","Constructing cookies from user input may allow an attacker to perform a Cookie Poisoning attack.","error","Cookie is constructed from a [[""user-supplied input""|""relative:///CWE-312/codeql_1.py:1:41:1:47""]],and its secure flag is not properly set.
+Cookie is constructed from a [[""user-supplied input""|""relative:///CWE-312/codeql_1.py:1:41:1:47""]],and its samesite flag is not properly set.
+Cookie is constructed from a [[""user-supplied input""|""relative:///CWE-312/codeql_1.py:1:41:1:47""]],and its httponly flag is not properly set.","/CWE-312/codeql_1.py","12","37","12","44"
+"Failure to use secure cookies","Insecure cookies may be sent in cleartext, which makes them vulnerable to interception.","error","Cookie is added without the 'secure' flag properly set.
+Cookie is added without the 'httponly' flag properly set.
+Cookie is added without the 'samesite' flag properly set.","/CWE-312/codeql_1.py","12","5","12","45"
+"Failure to use secure cookies","Insecure cookies may be sent in cleartext, which makes them vulnerable to interception.","error","Cookie is added without the 'secure' flag properly set.
+Cookie is added without the 'httponly' flag properly set.
+Cookie is added without the 'samesite' flag properly set.","/CWE-384/sonar_1.py","9","5","9","26"
