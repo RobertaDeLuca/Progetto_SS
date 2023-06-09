@@ -1,0 +1,107 @@
+************* Module author_1
+CWE-117/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-117/author_1.py:2:0: C0103: Function name "inputConversion" doesn't conform to snake_case naming style (invalid-name)
+************* Module codeql_1
+CWE-117/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-117/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-117/codeql_1.py:2:0: E0401: Unable to import 'flask' (import-error)
+CWE-117/codeql_1.py:3:0: C0411: standard import "import logging" should be placed before "from flask import Flask" (wrong-import-order)
+************* Module sonar_1
+CWE-117/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-117/sonar_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-117/sonar_1.py:9:4: W0622: Redefining built-in 'input' (redefined-builtin)
+
+
+Report
+======
+23 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |33.33    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+46 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |31     |67.39 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |11     |23.91 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |4      |8.70  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |5      |5        |5          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |1      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |3      |3        |3          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|missing-module-docstring |3           |
++-------------------------+------------+
+|import-error             |3           |
++-------------------------+------------+
+|wrong-import-order       |1           |
++-------------------------+------------+
+|redefined-builtin        |1           |
++-------------------------+------------+
+|invalid-name             |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.87/10 (previous run: 0.87/10, +0.00)
+

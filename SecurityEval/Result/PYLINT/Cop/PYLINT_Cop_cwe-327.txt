@@ -1,0 +1,102 @@
+************* Module codeql_1
+CWE-327/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-327/codeql_1.py:1:0: E0401: Unable to import 'Crypto.Cipher' (import-error)
+************* Module codeql_2
+CWE-327/codeql_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-327/codeql_2.py:4:0: C0103: Function name "createSSLWrapper" doesn't conform to snake_case naming style (invalid-name)
+CWE-327/codeql_2.py:9:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+************* Module codeql_3
+CWE-327/codeql_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module codeql_4
+CWE-327/codeql_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+
+Report
+======
+20 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |4          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |4          |=          |100.00      |25.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+44 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |28     |63.64 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |12     |27.27 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |4      |9.09  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |6      |6        |6          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |1      |1        |1          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|missing-module-docstring |4           |
++-------------------------+------------+
+|invalid-name             |2           |
++-------------------------+------------+
+|import-error             |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 4.50/10 (previous run: 4.50/10, +0.00)
+

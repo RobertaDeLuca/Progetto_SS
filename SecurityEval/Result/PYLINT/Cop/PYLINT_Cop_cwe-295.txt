@@ -1,0 +1,112 @@
+************* Module author_1
+CWE-295/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-295/author_1.py:3:0: C0103: Function name "getContext" doesn't conform to snake_case naming style (invalid-name)
+************* Module author_2
+CWE-295/author_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-295/author_2.py:1:0: E0401: Unable to import 'OpenSSL' (import-error)
+CWE-295/author_2.py:3:0: C0103: Function name "getContext" doesn't conform to snake_case naming style (invalid-name)
+************* Module codeql_1
+CWE-295/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-295/codeql_1.py:3:0: C0103: Function name "getData" doesn't conform to snake_case naming style (invalid-name)
+CWE-295/codeql_1.py:8:15: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+
+
+Report
+======
+13 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    requests (codeql_1)
+
+
+
+31 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |19     |61.29 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |9      |29.03 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |3      |9.68  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |6      |6        |6          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |1      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |1      |1        |1          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|missing-module-docstring |3           |
++-------------------------+------------+
+|invalid-name             |3           |
++-------------------------+------------+
+|missing-timeout          |1           |
++-------------------------+------------+
+|import-error             |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.77/10 (previous run: 0.77/10, +0.00)
+

@@ -1,0 +1,142 @@
+************* Module author_1
+CWE-611/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/author_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-611/author_1.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+CWE-611/author_1.py:6:0: C0103: Function name "checkPassword" doesn't conform to snake_case naming style (invalid-name)
+CWE-611/author_1.py:6:18: W0613: Unused argument 'userid' (unused-argument)
+CWE-611/author_1.py:6:26: W0613: Unused argument 'password' (unused-argument)
+CWE-611/author_1.py:15:11: I1101: Module 'lxml.etree' has no 'parse' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/author_1.py:18:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+************* Module codeql_1
+CWE-611/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-611/codeql_1.py:12:11: I1101: Module 'lxml.etree' has no 'tostring' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/codeql_1.py:12:31: I1101: Module 'lxml.etree' has no 'fromstring' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+************* Module sonar_1
+CWE-611/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/sonar_1.py:7:13: I1101: Module 'lxml.etree' has no 'XMLParser' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_1.py:8:11: I1101: Module 'lxml.etree' has no 'parse' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+************* Module sonar_2
+CWE-611/sonar_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/sonar_2.py:6:13: I1101: Module 'lxml.etree' has no 'XMLParser' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_2.py:7:11: I1101: Module 'lxml.etree' has no 'parse' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_2.py:8:13: I1101: Module 'lxml.etree' has no 'XMLSchema' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+************* Module sonar_3
+CWE-611/sonar_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/sonar_3.py:9:13: I1101: Module 'lxml.etree' has no 'XMLParser' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_3.py:10:11: I1101: Module 'lxml.etree' has no 'parse' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_3.py:13:11: I1101: Module 'lxml.etree' has no 'tostring' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+************* Module sonar_4
+CWE-611/sonar_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/sonar_4.py:10:22: E1101: Module 'xml.sax.handler' has no 'feature_external_gestures' member (no-member)
+CWE-611/sonar_4.py:12:11: E1101: Instance of 'ContentHandler' has no 'root' member (no-member)
+
+
+Report
+======
+46 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |6      |6          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |7      |7          |=          |85.71       |14.29    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    lxml 
+      \-etree (author_1,codeql_1,sonar_1,sonar_2,sonar_3)
+
+
+
+89 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |61     |68.54 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |20     |22.47 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |8      |8.99  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |8      |8        |8          |
++-----------+-------+---------+-----------+
+|refactor   |1      |1        |1          |
++-----------+-------+---------+-----------+
+|warning    |2      |2        |2          |
++-----------+-------+---------+-----------+
+|error      |4      |4        |4          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|c-extension-no-member      |11          |
++---------------------------+------------+
+|missing-module-docstring   |6           |
++---------------------------+------------+
+|unused-argument            |2           |
++---------------------------+------------+
+|no-member                  |2           |
++---------------------------+------------+
+|import-error               |2           |
++---------------------------+------------+
+|no-else-return             |1           |
++---------------------------+------------+
+|missing-function-docstring |1           |
++---------------------------+------------+
+|invalid-name               |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 3.26/10 (previous run: 3.26/10, +0.00)
+

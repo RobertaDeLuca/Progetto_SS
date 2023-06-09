@@ -1,0 +1,106 @@
+************* Module sonar_1
+CWE-297/sonar_1.py:10:0: C0304: Final newline missing (missing-final-newline)
+CWE-297/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-297/sonar_1.py:3:0: C0103: Function name "getCTX" doesn't conform to snake_case naming style (invalid-name)
+************* Module sonar_2
+CWE-297/sonar_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-297/sonar_2.py:3:0: C0103: Function name "getCTX" doesn't conform to snake_case naming style (invalid-name)
+************* Module sonar_3
+CWE-297/sonar_3.py:11:0: C0304: Final newline missing (missing-final-newline)
+CWE-297/sonar_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-297/sonar_3.py:4:0: C0103: Function name "getCTX" doesn't conform to snake_case naming style (invalid-name)
+************* Module sonar_4
+CWE-297/sonar_4.py:11:0: C0304: Final newline missing (missing-final-newline)
+CWE-297/sonar_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-297/sonar_4.py:4:0: C0103: Function name "getCTX" doesn't conform to snake_case naming style (invalid-name)
+
+
+Report
+======
+24 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |4          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |4          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+50 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |32     |64.00 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |12     |24.00 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |6      |12.00 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |11     |11       |11         |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|missing-module-docstring |4           |
++-------------------------+------------+
+|invalid-name             |4           |
++-------------------------+------------+
+|missing-final-newline    |3           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 5.42/10 (previous run: 5.42/10, +0.00)
+

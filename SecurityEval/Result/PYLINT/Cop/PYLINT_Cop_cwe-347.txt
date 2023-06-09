@@ -1,0 +1,116 @@
+************* Module sonar_1
+CWE-347/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-347/sonar_1.py:1:0: E0401: Unable to import 'jwt' (import-error)
+CWE-347/sonar_1.py:3:0: C0103: Function name "verifyJWTToken" doesn't conform to snake_case naming style (invalid-name)
+CWE-347/sonar_1.py:14:11: W0718: Catching too general exception Exception (broad-exception-caught)
+CWE-347/sonar_1.py:14:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+************* Module sonar_2
+CWE-347/sonar_2.py:11:0: C0304: Final newline missing (missing-final-newline)
+CWE-347/sonar_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-347/sonar_2.py:1:0: E0401: Unable to import 'jwt' (import-error)
+CWE-347/sonar_2.py:3:0: C0103: Function name "verifyJWTToken" doesn't conform to snake_case naming style (invalid-name)
+************* Module sonar_3
+CWE-347/sonar_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-347/sonar_3.py:1:0: E0401: Unable to import 'python_jwt' (import-error)
+CWE-347/sonar_3.py:2:0: C0103: Function name "verifyJWTToken" doesn't conform to snake_case naming style (invalid-name)
+CWE-347/sonar_3.py:2:0: R0912: Too many branches (27/12) (too-many-branches)
+CWE-347/sonar_3.py:2:0: R0915: Too many statements (84/50) (too-many-statements)
+
+
+Report
+======
+77 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+94 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |83     |88.30 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |9      |9.57  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |2      |2.13  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |8      |8        |8          |
++-----------+-------+---------+-----------+
+|refactor   |2      |2        |2          |
++-----------+-------+---------+-----------+
+|warning    |1      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |3      |3        |3          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|invalid-name             |4           |
++-------------------------+------------+
+|missing-module-docstring |3           |
++-------------------------+------------+
+|import-error             |3           |
++-------------------------+------------+
+|too-many-statements      |1           |
++-------------------------+------------+
+|too-many-branches        |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+|broad-exception-caught   |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 6.62/10 (previous run: 6.62/10, +0.00)
+

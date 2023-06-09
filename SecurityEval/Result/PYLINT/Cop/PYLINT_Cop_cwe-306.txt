@@ -1,0 +1,112 @@
+************* Module pearce_1
+CWE-306/pearce_1.py:17:22: C0303: Trailing whitespace (trailing-whitespace)
+CWE-306/pearce_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-306/pearce_1.py:2:0: E0401: Unable to import 'flask' (import-error)
+CWE-306/pearce_1.py:3:0: E0401: Unable to import 'flask' (import-error)
+CWE-306/pearce_1.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+CWE-306/pearce_1.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+CWE-306/pearce_1.py:20:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-306/pearce_1.py:21:8: E0602: Undefined variable 'session' (undefined-variable)
+CWE-306/pearce_1.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+CWE-306/pearce_1.py:39:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-306/pearce_1.py:1:0: W0611: Unused wraps imported from functools (unused-import)
+CWE-306/pearce_1.py:2:0: W0611: Unused abort imported from flask (unused-import)
+
+
+Report
+======
+17 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |4          |=          |25.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+44 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |33     |75.00 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |3      |6.82  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |4      |9.09  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |4      |9.09  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |5      |5        |5          |
++-----------+-------+---------+-----------+
+|refactor   |2      |2        |2          |
++-----------+-------+---------+-----------+
+|warning    |2      |2        |2          |
++-----------+-------+---------+-----------+
+|error      |3      |3        |3          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|missing-function-docstring |3           |
++---------------------------+------------+
+|unused-import              |2           |
++---------------------------+------------+
+|no-else-return             |2           |
++---------------------------+------------+
+|import-error               |2           |
++---------------------------+------------+
+|undefined-variable         |1           |
++---------------------------+------------+
+|trailing-whitespace        |1           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

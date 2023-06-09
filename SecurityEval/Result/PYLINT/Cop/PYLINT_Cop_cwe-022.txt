@@ -1,0 +1,106 @@
+************* Module author_1
+CWE-022/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-022/author_1.py:2:0: C0103: Function name "deleteImage" doesn't conform to snake_case naming style (invalid-name)
+************* Module author_2
+CWE-022/author_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-022/author_2.py:2:0: R0402: Use 'from urllib import request' instead (consider-using-from-import)
+CWE-022/author_2.py:3:0: C0103: Function name "readJSON" doesn't conform to snake_case naming style (invalid-name)
+CWE-022/author_2.py:7:15: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+************* Module codeql_1
+CWE-022/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-022/codeql_1.py:4:0: C0103: Function name "getFileData" doesn't conform to snake_case naming style (invalid-name)
+************* Module codeql_2
+CWE-022/codeql_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+
+Report
+======
+21 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |4          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |4          |=          |100.00      |75.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+44 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |29     |65.91 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |12     |27.27 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |3      |6.82  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |7        |7          |
++-----------+-------+---------+-----------+
+|refactor   |2      |2        |2          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|missing-module-docstring   |4           |
++---------------------------+------------+
+|invalid-name               |3           |
++---------------------------+------------+
+|consider-using-with        |1           |
++---------------------------+------------+
+|consider-using-from-import |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 5.71/10 (previous run: 5.71/10, +0.00)
+

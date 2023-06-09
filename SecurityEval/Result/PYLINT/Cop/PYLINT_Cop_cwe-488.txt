@@ -1,0 +1,104 @@
+************* Module author_1
+CWE-488/author_1.py:22:0: C0304: Final newline missing (missing-final-newline)
+CWE-488/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-488/author_1.py:3:0: C0115: Missing class docstring (missing-class-docstring)
+CWE-488/author_1.py:3:0: C0103: Class name "CWE_488" doesn't conform to PascalCase naming style (invalid-name)
+CWE-488/author_1.py:5:8: C0103: Attribute name "dataStart" doesn't conform to snake_case naming style (invalid-name)
+CWE-488/author_1.py:6:8: C0103: Attribute name "dataLimit" doesn't conform to snake_case naming style (invalid-name)
+CWE-488/author_1.py:8:4: C0103: Method name "getData" doesn't conform to snake_case naming style (invalid-name)
+CWE-488/author_1.py:3:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+
+Report
+======
+17 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |2          |=          |100.00      |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+24 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |20     |83.33 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |4      |16.67 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |7        |7          |
++-----------+-------+---------+-----------+
+|refactor   |1      |1        |1          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|invalid-name             |4           |
++-------------------------+------------+
+|too-few-public-methods   |1           |
++-------------------------+------------+
+|missing-module-docstring |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+|missing-class-docstring  |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 5.29/10 (previous run: 5.29/10, +0.00)
+

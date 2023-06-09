@@ -1,0 +1,108 @@
+************* Module codeql_1
+CWE-079/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-079/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-079/codeql_1.py:2:0: E0401: Unable to import 'jinja2' (import-error)
+************* Module codeql_2
+CWE-079/codeql_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-079/codeql_2.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-079/codeql_2.py:10:4: W0621: Redefining name 'name' from outer scope (line 6) (redefined-outer-name)
+************* Module sonar_1
+CWE-079/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-079/sonar_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-079/sonar_1.py:3:1: E0602: Undefined variable 'xss' (undefined-variable)
+CWE-079/sonar_1.py:11:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+
+
+Report
+======
+22 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+48 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |31     |64.58 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |13     |27.08 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |4      |8.33  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |3      |3        |3          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |2      |2        |2          |
++-----------+-------+---------+-----------+
+|error      |5      |5        |5          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|import-error             |4           |
++-------------------------+------------+
+|missing-module-docstring |3           |
++-------------------------+------------+
+|unspecified-encoding     |1           |
++-------------------------+------------+
+|undefined-variable       |1           |
++-------------------------+------------+
+|redefined-outer-name     |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
