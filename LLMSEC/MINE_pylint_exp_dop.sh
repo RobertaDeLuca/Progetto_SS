@@ -1,0 +1,17 @@
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_code_environment_variables --output-format=json:Result/PYLINT/DOP/PYLINT_gen_code_environment_variables.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_code_example_sql_non_vulnerable --output-format=json:Result/PYLINT/DOP/PYLINT_gen_code_example_sql_non_vulnerable.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_code_example_sql_vulnerable --output-format=json:Result/PYLINT/DOP/PYLINT_gen_code_example_sql_vulnerable.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_code_postgres --output-format=json:Result/PYLINT/DOP/PYLINT_gen_code_postgres.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_code_sqlite --output-format=json:Result/PYLINT/DOP/PYLINT_gen_code_sqlite.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_comment_clause_order --output-format=json:Result/PYLINT/DOP/PYLINT_gen_comment_clause_order.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_comment_docstring --output-format=json:Result/PYLINT/DOP/PYLINT_gen_comment_docstring.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_comment_fixed --output-format=json:Result/PYLINT/DOP/PYLINT_gen_comment_fixed.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_comment_fixed_sql_injection --output-format=json:Result/PYLINT/DOP/PYLINT_gen_comment_fixed_sql_injection.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_comment_none --output-format=json:Result/PYLINT/DOP/PYLINT_gen_comment_none.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_comment_reword --output-format=json:Result/PYLINT/DOP/PYLINT_gen_comment_reword.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_comment_secured --output-format=json:Result/PYLINT/DOP/PYLINT_gen_comment_secured.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_control --output-format=json:Result/PYLINT/DOP/PYLINT_gen_control.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_meta_andrey_petrov --output-format=json:Result/PYLINT/DOP/PYLINT_gen_meta_andrey_petrov.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName --output-format=json:Result/PYLINT/DOP/PYLINT_egen_meta_redactedAuthorFirstName_redactedAuthorLastName.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_meta_tabs --output-format=json:Result/PYLINT/DOP/PYLINT_gen_meta_tabs.json
+pylint ./experiments_dop/cwe-89/unsubscribe/gen_meta_typos --output-format=json:Result/PYLINT/DOP/PYLINT_gen_meta_typos.json
