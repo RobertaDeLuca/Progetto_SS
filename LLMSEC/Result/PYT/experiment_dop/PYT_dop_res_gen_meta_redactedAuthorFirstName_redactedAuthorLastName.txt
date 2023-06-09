@@ -1,0 +1,722 @@
+33 vulnerabilities found:
+Vulnerability 1:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_0.py
+ > User input at line 46, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_0.py
+	 > Line 46: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_0.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_0.py
+	 > Line 47: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_0.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_0.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_0.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_0.py
+ > reaches line 33, sink "execute(":
+	~call_6 = ret_cur.execute('SELECT * FROM subscriptions WHERE email=%s', (email))
+
+Vulnerability 2:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+ > User input at line 44, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+	 > Line 44: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+	 > Line 45: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+	 > Line 33: query = 'DELETE FROM email_subscriptions WHERE email='' + email + '''
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_1.py
+ > reaches line 34, sink "execute(":
+	~call_6 = ret_cur.execute(query)
+
+Vulnerability 3:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+ > User input at line 49, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+	 > Line 49: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+	 > Line 50: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+	 > Line 33: sql = 'SELECT user FROM subscriptions WHERE user='%s'' % email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_10.py
+ > reaches line 34, sink "execute(":
+	~call_6 = ret_cursor.execute(sql)
+
+Vulnerability 4:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_11.py
+ > User input at line 42, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_11.py
+	 > Line 42: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_11.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_11.py
+	 > Line 43: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_11.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_11.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_11.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_11.py
+ > reaches line 33, sink "execute(":
+	~call_6 = ret_cur.execute('SELECT COUNT(*) FROM subscription WHERE email = '%s'' % email)
+
+Vulnerability 5:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+ > User input at line 47, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+	 > Line 47: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+	 > Line 48: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+	 > Line 37: ~call_9 = ret_'DELETE FROM subscription WHERE subscription.email = "{0}" AND subscription.target_table = "{1}"'.format(email, sub[1])
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_12.py
+ > reaches line 37, sink "execute(":
+	~call_8 = ret_c.execute(~call_9)
+This vulnerability is unknown due to:  Label: ~call_9 = ret_'DELETE FROM subscription WHERE subscription.email = "{0}" AND subscription.target_table = "{1}"'.format(email, sub[1])
+
+Vulnerability 6:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+ > User input at line 44, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+	 > Line 44: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+	 > Line 45: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+	 > Line 33: sql_command = 'DELETE FROM Subscriptions WHERE email = '' + email + '';'
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_13.py
+ > reaches line 34, sink "execute(":
+	~call_6 = ret_cursor.execute(sql_command)
+
+Vulnerability 7:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+ > User input at line 51, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 51: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 52: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+ > reaches line 33, sink "execute(":
+	~call_6 = ret_email_subscriptions_cursor.execute('SELECT * FROM subscriptions WHERE email = %s' % email)
+
+Vulnerability 8:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+ > User input at line 51, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 51: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 52: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_14.py
+ > reaches line 37, sink "execute(":
+	~call_7 = ret_email_subscriptions_cursor.execute('DELETE FROM subscriptions WHERE email = %s' % email)
+
+Vulnerability 9:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+ > User input at line 53, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 53: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 54: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+ > reaches line 34, sink "execute(":
+	~call_6 = ret_cur.execute('SELECT * FROM subscriptions where email = %(email)s', 'email'email)
+
+Vulnerability 10:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+ > User input at line 53, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 53: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 54: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_15.py
+ > reaches line 38, sink "execute(":
+	~call_8 = ret_cur.execute('DELETE FROM subscriptions where email = %(email)s and company_name = %(company)s and full_name = %(full_name)s and def_group = %(def_group)s', 'email''company''full_name''def_group'emailrow[1]row[2]row[3])
+
+Vulnerability 11:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_17.py
+ > User input at line 58, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_17.py
+	 > Line 58: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_17.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_17.py
+	 > Line 59: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_17.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_17.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_17.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_17.py
+ > reaches line 47, sink "execute(":
+	~call_8 = ret_cur.execute('DELETE FROM allowed_emails WHERE email = %s AND subscription_id = %s', (email, subscription_id))
+
+Vulnerability 12:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+ > User input at line 51, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 51: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 52: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+ > reaches line 35, sink "execute(":
+	~call_6 = ret_cur.execute('SELECT * FROM subscriptions WHERE email = %s', [email])
+
+Vulnerability 13:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+ > User input at line 51, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 51: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 52: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_18.py
+ > reaches line 39, sink "execute(":
+	~call_7 = ret_cur.execute('DELETE FROM subscriptions WHERE email = %s', [email])
+
+Vulnerability 14:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+ > User input at line 54, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 54: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 55: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+ > reaches line 36, sink "execute(":
+	~call_6 = ret_cursor.execute('select * from subscriptions where email = %s', [email])
+
+Vulnerability 15:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+ > User input at line 54, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 54: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 55: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+ > reaches line 38, sink "execute(":
+	~call_8 = ret_cursor.execute('delete from subscriptions where email = %s', [email])
+
+Vulnerability 16:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+ > User input at line 54, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 54: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 55: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_19.py
+ > reaches line 41, sink "execute(":
+	~call_9 = ret_cursor.execute('select * from emails where email = %s', [email])
+
+Vulnerability 17:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_2.py
+ > User input at line 47, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_2.py
+	 > Line 47: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_2.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_2.py
+	 > Line 48: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_2.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_2.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_2.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_2.py
+ > reaches line 33, sink "execute(":
+	~call_6 = ret_cur.execute('SELECT * FROM subscriptions WHERE email = %s', (email))
+
+Vulnerability 18:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+ > User input at line 56, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 56: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 57: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 36: query += email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 37: query += '';'
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+ > reaches line 38, sink "execute(":
+	~call_6 = ret_db_cursor.execute(query)
+
+Vulnerability 19:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+ > User input at line 56, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 56: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 57: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 44: query += email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+	 > Line 45: query += '';'
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_20.py
+ > reaches line 46, sink "execute(":
+	~call_9 = ret_db_cursor.execute(query)
+
+Vulnerability 20:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+ > User input at line 61, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 61: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 62: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+ > reaches line 41, sink "execute(":
+	~call_6 = ret_cursor.execute(query, [email])
+
+Vulnerability 21:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+ > User input at line 61, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 61: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 62: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_22.py
+ > reaches line 51, sink "execute(":
+	~call_8 = ret_cursor.execute(query, [email, subscription[0]])
+
+Vulnerability 22:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+ > User input at line 52, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+	 > Line 52: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+	 > Line 53: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+	 > Line 34: cmd = '
+            DELETE FROM subscriptions WHERE email_address='%s'
+    ' % email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_23.py
+ > reaches line 38, sink "execute(":
+	~call_6 = ret_cursor.execute(cmd)
+
+Vulnerability 23:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_24.py
+ > User input at line 46, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_24.py
+	 > Line 46: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_24.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_24.py
+	 > Line 47: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_24.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_24.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_24.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_24.py
+ > reaches line 33, sink "execute(":
+	~call_6 = ret_cur.execute('SELECT id, name, email, localid, messageid FROM subscriptions s LEFT OUTER JOIN users ON users.id = localid WHERE email = '' + email + ''')
+
+Vulnerability 24:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_3.py
+ > User input at line 43, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_3.py
+	 > Line 43: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_3.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_3.py
+	 > Line 44: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_3.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_3.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_3.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_3.py
+ > reaches line 34, sink "execute(":
+	~call_6 = ret_cursor.execute(sql, (email))
+
+Vulnerability 25:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+ > User input at line 48, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 48: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 49: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+ > reaches line 34, sink "execute(":
+	~call_6 = ret_cur.execute('SELECT * FROM subscriptions WHERE email = '%s'' % email)
+
+Vulnerability 26:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+ > User input at line 48, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 48: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 49: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_4.py
+ > reaches line 37, sink "execute(":
+	~call_8 = ret_cur2.execute('DELETE FROM subscriptions WHERE email = '%s'' % email)
+
+Vulnerability 27:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+ > User input at line 44, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 44: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 45: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+ > reaches line 33, sink "execute(":
+	~call_6 = ret_c.execute('SELECT count(*) FROM subscriptions WHERE email=%s', (email))
+
+Vulnerability 28:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+ > User input at line 44, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 44: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 45: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+	 > Line 33: ~call_6 = ret_c.execute('SELECT count(*) FROM subscriptions WHERE email=%s', (email))
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_5.py
+ > reaches line 35, sink "execute(":
+	~call_7 = ret_c.execute('DELETE FROM subscriptions WHERE email=%s', (email))
+This vulnerability is unknown due to:  Label: ~call_6 = ret_c.execute('SELECT count(*) FROM subscriptions WHERE email=%s', (email))
+
+Vulnerability 29:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_6.py
+ > User input at line 43, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_6.py
+	 > Line 43: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_6.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_6.py
+	 > Line 44: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_6.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_6.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_6.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_6.py
+ > reaches line 34, sink "execute(":
+	~call_6 = ret_cur.execute(sql, (email))
+
+Vulnerability 30:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_7.py
+ > User input at line 45, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_7.py
+	 > Line 45: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_7.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_7.py
+	 > Line 46: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_7.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_7.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_7.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_7.py
+ > reaches line 34, sink "execute(":
+	~call_6 = ret_cur.execute(sql, [email])
+
+Vulnerability 31:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_8.py
+ > User input at line 48, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_8.py
+	 > Line 48: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_8.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_8.py
+	 > Line 49: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_8.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_8.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_8.py
+	 > Line 16: email = save_3_email
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_8.py
+ > reaches line 33, sink "execute(":
+	~call_6 = ret_c.execute('SELECT * FROM subscriptions WHERE email=%s', (email))
+
+Vulnerability 32:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+ > User input at line 50, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 50: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 51: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 34: sql = 'SELECT email FROM `subscriptions` WHERE email = '' + email + '''
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+ > reaches line 35, sink "execute(":
+	~call_6 = ret_cursor.execute(sql)
+
+Vulnerability 33:
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+ > User input at line 50, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('email')
+Reassigned in:
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 50: email = ~call_1
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 30: save_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 51: temp_2_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 30: email = temp_2_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 16: save_3_email = email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 16: email = save_3_email
+	File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+	 > Line 38: sql = 'DELETE FROM `subscriptions` WHERE email = '' + email + '''
+File: experiments_dop/cwe-89/unsubscribe/gen_meta_redactedAuthorFirstName_redactedAuthorLastName/experiments_dop_cwe-89_unsubscribe_scenario_meta_redactedAuthorFirstName_redactedAuthorLastName_9.py
+ > reaches line 39, sink "execute(":
+	~call_8 = ret_cursor.execute(sql)
+
