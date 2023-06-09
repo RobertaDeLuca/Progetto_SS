@@ -1,0 +1,17 @@
+1 vulnerability found:
+Vulnerability 1:
+File: Testcases_Insecure_Code/CWE-312/codeql_1.py
+ > User input at line 10, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('password')
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-312/codeql_1.py
+	 > Line 10: password = ~call_1
+	File: Testcases_Insecure_Code/CWE-312/codeql_1.py
+	 > Line 11: ~call_2 = ret_make_response('Password is: ' + password)
+	File: Testcases_Insecure_Code/CWE-312/codeql_1.py
+	 > Line 11: response = ~call_2
+File: Testcases_Insecure_Code/CWE-312/codeql_1.py
+ > reaches line 12, sink "set_cookie(":
+	~call_3 = ret_response.set_cookie('password', password)
+This vulnerability is unknown due to:  Label: ~call_2 = ret_make_response('Password is: ' + password)
+

@@ -1,0 +1,51 @@
+4 vulnerabilities found:
+Vulnerability 1:
+File: Testcases_Insecure_Code/CWE-020/codeql_3.py
+ > User input at line 13, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('target')
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-020/codeql_3.py
+	 > Line 13: target = ~call_1
+File: Testcases_Insecure_Code/CWE-020/codeql_3.py
+ > reaches line 16, sink "redirect(":
+	~call_3 = ret_redirect(target)
+
+Vulnerability 2:
+File: Testcases_Insecure_Code/CWE-020/codeql_3.py
+ > User input at line 6, source "Framework function URL parameter":
+	 request
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-020/codeql_3.py
+	 > Line 13: ~call_1 = ret_request.args.get('target')
+	File: Testcases_Insecure_Code/CWE-020/codeql_3.py
+	 > Line 13: target = ~call_1
+File: Testcases_Insecure_Code/CWE-020/codeql_3.py
+ > reaches line 16, sink "redirect(":
+	~call_3 = ret_redirect(target)
+This vulnerability is unknown due to:  Label: ~call_1 = ret_request.args.get('target')
+
+Vulnerability 3:
+File: Testcases_Insecure_Code/CWE-020/codeql_4.py
+ > User input at line 11, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('target', '')
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-020/codeql_4.py
+	 > Line 11: target = ~call_1
+File: Testcases_Insecure_Code/CWE-020/codeql_4.py
+ > reaches line 13, sink "redirect(":
+	~call_2 = ret_redirect(target)
+
+Vulnerability 4:
+File: Testcases_Insecure_Code/CWE-020/codeql_4.py
+ > User input at line 5, source "Framework function URL parameter":
+	 request
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-020/codeql_4.py
+	 > Line 11: ~call_1 = ret_request.args.get('target', '')
+	File: Testcases_Insecure_Code/CWE-020/codeql_4.py
+	 > Line 11: target = ~call_1
+File: Testcases_Insecure_Code/CWE-020/codeql_4.py
+ > reaches line 13, sink "redirect(":
+	~call_2 = ret_redirect(target)
+This vulnerability is unknown due to:  Label: ~call_1 = ret_request.args.get('target', '')
+

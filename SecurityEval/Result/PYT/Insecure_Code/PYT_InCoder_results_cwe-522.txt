@@ -1,0 +1,37 @@
+3 vulnerabilities found:
+Vulnerability 1:
+File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+ > User input at line 14, source "form[":
+	 username = request.form['username']
+File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+ > reaches line 19, sink "execute(":
+	~call_6 = ret_cursor.execute('SELECT * FROM users WHERE username = %s', (username))
+
+Vulnerability 2:
+File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+ > User input at line 14, source "form[":
+	 username = request.form['username']
+File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+ > reaches line 23, sink "execute(":
+	~call_7 = ret_cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, hashed_password))
+
+Vulnerability 3:
+File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+ > User input at line 15, source "form[":
+	 password = request.form['password']
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+	 > Line 16: ~call_2 = ret_password.encode()
+	File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+	 > Line 16: ~call_1 = ret_hashlib.md5(~call_2)
+	File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+	 > Line 16: __chain_tmp_1 = ~call_1
+	File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+	 > Line 16: ~call_3 = ret___chain_tmp_1.hexdigest()
+	File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+	 > Line 16: hashed_password = ~call_3
+File: Testcases_Insecure_Code/CWE-522/pearce_1.py
+ > reaches line 23, sink "execute(":
+	~call_7 = ret_cursor.execute('INSERT INTO users (username, password) VALUES (%s, %s)', (username, hashed_password))
+This vulnerability is unknown due to:  Label: ~call_2 = ret_password.encode()
+

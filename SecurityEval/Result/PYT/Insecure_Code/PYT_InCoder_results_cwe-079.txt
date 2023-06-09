@@ -1,0 +1,23 @@
+2 vulnerabilities found:
+Vulnerability 1:
+File: Testcases_Insecure_Code/CWE-079/codeql_1.py
+ > User input at line 12, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('name', '')
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-079/codeql_1.py
+	 > Line 12: name = ~call_1
+File: Testcases_Insecure_Code/CWE-079/codeql_1.py
+ > reaches line 15, sink "render(":
+	~call_5 = ret_template.render(name=name)
+
+Vulnerability 2:
+File: Testcases_Insecure_Code/CWE-079/sonar_1.py
+ > User input at line 10, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('param', '')
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-079/sonar_1.py
+	 > Line 10: param = ~call_1
+File: Testcases_Insecure_Code/CWE-079/sonar_1.py
+ > reaches line 12, sink "replace(":
+	~call_5 = ret_html.replace('{{ name }}', param)
+

@@ -1,0 +1,12 @@
+1 vulnerability found:
+Vulnerability 1:
+File: Testcases_Insecure_Code/CWE-601/codeql_1.py
+ > User input at line 10, source "request.args.get(":
+	 ~call_1 = ret_request.args.get('target', '')
+Reassigned in:
+	File: Testcases_Insecure_Code/CWE-601/codeql_1.py
+	 > Line 10: target = ~call_1
+File: Testcases_Insecure_Code/CWE-601/codeql_1.py
+ > reaches line 11, sink "redirect(":
+	~call_2 = ret_redirect(target, code=302)
+
