@@ -1,0 +1,1 @@
+safety check --key 9212515d-53b82e9d-da4f3d42-20f3013e -r requirement_safety.txt --output text > Result/Prova_con_SAFETY/MINE_result_safety_again.txt
