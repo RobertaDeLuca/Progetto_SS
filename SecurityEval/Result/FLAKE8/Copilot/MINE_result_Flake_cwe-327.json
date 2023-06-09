@@ -1,0 +1,58 @@
+{
+    "Testcases_Copilot/CWE-327/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-327/codeql_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def send_encrypted(channel, message):\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-327/codeql_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-327/codeql_2.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def createSSLWrapper(host, port):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-327/codeql_2.py",
+            "line_number": 6,
+            "column_number": 80,
+            "text": "line too long (84 > 79 characters)",
+            "physical_line": "    '''\n    create a SSL wrapper for the socket, set-up the connection and return the socket\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-327/codeql_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-327/codeql_3.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def certificate_matches(certificate, known_hash):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-327/codeql_3.py",
+            "line_number": 7,
+            "column_number": 80,
+            "text": "line too long (80 > 79 characters)",
+            "physical_line": "    return hashlib.sha256(certificate.encode('utf-8')).hexdigest() == known_hash\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-327/codeql_4.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-327/codeql_4.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_password_hash(password: str, salt: str):\n"
+        }
+    ]
+}

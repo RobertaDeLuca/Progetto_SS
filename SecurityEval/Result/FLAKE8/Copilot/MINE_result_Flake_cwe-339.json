@@ -1,0 +1,28 @@
+{
+    "Testcases_Copilot/CWE-339/mitre_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_Copilot/CWE-339/mitre_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'random' imported but unused",
+            "physical_line": "import os, random\n"
+        },
+        {
+            "code": "E401",
+            "filename": "Testcases_Copilot/CWE-339/mitre_1.py",
+            "line_number": 1,
+            "column_number": 10,
+            "text": "multiple imports on one line",
+            "physical_line": "import os, random\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-339/mitre_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def getRandomBits():\n"
+        }
+    ]
+}

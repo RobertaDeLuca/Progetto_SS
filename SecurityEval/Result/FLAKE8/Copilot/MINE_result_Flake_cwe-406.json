@@ -1,0 +1,20 @@
+{
+    "Testcases_Copilot/CWE-406/mitre_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-406/mitre_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def UDPMessaging(UDP_IP, UDP_PORT):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-406/mitre_1.py",
+            "line_number": 5,
+            "column_number": 80,
+            "text": "line too long (81 > 79 characters)",
+            "physical_line": "    '''\n    create a UDP socket and receive 1024 bytes of data continuously\n    parse the data and send back the DNS record to the requested IP in the packet\n    '''\n"
+        }
+    ]
+}

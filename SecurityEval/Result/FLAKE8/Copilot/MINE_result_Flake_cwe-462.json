@@ -1,0 +1,28 @@
+{
+    "Testcases_Copilot/CWE-462/mitre_1.py": [
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-462/mitre_1.py",
+            "line_number": 3,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    continuesly take (basename,data) key-value pair from foo() function and sort it\n    '''\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-462/mitre_1.py",
+            "line_number": 6,
+            "column_number": 9,
+            "text": "undefined name 'foo'",
+            "physical_line": "        foo()\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-462/mitre_1.py",
+            "line_number": 7,
+            "column_number": 9,
+            "text": "undefined name 'time'",
+            "physical_line": "        time.sleep(1)\n"
+        }
+    ]
+}

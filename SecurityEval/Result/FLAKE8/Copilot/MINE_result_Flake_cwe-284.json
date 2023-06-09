@@ -1,0 +1,36 @@
+{
+    "Testcases_Copilot/CWE-284/author_1.py": [
+        {
+            "code": "E221",
+            "filename": "Testcases_Copilot/CWE-284/author_1.py",
+            "line_number": 3,
+            "column_number": 14,
+            "text": "multiple spaces before operator",
+            "physical_line": "ACCESS_DENIED  = False\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-284/author_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def getContent(request):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-284/author_1.py",
+            "line_number": 8,
+            "column_number": 80,
+            "text": "line too long (84 > 79 characters)",
+            "physical_line": "    '''\n    check if the request is a get request\n    if it is, check if the user is authenicated\n    if the user is authenicated, make ACCESS_DENIED to False, otherwise make it True\n    if ACCESS_DENIED is True, redirect to the login page, otherwise return to the content page\n    '''\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-284/author_1.py",
+            "line_number": 9,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "    '''\n    check if the request is a get request\n    if it is, check if the user is authenicated\n    if the user is authenicated, make ACCESS_DENIED to False, otherwise make it True\n    if ACCESS_DENIED is True, redirect to the login page, otherwise return to the content page\n    '''\n"
+        }
+    ]
+}

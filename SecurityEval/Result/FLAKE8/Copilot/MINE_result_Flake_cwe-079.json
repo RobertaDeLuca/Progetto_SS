@@ -1,0 +1,48 @@
+{
+    "Testcases_Copilot/CWE-079/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-079/codeql_1.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/renderEnv')\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-079/codeql_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-079/codeql_2.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/name')\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-079/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-079/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@xss.route('/insecure/no_template_engine_replace', methods =['GET'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-079/sonar_1.py",
+            "line_number": 3,
+            "column_number": 2,
+            "text": "undefined name 'xss'",
+            "physical_line": "@xss.route('/insecure/no_template_engine_replace', methods =['GET'])\n"
+        },
+        {
+            "code": "E251",
+            "filename": "Testcases_Copilot/CWE-079/sonar_1.py",
+            "line_number": 3,
+            "column_number": 59,
+            "text": "unexpected spaces around keyword / parameter equals",
+            "physical_line": "@xss.route('/insecure/no_template_engine_replace', methods =['GET'])\n"
+        }
+    ]
+}

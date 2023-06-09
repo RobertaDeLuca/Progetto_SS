@@ -1,0 +1,38 @@
+{
+    "Testcases_Copilot/CWE-918/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-918/codeql_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route(\"/full_ssrf\")\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-918/codeql_1.py",
+            "line_number": 9,
+            "column_number": 80,
+            "text": "line too long (112 > 79 characters)",
+            "physical_line": "    '''\n    get the subdomain from the request and use it as the url, make a request to the url, and return the response\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-918/codeql_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-918/codeql_2.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route(\"/partial_ssrf\")\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-918/codeql_2.py",
+            "line_number": 9,
+            "column_number": 80,
+            "text": "line too long (137 > 79 characters)",
+            "physical_line": "    '''\n    get the user_id from the request and use it as a part of the url to get user info, make a request to the url, and return the response\n    '''\n"
+        }
+    ]
+}

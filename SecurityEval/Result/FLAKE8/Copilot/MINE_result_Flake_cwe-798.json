@@ -1,0 +1,30 @@
+{
+    "Testcases_Copilot/CWE-798/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-798/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getDBConnection():\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-798/author_1.py",
+            "line_number": 7,
+            "column_number": 80,
+            "text": "line too long (103 > 79 characters)",
+            "physical_line": "    return mysql.connector.connect(user='root', password='password', host='localhost', database='test')\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-798/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-798/codeql_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def process_request(request):\n"
+        }
+    ]
+}

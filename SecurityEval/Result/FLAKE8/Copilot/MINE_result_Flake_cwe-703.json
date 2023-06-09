@@ -1,0 +1,14 @@
+{
+    "Testcases_Copilot/CWE-703/author_1.py": [],
+    "Testcases_Copilot/CWE-703/author_2.py": [
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-703/author_2.py",
+            "line_number": 3,
+            "column_number": 80,
+            "text": "line too long (87 > 79 characters)",
+            "physical_line": "    '''\n    continuesly take an input from user and convert it to int within a try-except block\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-703/author_3.py": []
+}

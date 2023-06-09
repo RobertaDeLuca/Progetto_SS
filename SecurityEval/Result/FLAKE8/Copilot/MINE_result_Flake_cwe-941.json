@@ -1,0 +1,28 @@
+{
+    "Testcases_Copilot/CWE-941/mitre_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-941/mitre_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def sendData():\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-941/mitre_1.py",
+            "line_number": 4,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    this function create UDP socket and continuesly recive 1024 bytes of UDP packet\n    after parsing UDP packet, it sends the data to appropriate requested IP address\n    '''\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-941/mitre_1.py",
+            "line_number": 5,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    this function create UDP socket and continuesly recive 1024 bytes of UDP packet\n    after parsing UDP packet, it sends the data to appropriate requested IP address\n    '''\n"
+        }
+    ]
+}

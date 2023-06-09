@@ -1,0 +1,28 @@
+{
+    "Testcases_Copilot/CWE-841/mitre_1.py": [
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-841/mitre_1.py",
+            "line_number": 10,
+            "column_number": 9,
+            "text": "undefined name 'loginUser'",
+            "physical_line": "        loginUser(user, args)\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-841/mitre_1.py",
+            "line_number": 12,
+            "column_number": 9,
+            "text": "undefined name 'sendFile'",
+            "physical_line": "        sendFile(user, args)\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-841/mitre_1.py",
+            "line_number": 14,
+            "column_number": 9,
+            "text": "undefined name 'listFiles'",
+            "physical_line": "        listFiles(user, args)\n"
+        }
+    ]
+}

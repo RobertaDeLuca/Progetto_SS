@@ -1,0 +1,56 @@
+{
+    "Testcases_Copilot/CWE-347/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-347/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def verifyJWTToken(token):\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-347/sonar_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-347/sonar_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def verifyJWTToken(key,token):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_Copilot/CWE-347/sonar_2.py",
+            "line_number": 3,
+            "column_number": 23,
+            "text": "missing whitespace after ','",
+            "physical_line": "def verifyJWTToken(key,token):\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-347/sonar_2.py",
+            "line_number": 11,
+            "column_number": 31,
+            "text": "no newline at end of file",
+            "physical_line": "        print(\"Invalid Token\")"
+        }
+    ],
+    "Testcases_Copilot/CWE-347/sonar_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-347/sonar_3.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def verifyJWTToken(key,token):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_Copilot/CWE-347/sonar_3.py",
+            "line_number": 2,
+            "column_number": 23,
+            "text": "missing whitespace after ','",
+            "physical_line": "def verifyJWTToken(key,token):\n"
+        }
+    ]
+}

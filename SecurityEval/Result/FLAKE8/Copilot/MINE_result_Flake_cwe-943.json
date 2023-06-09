@@ -1,0 +1,28 @@
+{
+    "Testcases_Copilot/CWE-943/sonar_1.py": [
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-943/sonar_1.py",
+            "line_number": 3,
+            "column_number": 49,
+            "text": "undefined name 'config'",
+            "physical_line": "DYNAMO_CLIENT = boto3.client('dynamodb', config=config)\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-943/sonar_1.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getUser(username,password):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_Copilot/CWE-943/sonar_1.py",
+            "line_number": 5,
+            "column_number": 21,
+            "text": "missing whitespace after ','",
+            "physical_line": "def getUser(username,password):\n"
+        }
+    ]
+}

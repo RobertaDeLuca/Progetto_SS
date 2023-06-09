@@ -1,0 +1,104 @@
+{
+    "Testcases_InCoder/CWE-117/author_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-117/author_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'logging' imported but unused",
+            "physical_line": "import logging\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-117/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def inputConversion():\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-117/author_1.py",
+            "line_number": 14,
+            "column_number": 23,
+            "text": "no newline at end of file",
+            "physical_line": "        return integer"
+        }
+    ],
+    "Testcases_InCoder/CWE-117/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-117/codeql_1.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/logger')\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-117/codeql_1.py",
+            "line_number": 16,
+            "column_number": 26,
+            "text": "no newline at end of file",
+            "physical_line": "    return 'Hello World!'"
+        }
+    ],
+    "Testcases_InCoder/CWE-117/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-117/sonar_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "@app.route('/log')\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-117/sonar_1.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "E722",
+            "filename": "Testcases_InCoder/CWE-117/sonar_1.py",
+            "line_number": 12,
+            "column_number": 5,
+            "text": "do not use bare 'except'",
+            "physical_line": "    except:\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-117/sonar_1.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "        \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-117/sonar_1.py",
+            "line_number": 16,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-117/sonar_1.py",
+            "line_number": 19,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "        \n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-117/sonar_1.py",
+            "line_number": 20,
+            "column_number": 19,
+            "text": "no newline at end of file",
+            "physical_line": "    return '', 200"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "Testcases_Copilot/CWE-611/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-611/author_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def checkPassword(userid, password):\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-611/author_1.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.post(\"/upload\")\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-611/author_1.py",
+            "line_number": 12,
+            "column_number": 80,
+            "text": "line too long (86 > 79 characters)",
+            "physical_line": "    '''\n    get the xml file from the request and check if the userid and password are correct\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-611/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-611/codeql_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.post(\"/upload\")\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-611/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-611/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_root():\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-611/sonar_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-611/sonar_2.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def get_root():\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-611/sonar_2.py",
+            "line_number": 4,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    '''\n    create a XML parser, parse from a file, validate the XML and return the schema\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-611/sonar_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-611/sonar_3.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def transform_xml():\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-611/sonar_4.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-611/sonar_4.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def get_root():\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_Copilot/CWE-611/sonar_4.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": " "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-611/sonar_4.py",
+            "line_number": 13,
+            "column_number": 2,
+            "text": "no newline at end of file",
+            "physical_line": " "
+        }
+    ]
+}

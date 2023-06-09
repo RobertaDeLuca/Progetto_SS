@@ -1,0 +1,20 @@
+{
+    "Testcases_Copilot/CWE-283/mitre_1.py": [
+        {
+            "code": "E401",
+            "filename": "Testcases_Copilot/CWE-283/mitre_1.py",
+            "line_number": 1,
+            "column_number": 10,
+            "text": "multiple imports on one line",
+            "physical_line": "import os, signal\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-283/mitre_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def killProcess(processID):\n"
+        }
+    ]
+}

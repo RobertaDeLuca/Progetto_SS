@@ -1,0 +1,30 @@
+{
+    "Testcases_Copilot/CWE-116/author_1.py": [
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-116/author_1.py",
+            "line_number": 3,
+            "column_number": 80,
+            "text": "line too long (80 > 79 characters)",
+            "physical_line": "    '''\n    read the data from request and send back the data as response as a HTML page\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-116/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-116/codeql_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def filterScriptTags(content): \n"
+        },
+        {
+            "code": "W291",
+            "filename": "Testcases_Copilot/CWE-116/codeql_1.py",
+            "line_number": 3,
+            "column_number": 31,
+            "text": "trailing whitespace",
+            "physical_line": "def filterScriptTags(content): \n"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Testcases_Copilot/CWE-643/codeql_1.py": [
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-643/codeql_1.py",
+            "line_number": 19,
+            "column_number": 37,
+            "text": "no newline at end of file",
+            "physical_line": "    return HttpResponse(xpath(tree))"
+        }
+    ],
+    "Testcases_Copilot/CWE-643/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-643/sonar_1.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/user')\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-643/sonar_1.py",
+            "line_number": 7,
+            "column_number": 2,
+            "text": "undefined name 'app'",
+            "physical_line": "@app.route('/user')\n"
+        }
+    ]
+}

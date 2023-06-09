@@ -1,0 +1,46 @@
+{
+    "Testcases_Copilot/CWE-434/pearce_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-434/pearce_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/pdf/upload')\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-434/pearce_1.py",
+            "line_number": 9,
+            "column_number": 80,
+            "text": "line too long (84 > 79 characters)",
+            "physical_line": "    '''\n    get file from request, save it to ./uploads directory, and redirect to /pdf/view\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-434/pearce_2.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_Copilot/CWE-434/pearce_2.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "'base64' imported but unused",
+            "physical_line": "import base64\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-434/pearce_2.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/img/upload')\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-434/pearce_2.py",
+            "line_number": 12,
+            "column_number": 14,
+            "text": "undefined name 'os'",
+            "physical_line": "    img.save(os.path.join('./pictures', img.filename))\n"
+        }
+    ]
+}

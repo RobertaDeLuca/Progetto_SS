@@ -1,0 +1,20 @@
+{
+    "Testcases_Copilot/CWE-1204/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-1204/sonar_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getEncryptionKey(data, key):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-1204/sonar_1.py",
+            "line_number": 7,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    define a static vector, cipher using AES and CBC mode\n    encrypt the data using the cipher by padding upto the block_size, and return it\n    '''\n"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "Testcases_Copilot/CWE-297/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-297/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getCTX():\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-297/sonar_1.py",
+            "line_number": 10,
+            "column_number": 15,
+            "text": "no newline at end of file",
+            "physical_line": "    return ctx"
+        }
+    ],
+    "Testcases_Copilot/CWE-297/sonar_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-297/sonar_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getCTX():\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_Copilot/CWE-297/sonar_2.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-297/sonar_2.py",
+            "line_number": 11,
+            "column_number": 5,
+            "text": "no newline at end of file",
+            "physical_line": "    "
+        }
+    ],
+    "Testcases_Copilot/CWE-297/sonar_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-297/sonar_3.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getCTX():\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-297/sonar_3.py",
+            "line_number": 11,
+            "column_number": 15,
+            "text": "no newline at end of file",
+            "physical_line": "    return ctx"
+        }
+    ],
+    "Testcases_Copilot/CWE-297/sonar_4.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-297/sonar_4.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getCTX():\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-297/sonar_4.py",
+            "line_number": 11,
+            "column_number": 15,
+            "text": "no newline at end of file",
+            "physical_line": "    return ctx"
+        }
+    ]
+}

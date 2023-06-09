@@ -1,0 +1,48 @@
+{
+    "Testcases_Copilot/CWE-730/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-730/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def checkNumber(number):\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-730/codeql_1.py": [
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-730/codeql_1.py",
+            "line_number": 5,
+            "column_number": 2,
+            "text": "undefined name 'app'",
+            "physical_line": "@app.route(\"/direct\")\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-730/codeql_2.py": [
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-730/codeql_2.py",
+            "line_number": 5,
+            "column_number": 2,
+            "text": "undefined name 'app'",
+            "physical_line": "@app.route(\"/direct\")\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-730/codeql_2.py",
+            "line_number": 8,
+            "column_number": 80,
+            "text": "line too long (99 > 79 characters)",
+            "physical_line": "    '''\n    get the regular expression pattern from the get request, comipile it and then use it for search\n    '''\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-730/codeql_2.py",
+            "line_number": 12,
+            "column_number": 25,
+            "text": "undefined name 'text'",
+            "physical_line": "    return regex.search(text)\n"
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+{
+    "Testcases_InCoder/CWE-078/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def execution_user_input():\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 6,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'numpy'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 7,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install','matplotlib'])\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 7,
+            "column_number": 60,
+            "text": "missing whitespace after ','",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install','matplotlib'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 8,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install','scikit-learn'])\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 8,
+            "column_number": 60,
+            "text": "missing whitespace after ','",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install','scikit-learn'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 9,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'pandas'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 10,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 11,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'nltk'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 12,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'imbalanced-learn'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 12,
+            "column_number": 80,
+            "text": "line too long (81 > 79 characters)",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'imbalanced-learn'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 13,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 14,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 15,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 16,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 17,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 18,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 19,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 20,
+            "column_number": 22,
+            "text": "undefined name 'sys'",
+            "physical_line": "    subprocess.call([sys.executable, '-m', 'pip', 'install', 'xgboost'])\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 21,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-078/author_1.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "no newline at end of file",
+            "physical_line": "    "
+        }
+    ],
+    "Testcases_InCoder/CWE-078/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-078/codeql_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def command_execution(request):\n"
+        },
+        {
+            "code": "E225",
+            "filename": "Testcases_InCoder/CWE-078/codeql_1.py",
+            "line_number": 9,
+            "column_number": 23,
+            "text": "missing whitespace around operator",
+            "physical_line": "        command = 'cd'+ x + ';'+ command\n"
+        },
+        {
+            "code": "E225",
+            "filename": "Testcases_InCoder/CWE-078/codeql_1.py",
+            "line_number": 9,
+            "column_number": 32,
+            "text": "missing whitespace around operator",
+            "physical_line": "        command = 'cd'+ x + ';'+ command\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-078/codeql_1.py",
+            "line_number": 11,
+            "column_number": 12,
+            "text": "undefined name 'jsonify'",
+            "physical_line": "    return jsonify({'status':'success'})"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-078/codeql_1.py",
+            "line_number": 11,
+            "column_number": 29,
+            "text": "missing whitespace after ':'",
+            "physical_line": "    return jsonify({'status':'success'})"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-078/codeql_1.py",
+            "line_number": 11,
+            "column_number": 41,
+            "text": "no newline at end of file",
+            "physical_line": "    return jsonify({'status':'success'})"
+        }
+    ]
+}

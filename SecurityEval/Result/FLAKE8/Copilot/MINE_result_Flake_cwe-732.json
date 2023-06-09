@@ -1,0 +1,12 @@
+{
+    "Testcases_Copilot/CWE-732/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-732/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def createExecutableFile(data):\n"
+        }
+    ]
+}

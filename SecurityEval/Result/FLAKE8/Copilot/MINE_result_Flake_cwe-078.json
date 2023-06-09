@@ -1,0 +1,22 @@
+{
+    "Testcases_Copilot/CWE-078/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-078/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def execution_user_input():\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-078/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-078/codeql_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def command_execution(request):\n"
+        }
+    ]
+}

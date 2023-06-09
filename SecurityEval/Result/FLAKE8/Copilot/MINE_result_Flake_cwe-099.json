@@ -1,0 +1,12 @@
+{
+    "Testcases_Copilot/CWE-099/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-099/sonar_1.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/download')\n"
+        }
+    ]
+}

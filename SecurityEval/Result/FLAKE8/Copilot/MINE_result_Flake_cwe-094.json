@@ -1,0 +1,31 @@
+{
+    "Testcases_Copilot/CWE-094/author_1.py": [],
+    "Testcases_Copilot/CWE-094/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-094/codeql_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def code_execution(request):\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-094/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-094/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/')\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-094/sonar_1.py",
+            "line_number": 3,
+            "column_number": 2,
+            "text": "undefined name 'app'",
+            "physical_line": "@app.route('/')\n"
+        }
+    ]
+}

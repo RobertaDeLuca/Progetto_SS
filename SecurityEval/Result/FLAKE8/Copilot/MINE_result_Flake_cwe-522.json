@@ -1,0 +1,62 @@
+{
+    "Testcases_Copilot/CWE-522/author_1.py": [
+        {
+            "code": "E303",
+            "filename": "Testcases_Copilot/CWE-522/author_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "too many blank lines (3)",
+            "physical_line": "def checkPassword(userid, password):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-522/author_1.py",
+            "line_number": 8,
+            "column_number": 80,
+            "text": "line too long (88 > 79 characters)",
+            "physical_line": "    '''\n    get the password of the userid from the database and compare with the compressed one\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-522/pearce_1.py": [
+        {
+            "code": "E265",
+            "filename": "Testcases_Copilot/CWE-522/pearce_1.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#register url\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-522/pearce_1.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/register', methods=['POST'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-522/pearce_1.py",
+            "line_number": 11,
+            "column_number": 80,
+            "text": "line too long (100 > 79 characters)",
+            "physical_line": "    '''\n    get username and password from the request, and check if the username is already in the database\n    if not, add the username and password to the database after hashing the password\n    '''\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-522/pearce_1.py",
+            "line_number": 12,
+            "column_number": 80,
+            "text": "line too long (84 > 79 characters)",
+            "physical_line": "    '''\n    get username and password from the request, and check if the username is already in the database\n    if not, add the username and password to the database after hashing the password\n    '''\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-522/pearce_1.py",
+            "line_number": 23,
+            "column_number": 80,
+            "text": "line too long (109 > 79 characters)",
+            "physical_line": "        cursor.execute(\"INSERT INTO users (username, password) VALUES (%s, %s)\", (username, hashed_password))\n"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Testcases_Copilot/CWE-352/codeql_1.py": [
+        {
+            "code": "W391",
+            "filename": "Testcases_Copilot/CWE-352/codeql_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ]
+}

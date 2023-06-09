@@ -1,0 +1,32 @@
+{
+    "Testcases_Copilot/CWE-117/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-117/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def inputConversion():\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-117/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-117/codeql_1.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/logger')\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-117/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-117/sonar_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "@app.route('/log')\n"
+        }
+    ]
+}

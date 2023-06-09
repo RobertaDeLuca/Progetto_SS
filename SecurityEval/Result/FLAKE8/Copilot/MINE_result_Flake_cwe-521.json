@@ -1,0 +1,21 @@
+{
+    "Testcases_Copilot/CWE-521/sonar_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_Copilot/CWE-521/sonar_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'flask.make_response' imported but unused",
+            "physical_line": "from flask import Flask, make_response, request\n"
+        },
+        {
+            "code": "F401",
+            "filename": "Testcases_Copilot/CWE-521/sonar_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'flask.request' imported but unused",
+            "physical_line": "from flask import Flask, make_response, request\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-521/sonar_2.py": []
+}

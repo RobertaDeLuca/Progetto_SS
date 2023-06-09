@@ -1,0 +1,36 @@
+{
+    "Testcases_Copilot/CWE-488/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-488/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "class CWE_488:\n"
+        },
+        {
+            "code": "E301",
+            "filename": "Testcases_Copilot/CWE-488/author_1.py",
+            "line_number": 8,
+            "column_number": 5,
+            "text": "expected 1 blank line, found 0",
+            "physical_line": "    def getData(self):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-488/author_1.py",
+            "line_number": 11,
+            "column_number": 80,
+            "text": "line too long (97 > 79 characters)",
+            "physical_line": "        '''\n        check if the dataStart is less than or equal to dataLimit\n        if so, increase the dataStart by 1 and print which thread is currently accessing the data\n        '''\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-488/author_1.py",
+            "line_number": 22,
+            "column_number": 30,
+            "text": "no newline at end of file",
+            "physical_line": "        return self.dataStart"
+        }
+    ]
+}

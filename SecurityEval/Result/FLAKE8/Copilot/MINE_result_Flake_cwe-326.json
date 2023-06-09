@@ -1,0 +1,30 @@
+{
+    "Testcases_Copilot/CWE-326/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-326/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def create_key_pair():\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-326/author_1.py",
+            "line_number": 10,
+            "column_number": 17,
+            "text": "undefined name 'default_backend'",
+            "physical_line": "        backend=default_backend()\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-326/author_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-326/author_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getPublicKey():\n"
+        }
+    ]
+}

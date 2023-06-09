@@ -1,0 +1,58 @@
+{
+    "Testcases_Copilot/CWE-022/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-022/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def deleteImage(request):\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-022/author_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-022/author_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def readJSON(url):\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-022/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-022/codeql_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getFileData(request):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-022/codeql_1.py",
+            "line_number": 6,
+            "column_number": 80,
+            "text": "line too long (86 > 79 characters)",
+            "physical_line": "    '''\n    get filename from request argument and return the data of the file as HttpResponse\n    '''\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-022/codeql_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-022/codeql_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def extract_tar(file_name):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-022/codeql_2.py",
+            "line_number": 5,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    open a file with tarfile and traverse each entry and extract in /tmp/ directory\n    '''\n"
+        }
+    ]
+}

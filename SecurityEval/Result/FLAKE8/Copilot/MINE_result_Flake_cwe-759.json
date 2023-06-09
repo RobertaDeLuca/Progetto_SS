@@ -1,0 +1,44 @@
+{
+    "Testcases_Copilot/CWE-759/mitre_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-759/mitre_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def storePassword(userName,Password):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_Copilot/CWE-759/mitre_1.py",
+            "line_number": 2,
+            "column_number": 27,
+            "text": "missing whitespace after ','",
+            "physical_line": "def storePassword(userName,Password):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-759/mitre_1.py",
+            "line_number": 4,
+            "column_number": 80,
+            "text": "line too long (107 > 79 characters)",
+            "physical_line": "    '''\n    hash the password and update the database with username and hashed password by updateUserLogin() method\n    '''\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-759/mitre_1.py",
+            "line_number": 7,
+            "column_number": 5,
+            "text": "undefined name 'updateUserLogin'",
+            "physical_line": "    updateUserLogin(userName,hashedPassword)\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_Copilot/CWE-759/mitre_1.py",
+            "line_number": 7,
+            "column_number": 29,
+            "text": "missing whitespace after ','",
+            "physical_line": "    updateUserLogin(userName,hashedPassword)\n"
+        }
+    ]
+}

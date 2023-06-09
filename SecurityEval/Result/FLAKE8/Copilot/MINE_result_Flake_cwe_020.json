@@ -1,0 +1,102 @@
+{
+    "Testcases_Copilot/CWE-020/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-020/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def yaml_load(filename):\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-020/author_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-020/author_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def parse_xml(xml_string):\n"
+        },
+        {
+            "code": "E722",
+            "filename": "Testcases_Copilot/CWE-020/author_2.py",
+            "line_number": 10,
+            "column_number": 5,
+            "text": "do not use bare 'except'",
+            "physical_line": "    except:\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-020/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-020/codeql_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route(\"/xss\")\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-020/codeql_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-020/codeql_2.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route(\"/example\")\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-020/codeql_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-020/codeql_3.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/some/path/bad')\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_Copilot/CWE-020/codeql_3.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": " "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-020/codeql_3.py",
+            "line_number": 18,
+            "column_number": 2,
+            "text": "no newline at end of file",
+            "physical_line": " "
+        }
+    ],
+    "Testcases_Copilot/CWE-020/codeql_4.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_Copilot/CWE-020/codeql_4.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/some/path/bad')\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_Copilot/CWE-020/codeql_4.py",
+            "line_number": 16,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": " "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_Copilot/CWE-020/codeql_4.py",
+            "line_number": 16,
+            "column_number": 2,
+            "text": "no newline at end of file",
+            "physical_line": " "
+        }
+    ]
+}

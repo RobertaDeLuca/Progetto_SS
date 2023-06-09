@@ -1,0 +1,54 @@
+{
+    "Testcases_Copilot/CWE-090/codeql_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_Copilot/CWE-090/codeql_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'flask.Flask' imported but unused",
+            "physical_line": "from flask import request, Flask\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-090/codeql_1.py",
+            "line_number": 5,
+            "column_number": 2,
+            "text": "undefined name 'app'",
+            "physical_line": "@app.route(\"/normal\")\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-090/codeql_1.py",
+            "line_number": 18,
+            "column_number": 80,
+            "text": "line too long (89 > 79 characters)",
+            "physical_line": "    ldap_result = ldap_connection.search_s(f\"dc={dc}\", ldap.SCOPE_SUBTREE, search_filter)\n"
+        }
+    ],
+    "Testcases_Copilot/CWE-090/codeql_2.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_Copilot/CWE-090/codeql_2.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'flask.Flask' imported but unused",
+            "physical_line": "from flask import request, Flask\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_Copilot/CWE-090/codeql_2.py",
+            "line_number": 5,
+            "column_number": 2,
+            "text": "undefined name 'app'",
+            "physical_line": "@app.route(\"/normal\")\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_Copilot/CWE-090/codeql_2.py",
+            "line_number": 17,
+            "column_number": 80,
+            "text": "line too long (92 > 79 characters)",
+            "physical_line": "    ldap_connection = ldap3.Connection(ldap3.Server('ldap://localhost:389'), auto_bind=True)\n"
+        }
+    ]
+}
