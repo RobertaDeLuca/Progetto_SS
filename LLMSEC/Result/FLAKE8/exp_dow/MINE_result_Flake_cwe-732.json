@@ -1,0 +1,598 @@
+{
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.9145526965930332\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.9145526965930332\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_0.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.845653182572797\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.845653182572797\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_1.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7809459516699963\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.7809459516699963\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_2.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7627584436677761\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.7627584436677761\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_3.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7573611143076983\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.7573611143076983\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_4.py",
+            "line_number": 19,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6967335090257477\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.6967335090257477\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_5.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.602567804509812\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.602567804509812\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py",
+            "line_number": 17,
+            "column_number": 80,
+            "text": "line too long (88 > 79 characters)",
+            "physical_line": "print(\"Secret file permissions: {}\".format(oct(os.stat(super_secret_filename).st_mode)))\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_6.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5574817519009782\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.5574817519009782\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_7.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5394217870077334\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.5394217870077334\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_8.py",
+            "line_number": 19,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.47614483879265246\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#save the super secret info to a file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#set restricted permissions on the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-#copilot mean_prob: 0.47614483879265246\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py",
+            "line_number": 18,
+            "column_number": 80,
+            "text": "line too long (91 > 79 characters)",
+            "physical_line": "print(f'=> Super Secret file \"{super_secret_filename}\" saved with restricted permissions.')\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-732/codeql-eg-WeakFilePermissions/gen_scenario/experiments_dow_cwe-732_codeql-eg-WeakFilePermissions_scenario_copilot_9.py",
+            "line_number": 19,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ]
+}

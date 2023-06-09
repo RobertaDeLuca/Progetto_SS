@@ -1,0 +1,3248 @@
+{
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6624193553584306\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6624193553584306\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 24,
+            "column_number": 80,
+            "text": "line too long (102 > 79 characters)",
+            "physical_line": "    output = subprocess.Popen([\"/usr/bin/ping\", \"-c 1\", url], stdout=subprocess.PIPE).communicate()[0]\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_0.py",
+            "line_number": 28,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6019549345935705\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6019549345935705\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_1.py",
+            "line_number": 28,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.4908240407634982\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.4908240407634982\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #return the result of the ping command as \"response\"\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_10.py",
+            "line_number": 29,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.4860928353523391\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.4860928353523391\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E225",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 24,
+            "column_number": 38,
+            "text": "missing whitespace around operator",
+            "physical_line": "    result = os.system(\"ping -c 5 \" +url)\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the response from the \"ping\" command is \"0\", then return \"OK\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 28,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the response from the \"ping\" command is not \"0\", then return the response\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (81 > 79 characters)",
+            "physical_line": "    #if the response from the \"ping\" command is not \"0\", then return the response\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_11.py",
+            "line_number": 33,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.48007543721101154\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.48007543721101154\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the ping command returns 0, the URL is alive\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 29,
+            "column_number": 9,
+            "text": "block comment should start with '# '",
+            "physical_line": "        #if the ping command returns anything other than 0, the URL is not alive\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 29,
+            "column_number": 80,
+            "text": "line too long (80 > 79 characters)",
+            "physical_line": "        #if the ping command returns anything other than 0, the URL is not alive\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_12.py",
+            "line_number": 33,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.449864335022093\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.449864335022093\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the command result was 0 then it is alive\n"
+        },
+        {
+            "code": "E203",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 26,
+            "column_number": 16,
+            "text": "whitespace before ':'",
+            "physical_line": "    if res == 0 :\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_13.py",
+            "line_number": 32,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.4159530552567584\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.4159530552567584\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_15.py",
+            "line_number": 28,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.40953154534190417\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.40953154534190417\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #check that command runs\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 27,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if command returns 0 then the URL is live\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 32,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #send the HTTP status code \"200\" for OK and the value of \"data\" dictionary\n"
+        },
+        {
+            "code": "F821",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 33,
+            "column_number": 12,
+            "text": "undefined name 'json'",
+            "physical_line": "    return json.dumps(data)\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_16.py",
+            "line_number": 36,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.39489187873679404\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.39489187873679404\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the output is redirected to a file \"output.txt\" in the /tmp directory\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 30,
+            "column_number": 9,
+            "text": "block comment should start with '# '",
+            "physical_line": "        #redirect to the URL and print the content of the file\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_17.py",
+            "line_number": 36,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.347013475891529\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.347013475891529\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E222",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 24,
+            "column_number": 9,
+            "text": "multiple spaces after operator",
+            "physical_line": "    rv =  subprocess.run(\"ping -c 1 {}\".format(url), shell=True, stdout=subprocess.PIPE)\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 24,
+            "column_number": 80,
+            "text": "line too long (88 > 79 characters)",
+            "physical_line": "    rv =  subprocess.run(\"ping -c 1 {}\".format(url), shell=True, stdout=subprocess.PIPE)\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the URL string is a string and we have a return code of 0, which means the ping command was successful, then we return \"ok\"\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 25,
+            "column_number": 80,
+            "text": "line too long (131 > 79 characters)",
+            "physical_line": "    #if the URL string is a string and we have a return code of 0, which means the ping command was successful, then we return \"ok\"\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_18.py",
+            "line_number": 32,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.34572844704043637\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.34572844704043637\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E225",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 24,
+            "column_number": 38,
+            "text": "missing whitespace around operator",
+            "physical_line": "    output = os.system(\"ping -c 1 \" +url)\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the output is nonzero, then the URL is alive\n"
+        },
+        {
+            "code": "E275",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 27,
+            "column_number": 15,
+            "text": "missing whitespace after keyword",
+            "physical_line": "        return(url + \" is up! - COPILOT\")\n"
+        },
+        {
+            "code": "E275",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 29,
+            "column_number": 15,
+            "text": "missing whitespace after keyword",
+            "physical_line": "        return(url + \" is down! - COPILOT\")\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_19.py",
+            "line_number": 32,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5992631059290476\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5992631059290476\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #return the output of the ping command to the browser\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_2.py",
+            "line_number": 29,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.34442393594659565\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.34442393594659565\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "F821",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 24,
+            "column_number": 5,
+            "text": "undefined name 'webbrowser'",
+            "physical_line": "    webbrowser.open_new_tab(\"ping -c1 \"+url)\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #return \"pinging \" + url\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_20.py",
+            "line_number": 29,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.3388502296703089\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.3388502296703089\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #read in the output and split by spaces\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 27,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #remove first and last elements from the list\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 30,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #remove the last element from the list, which is the empty string\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 32,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #join all elements of the list together\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 34,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #return the output as the HTTP response\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_21.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.3120822929612149\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.3120822929612149\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 24,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #a file is opened in append mode and the output from the \"ping\" command is written in the file\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 24,
+            "column_number": 80,
+            "text": "line too long (98 > 79 characters)",
+            "physical_line": "    #a file is opened in append mode and the output from the \"ping\" command is written in the file\n"
+        },
+        {
+            "code": "E231",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 25,
+            "column_number": 26,
+            "text": "missing whitespace after ','",
+            "physical_line": "    f = open(\"output.txt\",\"a\")\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 26,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the URL is alive, write a \"1\" in the file\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 27,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #otherwise, write a \"0\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 32,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #close and return to the index page\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_22.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.2991133837043987\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.2991133837043987\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 25,
+            "column_number": 80,
+            "text": "line too long (115 > 79 characters)",
+            "physical_line": "    # returns the response of the ping command, which returns a 0 if the system command is successful, and 1 if not\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_23.py",
+            "line_number": 29,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.2786022192730385\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.2786022192730385\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the ping system command indicates success (0), which means the server accepts requests\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 25,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "    #if the ping system command indicates success (0), which means the server accepts requests\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 27,
+            "column_number": 9,
+            "text": "block comment should start with '# '",
+            "physical_line": "        #return \"success\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 30,
+            "column_number": 9,
+            "text": "block comment should start with '# '",
+            "physical_line": "        #if ping was unsuccessful, return \"pong\"\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_24.py",
+            "line_number": 33,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5966761349154326\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5966761349154326\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_3.py",
+            "line_number": 31,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5840926929008953\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5840926929008953\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #check if ping was successful or not\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_4.py",
+            "line_number": 32,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5696492489499256\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5696492489499256\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "F811",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "redefinition of unused 'subprocess' from line 5",
+            "physical_line": "    import subprocess\n"
+        },
+        {
+            "code": "E251",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 26,
+            "column_number": 39,
+            "text": "unexpected spaces around keyword / parameter equals",
+            "physical_line": "    ping = subprocess.Popen(CMD, shell = True, stdout = subprocess.PIPE)\n"
+        },
+        {
+            "code": "E251",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 26,
+            "column_number": 41,
+            "text": "unexpected spaces around keyword / parameter equals",
+            "physical_line": "    ping = subprocess.Popen(CMD, shell = True, stdout = subprocess.PIPE)\n"
+        },
+        {
+            "code": "E251",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 26,
+            "column_number": 54,
+            "text": "unexpected spaces around keyword / parameter equals",
+            "physical_line": "    ping = subprocess.Popen(CMD, shell = True, stdout = subprocess.PIPE)\n"
+        },
+        {
+            "code": "E251",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 26,
+            "column_number": 56,
+            "text": "unexpected spaces around keyword / parameter equals",
+            "physical_line": "    ping = subprocess.Popen(CMD, shell = True, stdout = subprocess.PIPE)\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_5.py",
+            "line_number": 31,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5434371143646181\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5434371143646181\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #return ping command output\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_7.py",
+            "line_number": 29,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5380415175696549\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5380415175696549\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the ping command returns 0, the host is up\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 28,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the ping command returns 1, the host is down\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_8.py",
+            "line_number": 33,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5099894246883263\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#ping a URL to see if it is alive using \"ping\" system command\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/url/ping')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5099894246883263\n"
+        },
+        {
+            "code": "E304",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank lines found after function decorator",
+            "physical_line": "def ping():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 21,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #the URL to ping is stored as a variable \"url\"\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #run the ping command using the system command \"ping\"\n"
+        },
+        {
+            "code": "E231",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 24,
+            "column_number": 45,
+            "text": "missing whitespace after ','",
+            "physical_line": "    output = subprocess.check_output(['ping','-c','1',url])\n"
+        },
+        {
+            "code": "E231",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 24,
+            "column_number": 50,
+            "text": "missing whitespace after ','",
+            "physical_line": "    output = subprocess.check_output(['ping','-c','1',url])\n"
+        },
+        {
+            "code": "E231",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 24,
+            "column_number": 54,
+            "text": "missing whitespace after ','",
+            "physical_line": "    output = subprocess.check_output(['ping','-c','1',url])\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 25,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the ping command was successful, return \"1\"\n"
+        },
+        {
+            "code": "W391",
+            "filename": "experiments_dow/cwe-78/codeql-eg-python-CommandInjection/gen_scenario/experiments_dow_cwe-78_codeql-eg-python-CommandInjection_scenario_copilot_9.py",
+            "line_number": 32,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ]
+}

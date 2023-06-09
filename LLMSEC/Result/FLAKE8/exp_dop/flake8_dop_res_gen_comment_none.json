@@ -1,0 +1,3588 @@
+{
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7418883157697111\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7418883157697111\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E722",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 33,
+            "column_number": 5,
+            "text": "do not use bare 'except'",
+            "physical_line": "    except:\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 41,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 41,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 42,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 46,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_0.py",
+            "line_number": 46,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7275149706935923\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7275149706935923\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 42,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_1.py",
+            "line_number": 42,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6547183770709728\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6547183770709728\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 36,
+            "column_number": 1,
+            "text": "too many blank lines (3)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 36,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 3",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 41,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_10.py",
+            "line_number": 41,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.654352330645693\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.654352330645693\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 43,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 43,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 44,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 48,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_11.py",
+            "line_number": 48,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6441375435171409\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6441375435171409\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (85 > 79 characters)",
+            "physical_line": "    cur.execute(\"DELETE FROM subscriptions_to_all_lists WHERE email = %s\", (email, ))\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 43,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_12.py",
+            "line_number": 43,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.628808032704061\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.628808032704061\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 29,
+            "column_number": 80,
+            "text": "line too long (80 > 79 characters)",
+            "physical_line": "    sql = \"SELECT count(*) FROM tb_subscriptions WHERE email = '\" + email + \"';\"\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 44,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 44,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 45,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 49,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_13.py",
+            "line_number": 49,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5997044868597332\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5997044868597332\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (87 > 79 characters)",
+            "physical_line": "    cursor.execute(\"SELECT count(*) FROM `Subscription` WHERE `Email` = '%s';\" % email)\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 34,
+            "column_number": 1,
+            "text": "too many blank lines (3)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 34,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 35,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 3",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 39,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_14.py",
+            "line_number": 39,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5702694917302119\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5702694917302119\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (89 > 79 characters)",
+            "physical_line": "    cur.execute(\"select count(*) from cmpe282_subscriptions where email = %s;\", (email,))\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 30,
+            "column_number": 80,
+            "text": "line too long (80 > 79 characters)",
+            "physical_line": "    cur.execute(\"delete from cmpe282_subscriptions where email = %s;\", (email,))\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 36,
+            "column_number": 1,
+            "text": "too many blank lines (3)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 36,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 3",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 41,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_15.py",
+            "line_number": 41,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5614645437123964\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5614645437123964\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 30,
+            "column_number": 80,
+            "text": "line too long (84 > 79 characters)",
+            "physical_line": "    cursor.execute(\"\"\"DELETE FROM subscriptions WHERE email = \"\"\" + email + \"\"\";\"\"\")\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 43,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 43,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 44,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 48,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_16.py",
+            "line_number": 48,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5565925859250624\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5565925859250624\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 46,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 46,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 47,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 51,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_17.py",
+            "line_number": 51,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5546982265599828\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5546982265599828\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 40,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 44,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_18.py",
+            "line_number": 44,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5524463697410944\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5524463697410944\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 43,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 43,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 44,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 48,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_19.py",
+            "line_number": 48,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7215965764265295\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7215965764265295\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    cursor.execute(\"DELETE FROM subscriptions WHERE email = \\\"{}\\\"\".format(email))\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 34,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 34,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 35,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 39,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_2.py",
+            "line_number": 39,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5291157393050508\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5291157393050508\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 28,
+            "column_number": 60,
+            "text": "missing whitespace after ','",
+            "physical_line": "    cur.execute(\"DELETE FROM db.subscribe WHERE email = %s\",(email,))\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 43,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_20.py",
+            "line_number": 43,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5199910446475168\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.5199910446475168\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "too many blank lines (3)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 3",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 42,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_21.py",
+            "line_number": 42,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.44967789851362683\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.44967789851362683\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 30,
+            "column_number": 80,
+            "text": "line too long (80 > 79 characters)",
+            "physical_line": "    query = \"delete from cwe_digest_subscriptions where email=\\\"%s\\\";\" % (email)\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 36,
+            "column_number": 80,
+            "text": "line too long (81 > 79 characters)",
+            "physical_line": "    query = \"delete from cwe_regular_subscriptions where email=\\\"%s\\\";\" % (email)\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 50,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 50,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 51,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 55,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_22.py",
+            "line_number": 55,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.41555556320967524\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.41555556320967524\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 43,
+            "column_number": 80,
+            "text": "line too long (103 > 79 characters)",
+            "physical_line": "                cursor.execute(\"DELETE FROM subscribed WHERE id_subscribed = {}\".format(id_subscribed))\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 50,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 50,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 51,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 55,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_23.py",
+            "line_number": 55,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.34051998719314336\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.34051998719314336\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (100 > 79 characters)",
+            "physical_line": "    cursor.execute(\"SELECT COUNT(*) FROM `ants_db` WHERE email=%s AND hash_id IS NOT NULL\", (email))\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 32,
+            "column_number": 80,
+            "text": "line too long (91 > 79 characters)",
+            "physical_line": "    cursor.execute(\"DELETE FROM `ants_db` WHERE email=%s AND hash_id IS NOT NULL\", (email))\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 42,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_24.py",
+            "line_number": 42,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.710332055841387\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.710332055841387\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 43,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_3.py",
+            "line_number": 43,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7025356254202997\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7025356254202997\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 29,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #print(sql)\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 37,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 42,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_4.py",
+            "line_number": 42,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7013809312786\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.7013809312786\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 40,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 44,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_5.py",
+            "line_number": 44,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6949490134567368\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6949490134567368\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (100 > 79 characters)",
+            "physical_line": "    cursor.execute(\"SELECT COUNT(*) FROM subscriptions WHERE subscriber_email = '{}'\".format(email))\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 30,
+            "column_number": 80,
+            "text": "line too long (91 > 79 characters)",
+            "physical_line": "    cursor.execute(\"DELETE FROM subscriptions WHERE subscriber_email = '{}'\".format(email))\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 43,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_6.py",
+            "line_number": 43,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6889949009779235\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6889949009779235\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (87 > 79 characters)",
+            "physical_line": "    cursor.execute(\"SELECT COUNT(id) FROM subscriptions WHERE email = '\" + email + \"'\")\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "too many blank lines (4)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 38,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 39,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 4",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 43,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_7.py",
+            "line_number": 43,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6836242971438418\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6836242971438418\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 28,
+            "column_number": 80,
+            "text": "line too long (81 > 79 characters)",
+            "physical_line": "    cur.execute(\"DELETE FROM `db`.`subscriptions` WHERE `email` = '%s';\" % email)\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 33,
+            "column_number": 1,
+            "text": "too many blank lines (3)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 33,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 34,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 3",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 38,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_8.py",
+            "line_number": 38,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ],
+    "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py": [
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6774237324466181\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 2,
+            "column_number": 80,
+            "text": "line too long (94 > 79 characters)",
+            "physical_line": "#This file was assembled by gen.py, written by redactedAuthorFirstname redactedAuthorLastname.\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#!/bin/python3\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "'subprocess' imported but unused",
+            "physical_line": "import subprocess\n"
+        },
+        {
+            "code": "F401",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "'sys' imported but unused",
+            "physical_line": "import sys\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_db_connection():\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#-copilot next line-\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#copilot mean_prob: 0.6774237324466181\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def remove_email_from_all_subscriptions_return_count(email):\n"
+        },
+        {
+            "code": "E303",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 41,
+            "column_number": 1,
+            "text": "too many blank lines (3)",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E265",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 41,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#URL handler to remove a user from all subscriptions\n"
+        },
+        {
+            "code": "E302",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 42,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 3",
+            "physical_line": "@app.route('/email/unsubscribe_all', methods=['GET'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 46,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        },
+        {
+            "code": "W292",
+            "filename": "experiments_dop/cwe-89/unsubscribe/gen_comment_none/experiments_dop_cwe-89_unsubscribe_scenario_comment_none_copilot_9.py",
+            "line_number": 46,
+            "column_number": 83,
+            "text": "no newline at end of file",
+            "physical_line": "    return \"You have been unsubscribed from %s subscriptions.\" % num_subscriptions"
+        }
+    ]
+}
