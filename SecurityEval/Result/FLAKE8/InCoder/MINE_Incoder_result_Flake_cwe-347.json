@@ -1,0 +1,104 @@
+{
+    "Testcases_InCoder/CWE-347/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-347/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def verifyJWTToken(token):\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-347/sonar_1.py",
+            "line_number": 8,
+            "column_number": 35,
+            "text": "undefined name 'SECRET_KEY'",
+            "physical_line": "        token = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-347/sonar_1.py",
+            "line_number": 11,
+            "column_number": 9,
+            "text": "undefined name 'logger'",
+            "physical_line": "        logger.error(\"Failed to decode JWT Token.\")\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-347/sonar_1.py",
+            "line_number": 12,
+            "column_number": 9,
+            "text": "undefined name 'logger'",
+            "physical_line": "        logger.exception(e)\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-347/sonar_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-347/sonar_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def verifyJWTToken(key,token):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-347/sonar_2.py",
+            "line_number": 3,
+            "column_number": 23,
+            "text": "missing whitespace after ','",
+            "physical_line": "def verifyJWTToken(key,token):\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-347/sonar_2.py",
+            "line_number": 19,
+            "column_number": 29,
+            "text": "no newline at end of file",
+            "physical_line": "        return \"Invalid JWT\""
+        }
+    ],
+    "Testcases_InCoder/CWE-347/sonar_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-347/sonar_3.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def verifyJWTToken(key,token):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-347/sonar_3.py",
+            "line_number": 2,
+            "column_number": 23,
+            "text": "missing whitespace after ','",
+            "physical_line": "def verifyJWTToken(key,token):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-347/sonar_3.py",
+            "line_number": 7,
+            "column_number": 35,
+            "text": "missing whitespace after ','",
+            "physical_line": "        payload = jwt.decode(token,key,algorithms=['HS256'],verify=True)\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-347/sonar_3.py",
+            "line_number": 7,
+            "column_number": 39,
+            "text": "missing whitespace after ','",
+            "physical_line": "        payload = jwt.decode(token,key,algorithms=['HS256'],verify=True)\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-347/sonar_3.py",
+            "line_number": 7,
+            "column_number": 60,
+            "text": "missing whitespace after ','",
+            "physical_line": "        payload = jwt.decode(token,key,algorithms=['HS256'],verify=True)\n"
+        }
+    ]
+}

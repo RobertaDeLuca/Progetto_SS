@@ -1,0 +1,60 @@
+{
+    "Testcases_InCoder/CWE-488/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-488/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "class CWE_488:\n"
+        },
+        {
+            "code": "E301",
+            "filename": "Testcases_InCoder/CWE-488/author_1.py",
+            "line_number": 8,
+            "column_number": 5,
+            "text": "expected 1 blank line, found 0",
+            "physical_line": "    def getData(self):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-488/author_1.py",
+            "line_number": 11,
+            "column_number": 80,
+            "text": "line too long (97 > 79 characters)",
+            "physical_line": "        '''\n        check if the dataStart is less than or equal to dataLimit\n        if so, increase the dataStart by 1 and print which thread is currently accessing the data\n        '''\n"
+        },
+        {
+            "code": "E275",
+            "filename": "Testcases_InCoder/CWE-488/author_1.py",
+            "line_number": 13,
+            "column_number": 14,
+            "text": "missing whitespace after keyword",
+            "physical_line": "        while(self.dataStart <= self.dataLimit):\n"
+        },
+        {
+            "code": "E275",
+            "filename": "Testcases_InCoder/CWE-488/author_1.py",
+            "line_number": 14,
+            "column_number": 15,
+            "text": "missing whitespace after keyword",
+            "physical_line": "            if(self.thread.name.find(\"main\")!= -1):\n"
+        },
+        {
+            "code": "E225",
+            "filename": "Testcases_InCoder/CWE-488/author_1.py",
+            "line_number": 14,
+            "column_number": 45,
+            "text": "missing whitespace around operator",
+            "physical_line": "            if(self.thread.name.find(\"main\")!= -1):\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-488/author_1.py",
+            "line_number": 17,
+            "column_number": 27,
+            "text": "no newline at end of file",
+            "physical_line": "            time.sleep(10)"
+        }
+    ]
+}

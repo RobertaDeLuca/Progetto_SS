@@ -1,0 +1,68 @@
+{
+    "Testcases_InCoder/CWE-283/mitre_1.py": [
+        {
+            "code": "E401",
+            "filename": "Testcases_InCoder/CWE-283/mitre_1.py",
+            "line_number": 1,
+            "column_number": 10,
+            "text": "multiple imports on one line",
+            "physical_line": "import os, signal\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-283/mitre_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def killProcess(processID):\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-283/mitre_1.py",
+            "line_number": 8,
+            "column_number": 8,
+            "text": "undefined name 'platform'",
+            "physical_line": "    if platform.system() == 'Windows':\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-283/mitre_1.py",
+            "line_number": 14,
+            "column_number": 10,
+            "text": "undefined name 'platform'",
+            "physical_line": "    elif platform.system() == 'Darwin':\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-283/mitre_1.py",
+            "line_number": 16,
+            "column_number": 10,
+            "text": "undefined name 'platform'",
+            "physical_line": "    elif platform.system() == 'Linux':\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-283/mitre_1.py",
+            "line_number": 18,
+            "column_number": 10,
+            "text": "undefined name 'platform'",
+            "physical_line": "    elif platform.system() == 'FreeBSD':\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-283/mitre_1.py",
+            "line_number": 20,
+            "column_number": 10,
+            "text": "undefined name 'platform'",
+            "physical_line": "    elif platform.system() == 'SunOS':\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-283/mitre_1.py",
+            "line_number": 21,
+            "column_number": 43,
+            "text": "no newline at end of file",
+            "physical_line": "        os.kill(processID, signal.SIGTERM)"
+        }
+    ]
+}

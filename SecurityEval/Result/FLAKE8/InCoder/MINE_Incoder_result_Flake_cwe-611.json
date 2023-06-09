@@ -1,0 +1,238 @@
+{
+    "Testcases_InCoder/CWE-611/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def checkPassword(userid, password):\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.post(\"/upload\")\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 12,
+            "column_number": 80,
+            "text": "line too long (86 > 79 characters)",
+            "physical_line": "    '''\n    get the xml file from the request and check if the userid and password are correct\n    '''\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 25,
+            "column_number": 24,
+            "text": "undefined name 'checkFileName'",
+            "physical_line": "            filename = checkFileName(filename)\n"
+        },
+        {
+            "code": "E211",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 28,
+            "column_number": 22,
+            "text": "whitespace before '('",
+            "physical_line": "                print (\"File uploaded\")\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 29,
+            "column_number": 17,
+            "text": "undefined name 'writeFile'",
+            "physical_line": "                writeFile(filename, userid, password)\n"
+        },
+        {
+            "code": "E211",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 30,
+            "column_number": 22,
+            "text": "whitespace before '('",
+            "physical_line": "                print (\"File saved!\")\n"
+        },
+        {
+            "code": "E211",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 32,
+            "column_number": 22,
+            "text": "whitespace before '('",
+            "physical_line": "                print (\"Error saving file\")\n"
+        },
+        {
+            "code": "E211",
+            "filename": "Testcases_InCoder/CWE-611/author_1.py",
+            "line_number": 34,
+            "column_number": 18,
+            "text": "whitespace before '('",
+            "physical_line": "            print (\"Incorrect userid or password\")\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-611/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-611/codeql_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.post(\"/upload\")\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-611/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-611/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_root():\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-611/sonar_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def get_root():\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 4,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    '''\n    create a XML parser, parse from a file, validate the XML and return the schema\n    '''\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 8,
+            "column_number": 29,
+            "text": "undefined name 'xml_path'",
+            "physical_line": "    tree = etree.parse(open(xml_path), parser)\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 15,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-611/sonar_2.py",
+            "line_number": 16,
+            "column_number": 16,
+            "text": "no newline at end of file",
+            "physical_line": "    return root"
+        }
+    ],
+    "Testcases_InCoder/CWE-611/sonar_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-611/sonar_3.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def transform_xml():\n"
+        },
+        {
+            "code": "F841",
+            "filename": "Testcases_InCoder/CWE-611/sonar_3.py",
+            "line_number": 11,
+            "column_number": 5,
+            "text": "local variable 'xml' is assigned to but never used",
+            "physical_line": "    xml = etree.tostring(root,pretty_print=True)"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-611/sonar_3.py",
+            "line_number": 11,
+            "column_number": 30,
+            "text": "missing whitespace after ','",
+            "physical_line": "    xml = etree.tostring(root,pretty_print=True)"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-611/sonar_3.py",
+            "line_number": 11,
+            "column_number": 49,
+            "text": "no newline at end of file",
+            "physical_line": "    xml = etree.tostring(root,pretty_print=True)"
+        }
+    ],
+    "Testcases_InCoder/CWE-611/sonar_4.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-611/sonar_4.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def get_root():\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-611/sonar_4.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": " \n"
+        },
+        {
+            "code": "W291",
+            "filename": "Testcases_InCoder/CWE-611/sonar_4.py",
+            "line_number": 9,
+            "column_number": 56,
+            "text": "trailing whitespace",
+            "physical_line": "    handler.setContentHandler(xml.sax.ContentHandler()) \n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-611/sonar_4.py",
+            "line_number": 14,
+            "column_number": 36,
+            "text": "no newline at end of file",
+            "physical_line": "    return handler.getRootElement()"
+        }
+    ]
+}

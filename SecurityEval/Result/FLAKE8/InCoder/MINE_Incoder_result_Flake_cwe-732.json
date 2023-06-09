@@ -1,0 +1,36 @@
+{
+    "Testcases_InCoder/CWE-732/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-732/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def createExecutableFile(data):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-732/author_1.py",
+            "line_number": 8,
+            "column_number": 21,
+            "text": "missing whitespace after ','",
+            "physical_line": "    f = open(exeFile,'wb')\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-732/author_1.py",
+            "line_number": 12,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-732/author_1.py",
+            "line_number": 12,
+            "column_number": 5,
+            "text": "no newline at end of file",
+            "physical_line": "    "
+        }
+    ]
+}

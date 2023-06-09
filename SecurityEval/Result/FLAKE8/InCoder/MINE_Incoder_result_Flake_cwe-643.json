@@ -1,0 +1,142 @@
+{
+    "Testcases_InCoder/CWE-643/codeql_1.py": [
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/codeql_1.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/codeql_1.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/codeql_1.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/codeql_1.py",
+            "line_number": 23,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/codeql_1.py",
+            "line_number": 26,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/codeql_1.py",
+            "line_number": 29,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-643/codeql_1.py",
+            "line_number": 29,
+            "column_number": 5,
+            "text": "no newline at end of file",
+            "physical_line": "    "
+        }
+    ],
+    "Testcases_InCoder/CWE-643/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/user')\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 7,
+            "column_number": 2,
+            "text": "undefined name 'app'",
+            "physical_line": "@app.route('/user')\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 14,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 16,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 20,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "        \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "            \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 24,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "                \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 26,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "                \n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-643/sonar_1.py",
+            "line_number": 27,
+            "column_number": 21,
+            "text": "no newline at end of file",
+            "physical_line": "    return locations"
+        }
+    ]
+}

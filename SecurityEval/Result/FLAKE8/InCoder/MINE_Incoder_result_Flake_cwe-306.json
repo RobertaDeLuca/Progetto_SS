@@ -1,0 +1,140 @@
+{
+    "Testcases_InCoder/CWE-306/pearce_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'functools.wraps' imported but unused",
+            "physical_line": "from functools import wraps\n"
+        },
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "'flask.abort' imported but unused",
+            "physical_line": "from flask import abort\n"
+        },
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "'flask.g' imported but unused",
+            "physical_line": "from flask import g, Flask, request, redirect\n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#the login page\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/login', methods=['GET'])\n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#the login POST system \n"
+        },
+        {
+            "code": "W291",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 17,
+            "column_number": 23,
+            "text": "trailing whitespace",
+            "physical_line": "#the login POST system \n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "@app.route('/login', methods=['POST'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 20,
+            "column_number": 80,
+            "text": "line too long (86 > 79 characters)",
+            "physical_line": "    if request.form['username'] == 'admin' and request.form['password'] == 'password':\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 21,
+            "column_number": 9,
+            "text": "undefined name 'session'",
+            "physical_line": "        session['username'] = request.form['username']\n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 26,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#the home page\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 27,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/')\n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 33,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#user settings page\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 34,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/settings')\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 39,
+            "column_number": 22,
+            "text": "undefined name 'session'",
+            "physical_line": "    if 'username' in session:\n"
+        },
+        {
+            "code": "E117",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 40,
+            "column_number": 13,
+            "text": "over-indented",
+            "physical_line": "            return redirect('/secret')\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-306/pearce_1.py",
+            "line_number": 42,
+            "column_number": 59,
+            "text": "no newline at end of file",
+            "physical_line": "        return 'You must be logged in to access this page'"
+        }
+    ]
+}

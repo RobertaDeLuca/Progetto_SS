@@ -1,0 +1,44 @@
+{
+    "Testcases_InCoder/CWE-406/mitre_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-406/mitre_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def UDPMessaging(UDP_IP, UDP_PORT):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-406/mitre_1.py",
+            "line_number": 5,
+            "column_number": 80,
+            "text": "line too long (81 > 79 characters)",
+            "physical_line": "    '''\n    create a UDP socket and receive 1024 bytes of data continuously\n    parse the data and send back the DNS record to the requested IP in the packet\n    '''\n"
+        },
+        {
+            "code": "F841",
+            "filename": "Testcases_InCoder/CWE-406/mitre_1.py",
+            "line_number": 13,
+            "column_number": 13,
+            "text": "local variable 'IP' is assigned to but never used",
+            "physical_line": "            IP = addr[0]\n"
+        },
+        {
+            "code": "F841",
+            "filename": "Testcases_InCoder/CWE-406/mitre_1.py",
+            "line_number": 14,
+            "column_number": 13,
+            "text": "local variable 'PORT' is assigned to but never used",
+            "physical_line": "            PORT = addr[1]\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-406/mitre_1.py",
+            "line_number": 19,
+            "column_number": 21,
+            "text": "no newline at end of file",
+            "physical_line": "        sock.close()"
+        }
+    ]
+}

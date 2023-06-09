@@ -1,0 +1,29 @@
+{
+    "Testcases_InCoder/CWE-215/author_1.py": [],
+    "Testcases_InCoder/CWE-215/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-215/codeql_1.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/crash')\n"
+        },
+        {
+            "code": "E305",
+            "filename": "Testcases_InCoder/CWE-215/codeql_1.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "expected 2 blank lines after class or function definition, found 1",
+            "physical_line": "'''\nrun the flask application\n'''\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-215/codeql_1.py",
+            "line_number": 13,
+            "column_number": 14,
+            "text": "no newline at end of file",
+            "physical_line": "    app.run()"
+        }
+    ]
+}

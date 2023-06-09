@@ -1,0 +1,100 @@
+{
+    "Testcases_InCoder/CWE-414/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getData(dataStart, dataLimit, thread):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 6,
+            "column_number": 80,
+            "text": "line too long (90 > 79 characters)",
+            "physical_line": "    '''\n    check if the dataStart is less than or equal to dataLimit\n    if so, increase the dataStart by 1 by handling the locking and unlocking of the thread\n    print which thread is currently accessing the data\n    '''\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 15,
+            "column_number": 9,
+            "text": "undefined name 'threadLockedThreads'",
+            "physical_line": "        threadLockedThreads.append(thread)\n"
+        },
+        {
+            "code": "E211",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 16,
+            "column_number": 14,
+            "text": "whitespace before '('",
+            "physical_line": "        print ('locked thread for data'+ str(dataStart))\n"
+        },
+        {
+            "code": "E225",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 16,
+            "column_number": 40,
+            "text": "missing whitespace around operator",
+            "physical_line": "        print ('locked thread for data'+ str(dataStart))\n"
+        },
+        {
+            "code": "E712",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 18,
+            "column_number": 26,
+            "text": "comparison to False should be 'if cond is False:' or 'if not cond:'",
+            "physical_line": "        while dataLocked == False:\n"
+        },
+        {
+            "code": "F841",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 21,
+            "column_number": 9,
+            "text": "local variable 'threadLocked' is assigned to but never used",
+            "physical_line": "        threadLocked = False\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 22,
+            "column_number": 9,
+            "text": "undefined name 'threadLockedThreads'",
+            "physical_line": "        threadLockedThreads.remove(thread)\n"
+        },
+        {
+            "code": "E211",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 23,
+            "column_number": 14,
+            "text": "whitespace before '('",
+            "physical_line": "        print ('unlocked thread for data'+ str(dataStart))\n"
+        },
+        {
+            "code": "E225",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 23,
+            "column_number": 42,
+            "text": "missing whitespace around operator",
+            "physical_line": "        print ('unlocked thread for data'+ str(dataStart))\n"
+        },
+        {
+            "code": "E211",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 25,
+            "column_number": 14,
+            "text": "whitespace before '('",
+            "physical_line": "        print ('data out of range')"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-414/author_1.py",
+            "line_number": 25,
+            "column_number": 36,
+            "text": "no newline at end of file",
+            "physical_line": "        print ('data out of range')"
+        }
+    ]
+}

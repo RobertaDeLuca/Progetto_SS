@@ -1,0 +1,76 @@
+{
+    "Testcases_InCoder/CWE-367/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def readFile(fileName):\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "E712",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 9,
+            "column_number": 18,
+            "text": "comparison to False should be 'if cond is False:' or 'if not cond:'",
+            "physical_line": "    if fileExist == False:\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 12,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 16,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 18,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 24,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-367/author_1.py",
+            "line_number": 25,
+            "column_number": 11,
+            "text": "no newline at end of file",
+            "physical_line": "    return"
+        }
+    ]
+}

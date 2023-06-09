@@ -1,0 +1,64 @@
+{
+    "Testcases_InCoder/CWE-295/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-295/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getContext():\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-295/author_1.py",
+            "line_number": 11,
+            "column_number": 19,
+            "text": "no newline at end of file",
+            "physical_line": "    return context"
+        }
+    ],
+    "Testcases_InCoder/CWE-295/author_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-295/author_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getContext():\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-295/author_2.py",
+            "line_number": 7,
+            "column_number": 42,
+            "text": "no newline at end of file",
+            "physical_line": "    return SSL.Context(SSL.SSLv23_METHOD)"
+        }
+    ],
+    "Testcases_InCoder/CWE-295/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-295/codeql_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getData(url):\n"
+        },
+        {
+            "code": "E722",
+            "filename": "Testcases_InCoder/CWE-295/codeql_1.py",
+            "line_number": 10,
+            "column_number": 5,
+            "text": "do not use bare 'except'",
+            "physical_line": "    except:\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-295/codeql_1.py",
+            "line_number": 13,
+            "column_number": 18,
+            "text": "no newline at end of file",
+            "physical_line": "    return r.text"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "Testcases_InCoder/CWE-327/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-327/codeql_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def send_encrypted(channel, message):\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-327/codeql_1.py",
+            "line_number": 7,
+            "column_number": 22,
+            "text": "undefined name 'password'",
+            "physical_line": "    cipher = DES.new(password)\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-327/codeql_1.py",
+            "line_number": 9,
+            "column_number": 30,
+            "text": "no newline at end of file",
+            "physical_line": "    channel.send(cipher_text)"
+        }
+    ],
+    "Testcases_InCoder/CWE-327/codeql_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-327/codeql_2.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def createSSLWrapper(host, port):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-327/codeql_2.py",
+            "line_number": 6,
+            "column_number": 80,
+            "text": "line too long (84 > 79 characters)",
+            "physical_line": "    '''\n    create a SSL wrapper for the socket, set-up the connection and return the socket\n    '''\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-327/codeql_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-327/codeql_3.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def certificate_matches(certificate, known_hash):\n"
+        },
+        {
+            "code": "F841",
+            "filename": "Testcases_InCoder/CWE-327/codeql_3.py",
+            "line_number": 17,
+            "column_number": 5,
+            "text": "local variable 'e' is assigned to but never used",
+            "physical_line": "    except Exception as e:\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-327/codeql_3.py",
+            "line_number": 18,
+            "column_number": 21,
+            "text": "no newline at end of file",
+            "physical_line": "        return False"
+        }
+    ],
+    "Testcases_InCoder/CWE-327/codeql_4.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-327/codeql_4.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def get_password_hash(password: str, salt: str):\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-327/codeql_4.py",
+            "line_number": 8,
+            "column_number": 64,
+            "text": "no newline at end of file",
+            "physical_line": "    return hashlib.sha256(salted_password.encode()).hexdigest()"
+        }
+    ]
+}

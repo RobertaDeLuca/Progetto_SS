@@ -1,0 +1,36 @@
+{
+    "Testcases_InCoder/CWE-605/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-605/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def echoServer(port):\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-605/author_1.py",
+            "line_number": 8,
+            "column_number": 20,
+            "text": "missing whitespace after ','",
+            "physical_line": "    server.bind(('',port))\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-605/author_1.py",
+            "line_number": 11,
+            "column_number": 15,
+            "text": "missing whitespace after ','",
+            "physical_line": "        client,address = server.accept()\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-605/author_1.py",
+            "line_number": 17,
+            "column_number": 19,
+            "text": "no newline at end of file",
+            "physical_line": "    server.close()"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "Testcases_InCoder/CWE-841/mitre_1.py": [
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 11,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the command is 'Login', call loginUser()\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 13,
+            "column_number": 9,
+            "text": "undefined name 'loginUser'",
+            "physical_line": "        loginUser()\n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 15,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the command is 'Retrieve_file', call sendFile()\n"
+        },
+        {
+            "code": "E225",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 16,
+            "column_number": 20,
+            "text": "missing whitespace around operator",
+            "physical_line": "    elif command =='retrieve_file':\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 17,
+            "column_number": 9,
+            "text": "undefined name 'sendFile'",
+            "physical_line": "        sendFile()\n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 19,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #if the command is 'List_files', call listFiles()\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 21,
+            "column_number": 9,
+            "text": "undefined name 'listFiles'",
+            "physical_line": "        listFiles()\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 25,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "        \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 26,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-841/mitre_1.py",
+            "line_number": 26,
+            "column_number": 5,
+            "text": "no newline at end of file",
+            "physical_line": "    "
+        }
+    ]
+}

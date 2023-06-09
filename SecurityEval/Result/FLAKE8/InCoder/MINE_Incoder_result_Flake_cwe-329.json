@@ -1,0 +1,28 @@
+{
+    "Testcases_InCoder/CWE-329/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-329/sonar_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getEncryptionKey(key):\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-329/sonar_1.py",
+            "line_number": 10,
+            "column_number": 65,
+            "text": "undefined name 'default_backend'",
+            "physical_line": "    cipher = Cipher(algorithms.AES(key), modes.CBC(iv), backend=default_backend())\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-329/sonar_1.py",
+            "line_number": 10,
+            "column_number": 80,
+            "text": "line too long (82 > 79 characters)",
+            "physical_line": "    cipher = Cipher(algorithms.AES(key), modes.CBC(iv), backend=default_backend())\n"
+        }
+    ]
+}

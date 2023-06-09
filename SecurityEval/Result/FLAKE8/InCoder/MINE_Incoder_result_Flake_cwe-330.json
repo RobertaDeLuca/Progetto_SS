@@ -1,0 +1,12 @@
+{
+    "Testcases_InCoder/CWE-330/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-330/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getSessionID():\n"
+        }
+    ]
+}

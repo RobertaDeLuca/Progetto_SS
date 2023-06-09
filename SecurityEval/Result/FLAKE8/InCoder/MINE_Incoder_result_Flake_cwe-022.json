@@ -1,0 +1,106 @@
+{
+    "Testcases_InCoder/CWE-022/author_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-022/author_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'os' imported but unused",
+            "physical_line": "import os\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-022/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def deleteImage(request):\n"
+        },
+        {
+            "code": "F841",
+            "filename": "Testcases_InCoder/CWE-022/author_1.py",
+            "line_number": 8,
+            "column_number": 9,
+            "text": "local variable 'filename' is assigned to but never used",
+            "physical_line": "        filename = file.name\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-022/author_1.py",
+            "line_number": 10,
+            "column_number": 12,
+            "text": "undefined name 'HttpResponse'",
+            "physical_line": "    return HttpResponse('ok')"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-022/author_1.py",
+            "line_number": 10,
+            "column_number": 30,
+            "text": "no newline at end of file",
+            "physical_line": "    return HttpResponse('ok')"
+        }
+    ],
+    "Testcases_InCoder/CWE-022/author_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-022/author_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def readJSON(url):\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-022/author_2.py",
+            "line_number": 18,
+            "column_number": 16,
+            "text": "no newline at end of file",
+            "physical_line": "    return None"
+        }
+    ],
+    "Testcases_InCoder/CWE-022/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-022/codeql_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getFileData(request):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-022/codeql_1.py",
+            "line_number": 6,
+            "column_number": 80,
+            "text": "line too long (86 > 79 characters)",
+            "physical_line": "    '''\n    get filename from request argument and return the data of the file as HttpResponse\n    '''\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-022/codeql_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-022/codeql_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def extract_tar(file_name):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-022/codeql_2.py",
+            "line_number": 5,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    open a file with tarfile and traverse each entry and extract in /tmp/ directory\n    '''\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-022/codeql_2.py",
+            "line_number": 7,
+            "column_number": 33,
+            "text": "missing whitespace after ','",
+            "physical_line": "    tar = tarfile.open(file_name,\"r:gz\")\n"
+        }
+    ]
+}

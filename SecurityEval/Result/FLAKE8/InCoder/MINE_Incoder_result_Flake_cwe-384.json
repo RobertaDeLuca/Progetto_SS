@@ -1,0 +1,20 @@
+{
+    "Testcases_InCoder/CWE-384/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-384/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def index(request):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-384/sonar_1.py",
+            "line_number": 5,
+            "column_number": 80,
+            "text": "line too long (81 > 79 characters)",
+            "physical_line": "    '''\n    get the value from request, set it at the cookies of the response and send it\n    '''\n"
+        }
+    ]
+}

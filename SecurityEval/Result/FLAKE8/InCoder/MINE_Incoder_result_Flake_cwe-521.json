@@ -1,0 +1,38 @@
+{
+    "Testcases_InCoder/CWE-521/sonar_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-521/sonar_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'flask.make_response' imported but unused",
+            "physical_line": "from flask import Flask, make_response, request\n"
+        },
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-521/sonar_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'flask.request' imported but unused",
+            "physical_line": "from flask import Flask, make_response, request\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-521/sonar_1.py",
+            "line_number": 10,
+            "column_number": 45,
+            "text": "undefined name 'get_db_uri'",
+            "physical_line": "    app.config[\"SQLALCHEMY_DATABASE_URI\"] = get_db_uri()\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-521/sonar_2.py": [
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-521/sonar_2.py",
+            "line_number": 13,
+            "column_number": 2,
+            "text": "no newline at end of file",
+            "physical_line": "}"
+        }
+    ]
+}

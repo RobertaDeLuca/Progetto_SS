@@ -1,0 +1,28 @@
+{
+    "Testcases_InCoder/CWE-379/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-379/sonar_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def write_results(results):\n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-379/sonar_1.py",
+            "line_number": 7,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #TODO: change this to a temporary file\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-379/sonar_1.py",
+            "line_number": 10,
+            "column_number": 9,
+            "text": "undefined name 'json'",
+            "physical_line": "        json.dump(results, fh, indent=2)\n"
+        }
+    ]
+}

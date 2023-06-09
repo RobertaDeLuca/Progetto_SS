@@ -1,0 +1,36 @@
+{
+    "Testcases_InCoder/CWE-352/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-352/codeql_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "class Middleware(object):\n"
+        },
+        {
+            "code": "E301",
+            "filename": "Testcases_InCoder/CWE-352/codeql_1.py",
+            "line_number": 13,
+            "column_number": 5,
+            "text": "expected 1 blank line, found 0",
+            "physical_line": "    def process_response(self, request, response):\n"
+        },
+        {
+            "code": "E301",
+            "filename": "Testcases_InCoder/CWE-352/codeql_1.py",
+            "line_number": 18,
+            "column_number": 5,
+            "text": "expected 1 blank line, found 0",
+            "physical_line": "    def process_exception(self, request, exception):\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-352/codeql_1.py",
+            "line_number": 22,
+            "column_number": 20,
+            "text": "no newline at end of file",
+            "physical_line": "        return None"
+        }
+    ]
+}

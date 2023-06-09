@@ -1,0 +1,28 @@
+{
+    "Testcases_InCoder/CWE-252/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-252/author_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def getRecord(request):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-252/author_1.py",
+            "line_number": 8,
+            "column_number": 80,
+            "text": "line too long (86 > 79 characters)",
+            "physical_line": "    '''\n    get the data from the request, parse it using parse() method and return the length\n    '''\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-252/author_1.py",
+            "line_number": 10,
+            "column_number": 31,
+            "text": "no newline at end of file",
+            "physical_line": "    return len(parse(request))"
+        }
+    ]
+}

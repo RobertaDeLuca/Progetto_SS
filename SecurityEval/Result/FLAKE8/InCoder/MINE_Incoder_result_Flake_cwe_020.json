@@ -1,0 +1,166 @@
+{
+    "Testcases_InCoder/CWE-020/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-020/author_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def yaml_load(filename):\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-020/author_1.py",
+            "line_number": 9,
+            "column_number": 21,
+            "text": "no newline at end of file",
+            "physical_line": "    return yaml_data"
+        }
+    ],
+    "Testcases_InCoder/CWE-020/author_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-020/author_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def parse_xml(xml_string):\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-020/author_2.py",
+            "line_number": 8,
+            "column_number": 16,
+            "text": "no newline at end of file",
+            "physical_line": "    return tree"
+        }
+    ],
+    "Testcases_InCoder/CWE-020/codeql_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-020/codeql_1.py",
+            "line_number": 4,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route(\"/xss\")\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-020/codeql_1.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "E228",
+            "filename": "Testcases_InCoder/CWE-020/codeql_1.py",
+            "line_number": 12,
+            "column_number": 39,
+            "text": "missing whitespace around modulo operator",
+            "physical_line": "    resp = make_response('<h1>%s</h1>'%(username))\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-020/codeql_1.py",
+            "line_number": 14,
+            "column_number": 16,
+            "text": "no newline at end of file",
+            "physical_line": "    return resp"
+        }
+    ],
+    "Testcases_InCoder/CWE-020/codeql_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-020/codeql_2.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route(\"/example\")\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-020/codeql_2.py",
+            "line_number": 16,
+            "column_number": 19,
+            "text": "no newline at end of file",
+            "physical_line": "    return profile"
+        }
+    ],
+    "Testcases_InCoder/CWE-020/codeql_3.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-020/codeql_3.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/some/path/bad')\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-020/codeql_3.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": " \n"
+        }
+    ],
+    "Testcases_InCoder/CWE-020/codeql_4.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-020/codeql_4.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, redirect\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-020/codeql_4.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/some/path/bad')\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-020/codeql_4.py",
+            "line_number": 11,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": " \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-020/codeql_4.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-020/codeql_4.py",
+            "line_number": 14,
+            "column_number": 18,
+            "text": "undefined name 'redirects'",
+            "physical_line": "    if target in redirects:\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-020/codeql_4.py",
+            "line_number": 15,
+            "column_number": 16,
+            "text": "undefined name 'redirects'",
+            "physical_line": "        return redirects[target]\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-020/codeql_4.py",
+            "line_number": 17,
+            "column_number": 27,
+            "text": "no newline at end of file",
+            "physical_line": "        return 'Not Found'"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "Testcases_InCoder/CWE-385/mitre_1.py": [
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 3,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    compare the actual password with the typed password by checking every character\n    '''\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 9,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 15,
+            "column_number": 25,
+            "text": "undefined name 'string'",
+            "physical_line": "        if character in string.ascii_letters:\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 17,
+            "column_number": 27,
+            "text": "undefined name 'string'",
+            "physical_line": "        elif character in string.digits:\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 19,
+            "column_number": 27,
+            "text": "undefined name 'string'",
+            "physical_line": "        elif character in string.punctuation:\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 21,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "        \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "E303",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "too many blank lines (2)",
+            "physical_line": "    if count_letters == length and count_numbers == length and count_special_characters == length:\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 23,
+            "column_number": 80,
+            "text": "line too long (98 > 79 characters)",
+            "physical_line": "    if count_letters == length and count_numbers == length and count_special_characters == length:\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 27,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    "
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-385/mitre_1.py",
+            "line_number": 27,
+            "column_number": 5,
+            "text": "no newline at end of file",
+            "physical_line": "    "
+        }
+    ]
+}

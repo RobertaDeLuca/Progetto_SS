@@ -1,0 +1,54 @@
+{
+    "Testcases_InCoder/CWE-434/pearce_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-434/pearce_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/pdf/upload')\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-434/pearce_1.py",
+            "line_number": 9,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    get file from request, save it to./uploads directory, and redirect to /pdf/view\n    '''\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-434/pearce_1.py",
+            "line_number": 12,
+            "column_number": 16,
+            "text": "undefined name 'secure_filename'",
+            "physical_line": "    filename = secure_filename(file.filename)\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-434/pearce_2.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-434/pearce_2.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'flask.redirect' imported but unused",
+            "physical_line": "from flask import Flask, request, redirect\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-434/pearce_2.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/img/upload')\n"
+        },
+        {
+            "code": "E275",
+            "filename": "Testcases_InCoder/CWE-434/pearce_2.py",
+            "line_number": 19,
+            "column_number": 11,
+            "text": "missing whitespace after keyword",
+            "physical_line": "    return'success'\n"
+        }
+    ]
+}

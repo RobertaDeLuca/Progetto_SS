@@ -1,0 +1,46 @@
+{
+    "Testcases_InCoder/CWE-113/sonar_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-113/sonar_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "'werkzeug.datastructures.Headers' imported but unused",
+            "physical_line": "from werkzeug.datastructures import Headers\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-113/sonar_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/route')\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-113/sonar_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-113/sonar_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def route(request):\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-113/sonar_2.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-113/sonar_2.py",
+            "line_number": 10,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        }
+    ]
+}

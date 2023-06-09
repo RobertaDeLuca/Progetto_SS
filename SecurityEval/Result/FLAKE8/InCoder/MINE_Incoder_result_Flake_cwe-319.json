@@ -1,0 +1,86 @@
+{
+    "Testcases_InCoder/CWE-319/author_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-319/author_1.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getSMTPConnection():\n"
+        },
+        {
+            "code": "E231",
+            "filename": "Testcases_InCoder/CWE-319/author_1.py",
+            "line_number": 12,
+            "column_number": 41,
+            "text": "missing whitespace after ','",
+            "physical_line": "        conn.login('removed@example.com','mypassword')\n"
+        },
+        {
+            "code": "E722",
+            "filename": "Testcases_InCoder/CWE-319/author_1.py",
+            "line_number": 13,
+            "column_number": 5,
+            "text": "do not use bare 'except'",
+            "physical_line": "    except:\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-319/author_1.py",
+            "line_number": 14,
+            "column_number": 9,
+            "text": "undefined name 'traceback'",
+            "physical_line": "        traceback.print_exc()\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-319/author_1.py",
+            "line_number": 15,
+            "column_number": 15,
+            "text": "undefined name 'SMTPConnectionError'",
+            "physical_line": "        raise SMTPConnectionError\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-319/author_1.py",
+            "line_number": 16,
+            "column_number": 16,
+            "text": "no newline at end of file",
+            "physical_line": "    return conn"
+        }
+    ],
+    "Testcases_InCoder/CWE-319/author_2.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-319/author_2.py",
+            "line_number": 3,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "def getConnection():\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-319/author_2.py",
+            "line_number": 7,
+            "column_number": 27,
+            "text": "undefined name 'host'",
+            "physical_line": "    ftp = ftplib.FTP(host=host, user=user, passwd=password)\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-319/author_2.py",
+            "line_number": 7,
+            "column_number": 38,
+            "text": "undefined name 'user'",
+            "physical_line": "    ftp = ftplib.FTP(host=host, user=user, passwd=password)\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-319/author_2.py",
+            "line_number": 7,
+            "column_number": 51,
+            "text": "undefined name 'password'",
+            "physical_line": "    ftp = ftplib.FTP(host=host, user=user, passwd=password)\n"
+        }
+    ]
+}

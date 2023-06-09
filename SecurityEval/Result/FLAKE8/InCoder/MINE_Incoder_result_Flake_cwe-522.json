@@ -1,0 +1,102 @@
+{
+    "Testcases_InCoder/CWE-522/author_1.py": [
+        {
+            "code": "F401",
+            "filename": "Testcases_InCoder/CWE-522/author_1.py",
+            "line_number": 1,
+            "column_number": 1,
+            "text": "'base64' imported but unused",
+            "physical_line": "import base64\n"
+        },
+        {
+            "code": "E303",
+            "filename": "Testcases_InCoder/CWE-522/author_1.py",
+            "line_number": 6,
+            "column_number": 1,
+            "text": "too many blank lines (3)",
+            "physical_line": "def checkPassword(userid, password):\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-522/author_1.py",
+            "line_number": 8,
+            "column_number": 80,
+            "text": "line too long (88 > 79 characters)",
+            "physical_line": "    '''\n    get the password of the userid from the database and compare with the compressed one\n    '''\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-522/author_1.py",
+            "line_number": 10,
+            "column_number": 80,
+            "text": "line too long (85 > 79 characters)",
+            "physical_line": "    db = MySQLdb.connect(host='localhost', user='root', passwd='password', db='user')\n"
+        },
+        {
+            "code": "F841",
+            "filename": "Testcases_InCoder/CWE-522/author_1.py",
+            "line_number": 18,
+            "column_number": 9,
+            "text": "local variable 'password' is assigned to but never used",
+            "physical_line": "        password = rows[0][0]"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-522/author_1.py",
+            "line_number": 18,
+            "column_number": 30,
+            "text": "no newline at end of file",
+            "physical_line": "        password = rows[0][0]"
+        }
+    ],
+    "Testcases_InCoder/CWE-522/pearce_1.py": [
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-522/pearce_1.py",
+            "line_number": 7,
+            "column_number": 1,
+            "text": "block comment should start with '# '",
+            "physical_line": "#register url\n"
+        },
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-522/pearce_1.py",
+            "line_number": 8,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 1",
+            "physical_line": "@app.route('/register', methods=['POST'])\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-522/pearce_1.py",
+            "line_number": 11,
+            "column_number": 80,
+            "text": "line too long (100 > 79 characters)",
+            "physical_line": "    '''\n    get username and password from the request, and check if the username is already in the database\n    if not, add the username and password to the database after hashing the password\n    '''\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-522/pearce_1.py",
+            "line_number": 12,
+            "column_number": 80,
+            "text": "line too long (84 > 79 characters)",
+            "physical_line": "    '''\n    get username and password from the request, and check if the username is already in the database\n    if not, add the username and password to the database after hashing the password\n    '''\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-522/pearce_1.py",
+            "line_number": 16,
+            "column_number": 80,
+            "text": "line too long (81 > 79 characters)",
+            "physical_line": "    db = MySQLdb.connect(host=\"localhost\", user=\"root\", passwd=\"root\", db=\"user\")\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-522/pearce_1.py",
+            "line_number": 21,
+            "column_number": 80,
+            "text": "line too long (126 > 79 characters)",
+            "physical_line": "        c.execute(\"INSERT INTO user (username, password) VALUES ('%s', '%s')\" % (username, hashlib.md5(password).hexdigest()))\n"
+        }
+    ]
+}

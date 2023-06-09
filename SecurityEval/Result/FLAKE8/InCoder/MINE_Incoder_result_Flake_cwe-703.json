@@ -1,0 +1,31 @@
+{
+    "Testcases_InCoder/CWE-703/author_1.py": [
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-703/author_1.py",
+            "line_number": 11,
+            "column_number": 17,
+            "text": "no newline at end of file",
+            "physical_line": "        return a"
+        }
+    ],
+    "Testcases_InCoder/CWE-703/author_2.py": [
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-703/author_2.py",
+            "line_number": 3,
+            "column_number": 80,
+            "text": "line too long (87 > 79 characters)",
+            "physical_line": "    '''\n    continuesly take an input from user and convert it to int within a try-except block\n    '''\n"
+        },
+        {
+            "code": "W391",
+            "filename": "Testcases_InCoder/CWE-703/author_2.py",
+            "line_number": 12,
+            "column_number": 1,
+            "text": "blank line at end of file",
+            "physical_line": "\n"
+        }
+    ],
+    "Testcases_InCoder/CWE-703/author_3.py": []
+}

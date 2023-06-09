@@ -1,0 +1,100 @@
+{
+    "Testcases_InCoder/CWE-400/sonar_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 5,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "@app.route('/upload')\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 13,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 14,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #get the filename and username\n"
+        },
+        {
+            "code": "W291",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 15,
+            "column_number": 53,
+            "text": "trailing whitespace",
+            "physical_line": "    username_regex = re.compile(\"[0-9]{8}_[0-9]{8}\") \n"
+        },
+        {
+            "code": "W291",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 16,
+            "column_number": 53,
+            "text": "trailing whitespace",
+            "physical_line": "    filename_regex = re.compile(\"[0-9]{8}_[A-Z]{2}\") \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 17,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "    \n"
+        },
+        {
+            "code": "E265",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 18,
+            "column_number": 5,
+            "text": "block comment should start with '# '",
+            "physical_line": "    #search the username and filename in the filename\n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 21,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "        \n"
+        },
+        {
+            "code": "W293",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 22,
+            "column_number": 1,
+            "text": "blank line contains whitespace",
+            "physical_line": "        \n"
+        },
+        {
+            "code": "E303",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 23,
+            "column_number": 5,
+            "text": "too many blank lines (2)",
+            "physical_line": "    return render_template('upload.html', username=username, filename=filename)"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 23,
+            "column_number": 12,
+            "text": "undefined name 'render_template'",
+            "physical_line": "    return render_template('upload.html', username=username, filename=filename)"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-400/sonar_1.py",
+            "line_number": 23,
+            "column_number": 80,
+            "text": "no newline at end of file",
+            "physical_line": "    return render_template('upload.html', username=username, filename=filename)"
+        }
+    ]
+}

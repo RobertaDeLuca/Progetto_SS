@@ -1,0 +1,44 @@
+{
+    "Testcases_InCoder/CWE-941/mitre_1.py": [
+        {
+            "code": "E302",
+            "filename": "Testcases_InCoder/CWE-941/mitre_1.py",
+            "line_number": 2,
+            "column_number": 1,
+            "text": "expected 2 blank lines, found 0",
+            "physical_line": "def sendData():\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-941/mitre_1.py",
+            "line_number": 4,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    this function create UDP socket and continuesly recive 1024 bytes of UDP packet\n    after parsing UDP packet, it sends the data to appropriate requested IP address\n    '''\n"
+        },
+        {
+            "code": "E501",
+            "filename": "Testcases_InCoder/CWE-941/mitre_1.py",
+            "line_number": 5,
+            "column_number": 80,
+            "text": "line too long (83 > 79 characters)",
+            "physical_line": "    '''\n    this function create UDP socket and continuesly recive 1024 bytes of UDP packet\n    after parsing UDP packet, it sends the data to appropriate requested IP address\n    '''\n"
+        },
+        {
+            "code": "F821",
+            "filename": "Testcases_InCoder/CWE-941/mitre_1.py",
+            "line_number": 18,
+            "column_number": 17,
+            "text": "undefined name 'parseUDP'",
+            "physical_line": "                parseUDP(data)\n"
+        },
+        {
+            "code": "W292",
+            "filename": "Testcases_InCoder/CWE-941/mitre_1.py",
+            "line_number": 26,
+            "column_number": 18,
+            "text": "no newline at end of file",
+            "physical_line": "            break"
+        }
+    ]
+}
