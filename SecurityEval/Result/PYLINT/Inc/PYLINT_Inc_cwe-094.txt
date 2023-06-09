@@ -1,0 +1,117 @@
+************* Module author_1
+CWE-094/author_1.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-094/author_1.py:14:0: C0304: Final newline missing (missing-final-newline)
+CWE-094/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-094/author_1.py:9:15: E0602: Undefined variable 'Code' (undefined-variable)
+CWE-094/author_1.py:13:19: E0602: Undefined variable 'Code' (undefined-variable)
+************* Module codeql_1
+CWE-094/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-094/codeql_1.py:7:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-094/codeql_1.py:10:8: W0122: Use of exec (exec-used)
+CWE-094/codeql_1.py:11:15: E0602: Undefined variable 'HttpResponse' (undefined-variable)
+CWE-094/codeql_1.py:13:15: E0602: Undefined variable 'HttpResponse' (undefined-variable)
+************* Module sonar_1
+CWE-094/sonar_1.py:11:0: C0304: Final newline missing (missing-final-newline)
+CWE-094/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-094/sonar_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-094/sonar_1.py:3:1: E0602: Undefined variable 'app' (undefined-variable)
+CWE-094/sonar_1.py:10:4: W0122: Use of exec (exec-used)
+
+
+Report
+======
+21 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+44 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |30     |68.18 |20       |+10.00     |
++----------+-------+------+---------+-----------+
+|docstring |11     |25.00 |11       |=          |
++----------+-------+------+---------+-----------+
+|comment   |1      |2.27  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |2      |4.55  |1        |+1.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |6      |4        |4          |
++-----------+-------+---------+-----------+
+|refactor   |1      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |2      |3        |3          |
++-----------+-------+---------+-----------+
+|error      |6      |2        |2          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|undefined-variable       |5           |
++-------------------------+------------+
+|missing-module-docstring |3           |
++-------------------------+------------+
+|missing-final-newline    |2           |
++-------------------------+------------+
+|exec-used                |2           |
++-------------------------+------------+
+|trailing-whitespace      |1           |
++-------------------------+------------+
+|no-else-return           |1           |
++-------------------------+------------+
+|import-error             |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

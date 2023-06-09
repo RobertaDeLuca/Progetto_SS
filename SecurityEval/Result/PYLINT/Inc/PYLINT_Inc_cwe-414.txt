@@ -1,0 +1,115 @@
+************* Module author_1
+CWE-414/author_1.py:25:0: C0304: Final newline missing (missing-final-newline)
+CWE-414/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-414/author_1.py:3:0: C0103: Function name "getData" doesn't conform to snake_case naming style (invalid-name)
+CWE-414/author_1.py:3:12: C0103: Argument name "dataStart" doesn't conform to snake_case naming style (invalid-name)
+CWE-414/author_1.py:3:23: C0103: Argument name "dataLimit" doesn't conform to snake_case naming style (invalid-name)
+CWE-414/author_1.py:9:4: W0602: Using global for 'dataLock' but no assignment is done (global-variable-not-assigned)
+CWE-414/author_1.py:10:4: W0601: Global variable 'dataLocked' undefined at the module level (global-variable-undefined)
+CWE-414/author_1.py:14:8: C0103: Variable name "threadLocked" doesn't conform to snake_case naming style (invalid-name)
+CWE-414/author_1.py:15:8: E0602: Undefined variable 'threadLockedThreads' (undefined-variable)
+CWE-414/author_1.py:18:14: C0121: Comparison 'dataLocked == False' should be 'dataLocked is False' if checking for the singleton value False, or 'not dataLocked' if testing for falsiness (singleton-comparison)
+CWE-414/author_1.py:21:8: C0103: Variable name "threadLocked" doesn't conform to snake_case naming style (invalid-name)
+CWE-414/author_1.py:22:8: E0602: Undefined variable 'threadLockedThreads' (undefined-variable)
+CWE-414/author_1.py:14:8: W0612: Unused variable 'threadLocked' (unused-variable)
+
+
+Report
+======
+18 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+27 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |21     |77.78 |11       |+10.00     |
++----------+-------+------+---------+-----------+
+|docstring |5      |18.52 |5        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |1      |3.70  |1        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |8      |4        |4          |
++-----------+-------+---------+-----------+
+|refactor   |0      |1        |1          |
++-----------+-------+---------+-----------+
+|warning    |3      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |2      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|invalid-name                 |5           |
++-----------------------------+------------+
+|undefined-variable           |2           |
++-----------------------------+------------+
+|unused-variable              |1           |
++-----------------------------+------------+
+|singleton-comparison         |1           |
++-----------------------------+------------+
+|missing-module-docstring     |1           |
++-----------------------------+------------+
+|missing-final-newline        |1           |
++-----------------------------+------------+
+|global-variable-undefined    |1           |
++-----------------------------+------------+
+|global-variable-not-assigned |1           |
++-----------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 4.44/10, -4.44)
+

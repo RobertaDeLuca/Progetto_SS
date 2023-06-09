@@ -1,0 +1,111 @@
+************* Module author_1
+CWE-319/author_1.py:16:0: C0304: Final newline missing (missing-final-newline)
+CWE-319/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-319/author_1.py:3:0: C0103: Function name "getSMTPConnection" doesn't conform to snake_case naming style (invalid-name)
+CWE-319/author_1.py:14:8: E1101: Class 'traceback' has no 'print_exc' member (no-member)
+CWE-319/author_1.py:14:8: E0602: Undefined variable 'traceback' (undefined-variable)
+CWE-319/author_1.py:15:8: W0707: Consider explicitly re-raising using 'except Exception as exc' and 'raise SMTPConnectionError from exc' (raise-missing-from)
+CWE-319/author_1.py:15:14: E0602: Undefined variable 'SMTPConnectionError' (undefined-variable)
+************* Module author_2
+CWE-319/author_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-319/author_2.py:3:0: C0103: Function name "getConnection" doesn't conform to snake_case naming style (invalid-name)
+CWE-319/author_2.py:7:26: E0602: Undefined variable 'host' (undefined-variable)
+CWE-319/author_2.py:7:37: E0602: Undefined variable 'user' (undefined-variable)
+CWE-319/author_2.py:7:50: E0602: Undefined variable 'password' (undefined-variable)
+
+
+Report
+======
+16 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+28 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |20     |71.43 |14       |+6.00      |
++----------+-------+------+---------+-----------+
+|docstring |6      |21.43 |6        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |2      |7.14  |2        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |5      |4        |4          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |1      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |6      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|undefined-variable       |5           |
++-------------------------+------------+
+|missing-module-docstring |2           |
++-------------------------+------------+
+|invalid-name             |2           |
++-------------------------+------------+
+|raise-missing-from       |1           |
++-------------------------+------------+
+|no-member                |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 6.00/10, -6.00)
+

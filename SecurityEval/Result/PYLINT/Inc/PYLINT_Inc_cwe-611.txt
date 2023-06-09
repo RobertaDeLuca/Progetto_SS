@@ -1,0 +1,156 @@
+************* Module author_1
+CWE-611/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/author_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-611/author_1.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+CWE-611/author_1.py:6:0: C0103: Function name "checkPassword" doesn't conform to snake_case naming style (invalid-name)
+CWE-611/author_1.py:6:18: W0613: Unused argument 'userid' (unused-argument)
+CWE-611/author_1.py:6:26: W0613: Unused argument 'password' (unused-argument)
+CWE-611/author_1.py:15:10: I1101: Module 'lxml.etree' has no 'fromstring' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/author_1.py:21:8: E1111: Assigning result of a function call, where the function has no return (assignment-from-no-return)
+CWE-611/author_1.py:25:23: E0602: Undefined variable 'checkFileName' (undefined-variable)
+CWE-611/author_1.py:29:16: E0602: Undefined variable 'writeFile' (undefined-variable)
+************* Module codeql_1
+CWE-611/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-611/codeql_1.py:12:10: I1101: Module 'lxml.etree' has no 'fromstring' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+************* Module sonar_1
+CWE-611/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/sonar_1.py:7:11: I1101: Module 'lxml.etree' has no 'parse' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_1.py:7:23: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+CWE-611/sonar_1.py:7:23: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module sonar_2
+CWE-611/sonar_2.py:6:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-611/sonar_2.py:9:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-611/sonar_2.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-611/sonar_2.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-611/sonar_2.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-611/sonar_2.py:16:0: C0304: Final newline missing (missing-final-newline)
+CWE-611/sonar_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/sonar_2.py:7:13: I1101: Module 'lxml.etree' has no 'XMLParser' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_2.py:8:11: I1101: Module 'lxml.etree' has no 'parse' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_2.py:8:23: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+CWE-611/sonar_2.py:8:23: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+CWE-611/sonar_2.py:8:28: E0602: Undefined variable 'xml_path' (undefined-variable)
+CWE-611/sonar_2.py:12:11: I1101: Module 'lxml.etree' has no 'ElementTree' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+************* Module sonar_3
+CWE-611/sonar_3.py:11:0: C0304: Final newline missing (missing-final-newline)
+CWE-611/sonar_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-611/sonar_3.py:9:11: I1101: Module 'lxml.etree' has no 'parse' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_3.py:11:10: I1101: Module 'lxml.etree' has no 'tostring' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-611/sonar_3.py:11:4: W0612: Unused variable 'xml' (unused-variable)
+************* Module sonar_4
+CWE-611/sonar_4.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-611/sonar_4.py:9:55: C0303: Trailing whitespace (trailing-whitespace)
+CWE-611/sonar_4.py:14:0: C0304: Final newline missing (missing-final-newline)
+CWE-611/sonar_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+
+Report
+======
+56 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |6      |6          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |7      |7          |=          |85.71       |14.29    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+110 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |72     |65.45 |61       |+11.00     |
++----------+-------+------+---------+-----------+
+|docstring |20     |18.18 |20       |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |18     |16.36 |8        |+10.00     |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |18     |8        |8          |
++-----------+-------+---------+-----------+
+|refactor   |2      |1        |1          |
++-----------+-------+---------+-----------+
+|warning    |5      |2        |2          |
++-----------+-------+---------+-----------+
+|error      |6      |4        |4          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|c-extension-no-member      |8           |
++---------------------------+------------+
+|trailing-whitespace        |7           |
++---------------------------+------------+
+|missing-module-docstring   |6           |
++---------------------------+------------+
+|undefined-variable         |3           |
++---------------------------+------------+
+|missing-final-newline      |3           |
++---------------------------+------------+
+|unused-argument            |2           |
++---------------------------+------------+
+|unspecified-encoding       |2           |
++---------------------------+------------+
+|import-error               |2           |
++---------------------------+------------+
+|consider-using-with        |2           |
++---------------------------+------------+
+|unused-variable            |1           |
++---------------------------+------------+
+|missing-function-docstring |1           |
++---------------------------+------------+
+|invalid-name               |1           |
++---------------------------+------------+
+|assignment-from-no-return  |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.18/10 (previous run: 3.26/10, -3.08)
+

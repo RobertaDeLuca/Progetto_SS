@@ -1,0 +1,156 @@
+************* Module author_1
+CWE-020/author_1.py:9:0: C0304: Final newline missing (missing-final-newline)
+CWE-020/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-020/author_1.py:7:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+CWE-020/author_1.py:7:32: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+CWE-020/author_1.py:8:20: E1120: No value for argument 'Loader' in function call (no-value-for-parameter)
+************* Module author_2
+CWE-020/author_2.py:8:0: C0304: Final newline missing (missing-final-newline)
+CWE-020/author_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module codeql_1
+CWE-020/codeql_1.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-020/codeql_1.py:14:0: C0304: Final newline missing (missing-final-newline)
+CWE-020/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-020/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-020/codeql_1.py:12:25: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+************* Module codeql_2
+CWE-020/codeql_2.py:16:0: C0304: Final newline missing (missing-final-newline)
+CWE-020/codeql_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-020/codeql_2.py:4:0: E0401: Unable to import 'flask' (import-error)
+CWE-020/codeql_2.py:15:4: W0621: Redefining name 'profile' from outer scope (line 8) (redefined-outer-name)
+************* Module codeql_3
+CWE-020/codeql_3.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-020/codeql_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-020/codeql_3.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-020/codeql_3.py:7:0: C0103: Function name "targetRedirection" doesn't conform to snake_case naming style (invalid-name)
+CWE-020/codeql_3.py:2:0: C0411: standard import "import re" should be placed before "from flask import Flask, redirect" (wrong-import-order)
+************* Module codeql_4
+CWE-020/codeql_4.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-020/codeql_4.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-020/codeql_4.py:17:0: C0304: Final newline missing (missing-final-newline)
+CWE-020/codeql_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-020/codeql_4.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-020/codeql_4.py:6:0: C0103: Function name "targetRedirection" doesn't conform to snake_case naming style (invalid-name)
+CWE-020/codeql_4.py:14:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-020/codeql_4.py:14:17: E0602: Undefined variable 'redirects' (undefined-variable)
+CWE-020/codeql_4.py:15:15: E0602: Undefined variable 'redirects' (undefined-variable)
+CWE-020/codeql_4.py:1:0: W0611: Unused redirect imported from flask (unused-import)
+
+
+Report
+======
+39 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |6      |6          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |6      |6          |=          |100.00      |33.33    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    yaml (author_1)
+
+
+
+92 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |56     |60.87 |59       |-3.00      |
++----------+-------+------+---------+-----------+
+|docstring |24     |26.09 |24       |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |12     |13.04 |8        |+4.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |20     |9        |9          |
++-----------+-------+---------+-----------+
+|refactor   |1      |2        |2          |
++-----------+-------+---------+-----------+
+|warning    |3      |2        |2          |
++-----------+-------+---------+-----------+
+|error      |7      |5        |5          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|missing-module-docstring |6           |
++-------------------------+------------+
+|missing-final-newline    |5           |
++-------------------------+------------+
+|trailing-whitespace      |4           |
++-------------------------+------------+
+|import-error             |4           |
++-------------------------+------------+
+|invalid-name             |3           |
++-------------------------+------------+
+|undefined-variable       |2           |
++-------------------------+------------+
+|wrong-import-order       |1           |
++-------------------------+------------+
+|unused-import            |1           |
++-------------------------+------------+
+|unspecified-encoding     |1           |
++-------------------------+------------+
+|redefined-outer-name     |1           |
++-------------------------+------------+
+|no-value-for-parameter   |1           |
++-------------------------+------------+
+|no-else-return           |1           |
++-------------------------+------------+
+|consider-using-f-string  |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.73/10, -0.73)
+

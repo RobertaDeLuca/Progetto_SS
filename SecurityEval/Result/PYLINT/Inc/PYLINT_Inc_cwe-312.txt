@@ -1,0 +1,104 @@
+************* Module codeql_1
+CWE-312/codeql_1.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-312/codeql_1.py:12:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-312/codeql_1.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-312/codeql_1.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-312/codeql_1.py:19:0: C0304: Final newline missing (missing-final-newline)
+CWE-312/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-312/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-312/codeql_1.py:14:8: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+
+
+Report
+======
+7 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+21 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |11     |52.38 |10       |+1.00      |
++----------+-------+------+---------+-----------+
+|docstring |4      |19.05 |3        |+1.00      |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |6      |28.57 |2        |+4.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |1        |1          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |1      |1        |1          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|trailing-whitespace      |4           |
++-------------------------+------------+
+|missing-module-docstring |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+|import-error             |1           |
++-------------------------+------------+
+|consider-using-f-string  |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 1.43/10, -1.43)
+

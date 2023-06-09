@@ -1,0 +1,106 @@
+************* Module mitre_1
+CWE-406/mitre_1.py:19:0: C0304: Final newline missing (missing-final-newline)
+CWE-406/mitre_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-406/mitre_1.py:2:0: C0103: Function name "UDPMessaging" doesn't conform to snake_case naming style (invalid-name)
+CWE-406/mitre_1.py:2:17: C0103: Argument name "UDP_IP" doesn't conform to snake_case naming style (invalid-name)
+CWE-406/mitre_1.py:2:25: C0103: Argument name "UDP_PORT" doesn't conform to snake_case naming style (invalid-name)
+CWE-406/mitre_1.py:13:12: C0103: Variable name "IP" doesn't conform to snake_case naming style (invalid-name)
+CWE-406/mitre_1.py:14:12: C0103: Variable name "PORT" doesn't conform to snake_case naming style (invalid-name)
+CWE-406/mitre_1.py:15:12: E1101: Module 'socket' has no 'sendto' member (no-member)
+CWE-406/mitre_1.py:13:12: W0612: Unused variable 'IP' (unused-variable)
+CWE-406/mitre_1.py:14:12: W0612: Unused variable 'PORT' (unused-variable)
+
+
+Report
+======
+15 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+21 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |17     |80.95 |12       |+5.00      |
++----------+-------+------+---------+-----------+
+|docstring |4      |19.05 |4        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |4        |4          |
++-----------+-------+---------+-----------+
+|refactor   |0      |1        |1          |
++-----------+-------+---------+-----------+
+|warning    |2      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |1      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|invalid-name             |5           |
++-------------------------+------------+
+|unused-variable          |2           |
++-------------------------+------------+
+|no-member                |1           |
++-------------------------+------------+
+|missing-module-docstring |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.67/10 (previous run: 5.00/10, -4.33)
+

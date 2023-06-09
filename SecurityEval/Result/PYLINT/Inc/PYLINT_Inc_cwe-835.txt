@@ -1,0 +1,101 @@
+************* Module author_1
+CWE-835/author_1.py:12:0: C0304: Final newline missing (missing-final-newline)
+CWE-835/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-835/author_1.py:1:0: C0103: Function name "getFibonacci" doesn't conform to snake_case naming style (invalid-name)
+CWE-835/author_1.py:1:17: C0103: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+CWE-835/author_1.py:5:4: C0103: Variable name "fibN" doesn't conform to snake_case naming style (invalid-name)
+CWE-835/author_1.py:9:8: C0103: Variable name "fibN" doesn't conform to snake_case naming style (invalid-name)
+CWE-835/author_1.py:8:8: W0612: Unused variable 'i' (unused-variable)
+
+
+Report
+======
+9 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+14 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |11     |78.57 |7        |+4.00      |
++----------+-------+------+---------+-----------+
+|docstring |3      |21.43 |3        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |6      |7        |7          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |1      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|invalid-name             |4           |
++-------------------------+------------+
+|unused-variable          |1           |
++-------------------------+------------+
+|missing-module-docstring |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 2.22/10 (previous run: 0.00/10, +2.22)
+

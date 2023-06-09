@@ -1,0 +1,124 @@
+************* Module author_1
+CWE-730/author_1.py:7:21: W1401: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+CWE-730/author_1.py:8:42: W1401: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+CWE-730/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-730/author_1.py:2:0: C0103: Function name "checkNumber" doesn't conform to snake_case naming style (invalid-name)
+CWE-730/author_1.py:9:4: W0702: No exception type(s) specified (bare-except)
+************* Module codeql_1
+CWE-730/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-730/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-730/codeql_1.py:5:1: E0602: Undefined variable 'app' (undefined-variable)
+CWE-730/codeql_1.py:11:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-730/codeql_1.py:13:15: E0602: Undefined variable 'jsonify' (undefined-variable)
+CWE-730/codeql_1.py:15:15: E0602: Undefined variable 'jsonify' (undefined-variable)
+CWE-730/codeql_1.py:2:0: C0411: standard import "import re" should be placed before "from flask import request" (wrong-import-order)
+************* Module codeql_2
+CWE-730/codeql_2.py:13:0: C0305: Trailing newlines (trailing-newlines)
+CWE-730/codeql_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-730/codeql_2.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-730/codeql_2.py:5:1: E0602: Undefined variable 'app' (undefined-variable)
+CWE-730/codeql_2.py:12:11: E0602: Undefined variable 'render_template' (undefined-variable)
+CWE-730/codeql_2.py:2:0: C0411: standard import "import re" should be placed before "from flask import request" (wrong-import-order)
+
+
+Report
+======
+21 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |33.33    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+44 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |30     |68.18 |29       |+1.00      |
++----------+-------+------+---------+-----------+
+|docstring |9      |20.45 |9        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |5      |11.36 |5        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |6        |6          |
++-----------+-------+---------+-----------+
+|refactor   |1      |3        |3          |
++-----------+-------+---------+-----------+
+|warning    |3      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |7      |5        |5          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------------+------------+
+|message id                    |occurrences |
++==============================+============+
+|undefined-variable            |5           |
++------------------------------+------------+
+|missing-module-docstring      |3           |
++------------------------------+------------+
+|wrong-import-order            |2           |
++------------------------------+------------+
+|import-error                  |2           |
++------------------------------+------------+
+|anomalous-backslash-in-string |2           |
++------------------------------+------------+
+|trailing-newlines             |1           |
++------------------------------+------------+
+|no-else-return                |1           |
++------------------------------+------------+
+|invalid-name                  |1           |
++------------------------------+------------+
+|bare-except                   |1           |
++------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

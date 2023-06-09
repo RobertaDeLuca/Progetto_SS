@@ -1,0 +1,133 @@
+************* Module author_1
+CWE-117/author_1.py:14:0: C0304: Final newline missing (missing-final-newline)
+CWE-117/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-117/author_1.py:2:0: C0103: Function name "inputConversion" doesn't conform to snake_case naming style (invalid-name)
+CWE-117/author_1.py:2:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+CWE-117/author_1.py:1:0: W0611: Unused import logging (unused-import)
+************* Module codeql_1
+CWE-117/codeql_1.py:16:0: C0304: Final newline missing (missing-final-newline)
+CWE-117/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-117/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-117/codeql_1.py:2:0: E0401: Unable to import 'flask' (import-error)
+CWE-117/codeql_1.py:3:0: C0411: standard import "import logging" should be placed before "from flask import Flask" (wrong-import-order)
+************* Module sonar_1
+CWE-117/sonar_1.py:9:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-117/sonar_1.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-117/sonar_1.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-117/sonar_1.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-117/sonar_1.py:20:0: C0304: Final newline missing (missing-final-newline)
+CWE-117/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-117/sonar_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-117/sonar_1.py:12:4: W0702: No exception type(s) specified (bare-except)
+CWE-117/sonar_1.py:11:8: C0103: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+CWE-117/sonar_1.py:13:8: C0103: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+CWE-117/sonar_1.py:17:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+CWE-117/sonar_1.py:17:33: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+CWE-117/sonar_1.py:18:16: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+
+
+Report
+======
+28 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |33.33    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+56 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |37     |66.07 |31       |+6.00      |
++----------+-------+------+---------+-----------+
+|docstring |11     |19.64 |11       |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |8      |14.29 |4        |+4.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |16     |5        |5          |
++-----------+-------+---------+-----------+
+|refactor   |1      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |3      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |3      |3        |3          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|trailing-whitespace            |4           |
++-------------------------------+------------+
+|invalid-name                   |4           |
++-------------------------------+------------+
+|missing-module-docstring       |3           |
++-------------------------------+------------+
+|missing-final-newline          |3           |
++-------------------------------+------------+
+|import-error                   |3           |
++-------------------------------+------------+
+|wrong-import-order             |1           |
++-------------------------------+------------+
+|unused-import                  |1           |
++-------------------------------+------------+
+|unspecified-encoding           |1           |
++-------------------------------+------------+
+|inconsistent-return-statements |1           |
++-------------------------------+------------+
+|consider-using-f-string        |1           |
++-------------------------------+------------+
+|bare-except                    |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.87/10, -0.87)
+

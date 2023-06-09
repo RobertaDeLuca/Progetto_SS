@@ -1,0 +1,119 @@
+************* Module author_1
+CWE-798/author_1.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-798/author_1.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-798/author_1.py:18:0: C0304: Final newline missing (missing-final-newline)
+CWE-798/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-798/author_1.py:1:0: E0401: Unable to import 'mysql.connector' (import-error)
+CWE-798/author_1.py:3:0: C0103: Function name "getDBConnection" doesn't conform to snake_case naming style (invalid-name)
+CWE-798/author_1.py:15:11: W0718: Catching too general exception Exception (broad-exception-caught)
+CWE-798/author_1.py:9:8: C0103: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+CWE-798/author_1.py:15:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+************* Module codeql_1
+CWE-798/codeql_1.py:19:0: C0304: Final newline missing (missing-final-newline)
+CWE-798/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-798/codeql_1.py:2:0: E0401: Unable to import 'django.http' (import-error)
+CWE-798/codeql_1.py:3:0: E0401: Unable to import 'django.shortcuts' (import-error)
+CWE-798/codeql_1.py:11:11: E0602: Undefined variable 'authenticate' (undefined-variable)
+CWE-798/codeql_1.py:13:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-798/codeql_1.py:14:12: E0602: Undefined variable 'login' (undefined-variable)
+
+
+Report
+======
+19 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |100.00      |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+41 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |29     |70.73 |15       |+14.00     |
++----------+-------+------+---------+-----------+
+|docstring |8      |19.51 |8        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |4      |9.76  |2        |+2.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |9      |4        |4          |
++-----------+-------+---------+-----------+
+|refactor   |1      |1        |1          |
++-----------+-------+---------+-----------+
+|warning    |1      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |5      |3        |3          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|invalid-name             |3           |
++-------------------------+------------+
+|import-error             |3           |
++-------------------------+------------+
+|undefined-variable       |2           |
++-------------------------+------------+
+|trailing-whitespace      |2           |
++-------------------------+------------+
+|missing-module-docstring |2           |
++-------------------------+------------+
+|missing-final-newline    |2           |
++-------------------------+------------+
+|no-else-return           |1           |
++-------------------------+------------+
+|broad-exception-caught   |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

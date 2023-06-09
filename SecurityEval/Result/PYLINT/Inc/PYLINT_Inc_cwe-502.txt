@@ -1,0 +1,148 @@
+************* Module author_1
+CWE-502/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-502/author_1.py:3:0: C0115: Missing class docstring (missing-class-docstring)
+CWE-502/author_1.py:3:0: R0205: Class 'Payload' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+CWE-502/author_1.py:3:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+CWE-502/author_1.py:7:0: C0103: Function name "makePickleData" doesn't conform to snake_case naming style (invalid-name)
+CWE-502/author_1.py:11:4: C0103: Variable name "pickleData" doesn't conform to snake_case naming style (invalid-name)
+CWE-502/author_1.py:12:19: E1133: Non-iterable value Payload() is used in an iterating context (not-an-iterable)
+************* Module codeql_1
+CWE-502/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-502/codeql_1.py:1:0: E0401: Unable to import 'django.conf.urls' (import-error)
+CWE-502/codeql_1.py:4:0: C0103: Function name "getPickleData" doesn't conform to snake_case naming style (invalid-name)
+CWE-502/codeql_1.py:8:23: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+CWE-502/codeql_1.py:2:0: C0411: standard import "import pickle" should be placed before "from django.conf.urls import url" (wrong-import-order)
+CWE-502/codeql_1.py:1:0: W0611: Unused url imported from django.conf.urls (unused-import)
+************* Module mitre_1
+CWE-502/mitre_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-502/mitre_1.py:4:0: C0103: Function name "confirmAuth" doesn't conform to snake_case naming style (invalid-name)
+CWE-502/mitre_1.py:11:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-502/mitre_1.py:12:8: C0103: Variable name "authToken" doesn't conform to snake_case naming style (invalid-name)
+CWE-502/mitre_1.py:13:8: C0103: Variable name "authTokenDecoded" doesn't conform to snake_case naming style (invalid-name)
+CWE-502/mitre_1.py:13:27: W4902: Using deprecated method decodestring() (deprecated-method)
+CWE-502/mitre_1.py:14:8: C0103: Variable name "authTokenDecode" doesn't conform to snake_case naming style (invalid-name)
+CWE-502/mitre_1.py:15:36: E0602: Undefined variable 'time' (undefined-variable)
+CWE-502/mitre_1.py:16:12: E0602: Undefined variable 'abort' (undefined-variable)
+CWE-502/mitre_1.py:19:8: E0602: Undefined variable 'abort' (undefined-variable)
+CWE-502/mitre_1.py:4:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+CWE-502/mitre_1.py:3:0: C0411: standard import "import base64" should be placed before "import _pickle as cPickle" (wrong-import-order)
+************* Module sonar_1
+CWE-502/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-502/sonar_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-502/sonar_1.py:3:6: E0602: Undefined variable 'Flask' (undefined-variable)
+CWE-502/sonar_1.py:11:16: E1120: No value for argument 'Loader' in function call (no-value-for-parameter)
+
+
+Report
+======
+34 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |4          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |4          |=          |100.00      |75.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+62 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |44     |70.97 |38       |+6.00      |
++----------+-------+------+---------+-----------+
+|docstring |13     |20.97 |13       |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |5      |8.06  |5        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |14     |14       |14         |
++-----------+-------+---------+-----------+
+|refactor   |5      |2        |2          |
++-----------+-------+---------+-----------+
+|warning    |2      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |8      |4        |4          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |7           |
++-------------------------------+------------+
+|undefined-variable             |4           |
++-------------------------------+------------+
+|missing-module-docstring       |4           |
++-------------------------------+------------+
+|wrong-import-order             |2           |
++-------------------------------+------------+
+|import-error                   |2           |
++-------------------------------+------------+
+|useless-object-inheritance     |1           |
++-------------------------------+------------+
+|unused-import                  |1           |
++-------------------------------+------------+
+|too-few-public-methods         |1           |
++-------------------------------+------------+
+|not-an-iterable                |1           |
++-------------------------------+------------+
+|no-value-for-parameter         |1           |
++-------------------------------+------------+
+|no-else-return                 |1           |
++-------------------------------+------------+
+|missing-class-docstring        |1           |
++-------------------------------+------------+
+|inconsistent-return-statements |1           |
++-------------------------------+------------+
+|deprecated-method              |1           |
++-------------------------------+------------+
+|consider-using-with            |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

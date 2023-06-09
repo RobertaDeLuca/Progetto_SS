@@ -1,0 +1,111 @@
+************* Module codeql_1
+CWE-601/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-601/codeql_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+************* Module sonar_1
+CWE-601/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-601/sonar_1.py:1:0: E0401: Unable to import 'django.http' (import-error)
+************* Module sonar_2
+CWE-601/sonar_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-601/sonar_2.py:1:0: E0401: Unable to import 'flask' (import-error)
+************* Module sonar_3
+CWE-601/sonar_3.py:10:0: C0304: Final newline missing (missing-final-newline)
+CWE-601/sonar_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-601/sonar_3.py:1:0: E0401: Unable to import 'flask' (import-error)
+************* Module sonar_4
+CWE-601/sonar_4.py:9:0: C0304: Final newline missing (missing-final-newline)
+CWE-601/sonar_4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-601/sonar_4.py:1:0: E0401: Unable to import 'django.http' (import-error)
+CWE-601/sonar_4.py:1:0: W0611: Unused HttpResponse imported from django.http (unused-import)
+
+
+Report
+======
+25 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |5      |5          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |5          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+57 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |38     |66.67 |40       |-2.00      |
++----------+-------+------+---------+-----------+
+|docstring |15     |26.32 |15       |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |4      |7.02  |4        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |5        |5          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |1      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |5      |5        |5          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|missing-module-docstring |5           |
++-------------------------+------------+
+|import-error             |5           |
++-------------------------+------------+
+|missing-final-newline    |2           |
++-------------------------+------------+
+|unused-import            |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

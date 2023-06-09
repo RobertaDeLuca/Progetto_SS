@@ -1,0 +1,109 @@
+************* Module sonar_1
+CWE-400/sonar_1.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-400/sonar_1.py:15:52: C0303: Trailing whitespace (trailing-whitespace)
+CWE-400/sonar_1.py:16:52: C0303: Trailing whitespace (trailing-whitespace)
+CWE-400/sonar_1.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-400/sonar_1.py:21:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-400/sonar_1.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-400/sonar_1.py:23:0: C0304: Final newline missing (missing-final-newline)
+CWE-400/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-400/sonar_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-400/sonar_1.py:23:11: E0602: Undefined variable 'render_template' (undefined-variable)
+CWE-400/sonar_1.py:2:0: C0411: standard import "import re" should be placed before "from flask import request, Flask" (wrong-import-order)
+
+
+Report
+======
+11 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+25 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |14     |56.00 |13       |+1.00      |
++----------+-------+------+---------+-----------+
+|docstring |4      |16.00 |4        |=          |
++----------+-------+------+---------+-----------+
+|comment   |2      |8.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |5      |20.00 |1        |+4.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |9      |2        |2          |
++-----------+-------+---------+-----------+
+|refactor   |0      |1        |1          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |2      |1        |1          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|trailing-whitespace      |6           |
++-------------------------+------------+
+|wrong-import-order       |1           |
++-------------------------+------------+
+|undefined-variable       |1           |
++-------------------------+------------+
+|missing-module-docstring |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+|import-error             |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 1.11/10, -1.11)
+

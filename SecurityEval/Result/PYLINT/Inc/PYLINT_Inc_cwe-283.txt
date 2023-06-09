@@ -1,0 +1,109 @@
+************* Module mitre_1
+CWE-283/mitre_1.py:21:0: C0304: Final newline missing (missing-final-newline)
+CWE-283/mitre_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-283/mitre_1.py:1:0: C0410: Multiple imports on one line (os, signal) (multiple-imports)
+CWE-283/mitre_1.py:2:0: C0103: Function name "killProcess" doesn't conform to snake_case naming style (invalid-name)
+CWE-283/mitre_1.py:2:16: C0103: Argument name "processID" doesn't conform to snake_case naming style (invalid-name)
+CWE-283/mitre_1.py:8:7: E0602: Undefined variable 'platform' (undefined-variable)
+CWE-283/mitre_1.py:9:8: C0415: Import outside toplevel (ctypes) (import-outside-toplevel)
+CWE-283/mitre_1.py:14:9: E0602: Undefined variable 'platform' (undefined-variable)
+CWE-283/mitre_1.py:16:9: E0602: Undefined variable 'platform' (undefined-variable)
+CWE-283/mitre_1.py:18:9: E0602: Undefined variable 'platform' (undefined-variable)
+CWE-283/mitre_1.py:20:9: E0602: Undefined variable 'platform' (undefined-variable)
+
+
+Report
+======
+17 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+23 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |20     |86.96 |6        |+14.00     |
++----------+-------+------+---------+-----------+
+|docstring |3      |13.04 |3        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |6      |4        |4          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |5      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|undefined-variable       |5           |
++-------------------------+------------+
+|invalid-name             |2           |
++-------------------------+------------+
+|multiple-imports         |1           |
++-------------------------+------------+
+|missing-module-docstring |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+|import-outside-toplevel  |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

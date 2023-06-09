@@ -1,0 +1,117 @@
+************* Module mitre_1
+CWE-269/mitre_1.py:5:0: C0301: Line too long (107/100) (line-too-long)
+CWE-269/mitre_1.py:6:0: C0301: Line too long (108/100) (line-too-long)
+CWE-269/mitre_1.py:7:0: C0301: Line too long (106/100) (line-too-long)
+CWE-269/mitre_1.py:31:0: C0304: Final newline missing (missing-final-newline)
+CWE-269/mitre_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-269/mitre_1.py:2:0: E0401: Unable to import 'django.http' (import-error)
+CWE-269/mitre_1.py:3:0: C0103: Function name "makeNewUserDir" doesn't conform to snake_case naming style (invalid-name)
+CWE-269/mitre_1.py:14:4: W0702: No exception type(s) specified (bare-except)
+CWE-269/mitre_1.py:15:8: E0602: Undefined variable 'handleError' (undefined-variable)
+CWE-269/mitre_1.py:18:4: W0702: No exception type(s) specified (bare-except)
+CWE-269/mitre_1.py:19:8: E0602: Undefined variable 'handleError' (undefined-variable)
+CWE-269/mitre_1.py:22:4: W0702: No exception type(s) specified (bare-except)
+CWE-269/mitre_1.py:23:8: E0602: Undefined variable 'handleError' (undefined-variable)
+CWE-269/mitre_1.py:26:4: W0702: No exception type(s) specified (bare-except)
+CWE-269/mitre_1.py:27:8: E0602: Undefined variable 'handleError' (undefined-variable)
+CWE-269/mitre_1.py:30:4: W0702: No exception type(s) specified (bare-except)
+CWE-269/mitre_1.py:31:8: E0602: Undefined variable 'handleError' (undefined-variable)
+
+
+Report
+======
+25 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+33 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |27     |81.82 |16       |+11.00     |
++----------+-------+------+---------+-----------+
+|docstring |6      |18.18 |6        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |6      |6        |6          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |5      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |6      |4        |4          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|undefined-variable       |5           |
++-------------------------+------------+
+|bare-except              |5           |
++-------------------------+------------+
+|line-too-long            |3           |
++-------------------------+------------+
+|missing-module-docstring |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+|invalid-name             |1           |
++-------------------------+------------+
+|import-error             |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

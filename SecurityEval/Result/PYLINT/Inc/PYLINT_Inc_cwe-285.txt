@@ -1,0 +1,125 @@
+************* Module codeql_1
+CWE-285/codeql_1.py:10:0: C0301: Line too long (113/100) (line-too-long)
+CWE-285/codeql_1.py:24:0: C0304: Final newline missing (missing-final-newline)
+CWE-285/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-285/codeql_1.py:1:28: E0602: Undefined variable 'CDLL' (undefined-variable)
+CWE-285/codeql_1.py:1:33: E0602: Undefined variable 'find_library' (undefined-variable)
+CWE-285/codeql_1.py:4:28: E0602: Undefined variable 'c_int' (undefined-variable)
+CWE-285/codeql_1.py:5:29: E0602: Undefined variable 'PamHandle' (undefined-variable)
+CWE-285/codeql_1.py:5:40: E0602: Undefined variable 'c_int' (undefined-variable)
+CWE-285/codeql_1.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+CWE-285/codeql_1.py:12:8: W0107: Unnecessary pass statement (unnecessary-pass)
+CWE-285/codeql_1.py:8:16: W0613: Unused argument 'n_messages' (unused-argument)
+CWE-285/codeql_1.py:8:28: W0613: Unused argument 'messages' (unused-argument)
+CWE-285/codeql_1.py:8:38: W0613: Unused argument 'p_response' (unused-argument)
+CWE-285/codeql_1.py:8:50: W0613: Unused argument 'app_data' (unused-argument)
+CWE-285/codeql_1.py:15:-1: W0105: String statement has no effect (pointless-string-statement)
+CWE-285/codeql_1.py:16:10: E0602: Undefined variable 'PamHandle' (undefined-variable)
+CWE-285/codeql_1.py:17:11: E0602: Undefined variable 'PamConv' (undefined-variable)
+CWE-285/codeql_1.py:19:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-285/codeql_1.py:19:14: E0602: Undefined variable 'PAM_SUCCESS' (undefined-variable)
+CWE-285/codeql_1.py:7:17: W0613: Unused argument 'username' (unused-argument)
+CWE-285/codeql_1.py:7:27: W0613: Unused argument 'password' (unused-argument)
+
+
+Report
+======
+16 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |50.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+26 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |21     |80.77 |15       |+6.00      |
++----------+-------+------+---------+-----------+
+|docstring |3      |11.54 |3        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |2      |7.69  |2        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |4      |3        |3          |
++-----------+-------+---------+-----------+
+|refactor   |1      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |8      |8        |8          |
++-----------+-------+---------+-----------+
+|error      |8      |7        |7          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|undefined-variable         |8           |
++---------------------------+------------+
+|unused-argument            |6           |
++---------------------------+------------+
+|unnecessary-pass           |1           |
++---------------------------+------------+
+|pointless-string-statement |1           |
++---------------------------+------------+
+|no-else-return             |1           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|missing-function-docstring |1           |
++---------------------------+------------+
+|missing-final-newline      |1           |
++---------------------------+------------+
+|line-too-long              |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

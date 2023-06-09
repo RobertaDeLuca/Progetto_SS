@@ -1,0 +1,116 @@
+************* Module author_1
+CWE-116/author_1.py:23:0: C0304: Final newline missing (missing-final-newline)
+CWE-116/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-116/author_1.py:1:0: C0103: Function name "sendReply" doesn't conform to snake_case naming style (invalid-name)
+CWE-116/author_1.py:13:19: E0602: Undefined variable 'User' (undefined-variable)
+CWE-116/author_1.py:14:11: E0602: Undefined variable 'User' (undefined-variable)
+CWE-116/author_1.py:16:15: E0602: Undefined variable 'HttpResponse' (undefined-variable)
+CWE-116/author_1.py:18:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-116/author_1.py:20:15: E0602: Undefined variable 'HttpResponse' (undefined-variable)
+CWE-116/author_1.py:23:15: E0602: Undefined variable 'HttpResponse' (undefined-variable)
+************* Module codeql_1
+CWE-116/codeql_1.py:3:30: C0303: Trailing whitespace (trailing-whitespace)
+CWE-116/codeql_1.py:11:0: C0304: Final newline missing (missing-final-newline)
+CWE-116/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-116/codeql_1.py:3:0: C0103: Function name "filterScriptTags" doesn't conform to snake_case naming style (invalid-name)
+CWE-116/codeql_1.py:7:11: E0602: Undefined variable 'BeautifulSoup' (undefined-variable)
+CWE-116/codeql_1.py:1:0: W0611: Unused import re (unused-import)
+
+
+Report
+======
+19 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+38 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |24     |63.16 |11       |+13.00     |
++----------+-------+------+---------+-----------+
+|docstring |6      |15.79 |6        |=          |
++----------+-------+------+---------+-----------+
+|comment   |7      |18.42 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |1      |2.63  |1        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |5        |5          |
++-----------+-------+---------+-----------+
+|refactor   |1      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |1      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |6      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|undefined-variable       |6           |
++-------------------------+------------+
+|missing-module-docstring |2           |
++-------------------------+------------+
+|missing-final-newline    |2           |
++-------------------------+------------+
+|invalid-name             |2           |
++-------------------------+------------+
+|unused-import            |1           |
++-------------------------+------------+
+|trailing-whitespace      |1           |
++-------------------------+------------+
+|no-else-return           |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 2.86/10, -2.86)
+

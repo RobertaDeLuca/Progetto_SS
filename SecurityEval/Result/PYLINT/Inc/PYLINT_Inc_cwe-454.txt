@@ -1,0 +1,116 @@
+************* Module author_1
+CWE-454/author_1.py:8:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-454/author_1.py:9:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-454/author_1.py:31:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-454/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-454/author_1.py:24:16: W0621: Redefining name 'HAS_ADMIN_ACCESS' from outer scope (line 1) (redefined-outer-name)
+CWE-454/author_1.py:17:4: W0702: No exception type(s) specified (bare-except)
+CWE-454/author_1.py:18:15: E0602: Undefined variable 'HttpResponse' (undefined-variable)
+CWE-454/author_1.py:29:4: W0702: No exception type(s) specified (bare-except)
+CWE-454/author_1.py:20:15: E0602: Undefined variable 'authenticate' (undefined-variable)
+CWE-454/author_1.py:23:16: E0602: Undefined variable 'login' (undefined-variable)
+CWE-454/author_1.py:24:16: C0103: Variable name "HAS_ADMIN_ACCESS" doesn't conform to snake_case naming style (invalid-name)
+CWE-454/author_1.py:26:16: C0103: Variable name "HAS_ADMIN_ACCESS" doesn't conform to snake_case naming style (invalid-name)
+CWE-454/author_1.py:28:12: C0103: Variable name "HAS_ADMIN_ACCESS" doesn't conform to snake_case naming style (invalid-name)
+CWE-454/author_1.py:30:8: C0103: Variable name "HAS_ADMIN_ACCESS" doesn't conform to snake_case naming style (invalid-name)
+CWE-454/author_1.py:32:11: E0602: Undefined variable 'HttpResponse' (undefined-variable)
+CWE-454/author_1.py:32:24: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+
+
+Report
+======
+21 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+34 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |26     |76.47 |10       |+16.00     |
++----------+-------+------+---------+-----------+
+|docstring |5      |14.71 |5        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |3      |8.82  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |9      |1        |1          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |3      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |4      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|undefined-variable       |4           |
++-------------------------+------------+
+|invalid-name             |4           |
++-------------------------+------------+
+|trailing-whitespace      |3           |
++-------------------------+------------+
+|bare-except              |2           |
++-------------------------+------------+
+|redefined-outer-name     |1           |
++-------------------------+------------+
+|missing-module-docstring |1           |
++-------------------------+------------+
+|consider-using-f-string  |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 7.50/10, -7.50)
+

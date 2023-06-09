@@ -1,0 +1,109 @@
+************* Module author_1
+CWE-703/author_1.py:11:0: C0304: Final newline missing (missing-final-newline)
+CWE-703/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-703/author_1.py:6:8: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+CWE-703/author_1.py:1:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+************* Module author_2
+CWE-703/author_2.py:12:0: C0305: Trailing newlines (trailing-newlines)
+CWE-703/author_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-703/author_2.py:8:18: E1121: Too many positional arguments for function call (too-many-function-args)
+************* Module author_3
+CWE-703/author_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-703/author_3.py:1:0: C0103: Function name "inputInt" doesn't conform to snake_case naming style (invalid-name)
+
+
+Report
+======
+17 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |33.33    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+34 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |24     |70.59 |36       |-12.00     |
++----------+-------+------+---------+-----------+
+|docstring |9      |26.47 |9        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |1      |2.94  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |4        |4          |
++-----------+-------+---------+-----------+
+|refactor   |1      |2        |2          |
++-----------+-------+---------+-----------+
+|warning    |0      |2        |2          |
++-----------+-------+---------+-----------+
+|error      |1      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|missing-module-docstring       |3           |
++-------------------------------+------------+
+|invalid-name                   |2           |
++-------------------------------+------------+
+|trailing-newlines              |1           |
++-------------------------------+------------+
+|too-many-function-args         |1           |
++-------------------------------+------------+
+|missing-final-newline          |1           |
++-------------------------------+------------+
+|inconsistent-return-statements |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 2.35/10 (previous run: 7.33/10, -4.98)
+

@@ -1,0 +1,106 @@
+************* Module author_1
+CWE-326/author_1.py:12:0: C0304: Final newline missing (missing-final-newline)
+CWE-326/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-326/author_1.py:1:0: E0401: Unable to import 'cryptography.hazmat.primitives.asymmetric' (import-error)
+CWE-326/author_1.py:10:16: E0602: Undefined variable 'default_backend' (undefined-variable)
+************* Module author_2
+CWE-326/author_2.py:8:0: C0304: Final newline missing (missing-final-newline)
+CWE-326/author_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-326/author_2.py:1:0: E0401: Unable to import 'Crypto.PublicKey' (import-error)
+CWE-326/author_2.py:3:0: C0103: Function name "getPublicKey" doesn't conform to snake_case naming style (invalid-name)
+CWE-326/author_2.py:7:4: C0103: Variable name "pk" doesn't conform to snake_case naming style (invalid-name)
+
+
+Report
+======
+8 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |100.00      |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+24 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |16     |66.67 |14       |+2.00      |
++----------+-------+------+---------+-----------+
+|docstring |6      |25.00 |6        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |2      |8.33  |2        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |6      |3        |3          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |3      |3        |3          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|missing-module-docstring |2           |
++-------------------------+------------+
+|missing-final-newline    |2           |
++-------------------------+------------+
+|invalid-name             |2           |
++-------------------------+------------+
+|import-error             |2           |
++-------------------------+------------+
+|undefined-variable       |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

@@ -1,0 +1,130 @@
+************* Module codeql_1
+CWE-643/codeql_1.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/codeql_1.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/codeql_1.py:20:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/codeql_1.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/codeql_1.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-643/codeql_1.py:4:0: E0401: Unable to import 'django.http' (import-error)
+CWE-643/codeql_1.py:7:0: C0103: Function name "a" doesn't conform to snake_case naming style (invalid-name)
+CWE-643/codeql_1.py:16:10: I1101: Module 'lxml.etree' has no 'parse' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-643/codeql_1.py:22:12: I1101: Module 'lxml.etree' has no 'XPath' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-643/codeql_1.py:22:24: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+CWE-643/codeql_1.py:28:24: I1101: Module 'lxml.etree' has no 'tostring' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+CWE-643/codeql_1.py:2:0: C0411: standard import "from io import StringIO" should be placed before "from lxml import etree" (wrong-import-order)
+************* Module sonar_1
+CWE-643/sonar_1.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/sonar_1.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/sonar_1.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/sonar_1.py:20:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/sonar_1.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/sonar_1.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/sonar_1.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+CWE-643/sonar_1.py:27:0: C0304: Final newline missing (missing-final-newline)
+CWE-643/sonar_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-643/sonar_1.py:1:0: E0401: Unable to import 'flask' (import-error)
+CWE-643/sonar_1.py:7:1: E0602: Undefined variable 'app' (undefined-variable)
+CWE-643/sonar_1.py:2:0: C0411: standard import "import xml.etree.ElementTree as ET" should be placed before "from flask import request" (wrong-import-order)
+
+
+Report
+======
+22 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |100.00      |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+59 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |27     |45.76 |25       |+2.00      |
++----------+-------+------+---------+-----------+
+|docstring |11     |18.64 |11       |=          |
++----------+-------+------+---------+-----------+
+|comment   |4      |6.78  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |17     |28.81 |5        |+12.00     |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |19     |9        |9          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |0          |
++-----------+-------+---------+-----------+
+|warning    |0      |1        |1          |
++-----------+-------+---------+-----------+
+|error      |3      |3        |3          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|trailing-whitespace      |12          |
++-------------------------+------------+
+|c-extension-no-member    |3           |
++-------------------------+------------+
+|wrong-import-order       |2           |
++-------------------------+------------+
+|missing-module-docstring |2           |
++-------------------------+------------+
+|import-error             |2           |
++-------------------------+------------+
+|undefined-variable       |1           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+|invalid-name             |1           |
++-------------------------+------------+
+|consider-using-f-string  |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

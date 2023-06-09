@@ -1,0 +1,131 @@
+************* Module author_1
+CWE-022/author_1.py:10:0: C0304: Final newline missing (missing-final-newline)
+CWE-022/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-022/author_1.py:2:0: C0103: Function name "deleteImage" doesn't conform to snake_case naming style (invalid-name)
+CWE-022/author_1.py:10:11: E0602: Undefined variable 'HttpResponse' (undefined-variable)
+CWE-022/author_1.py:8:8: W0612: Unused variable 'filename' (unused-variable)
+CWE-022/author_1.py:1:0: W0611: Unused import os (unused-import)
+************* Module author_2
+CWE-022/author_2.py:18:0: C0304: Final newline missing (missing-final-newline)
+CWE-022/author_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-022/author_2.py:2:0: R0402: Use 'from urllib import request' instead (consider-using-from-import)
+CWE-022/author_2.py:3:0: C0103: Function name "readJSON" doesn't conform to snake_case naming style (invalid-name)
+CWE-022/author_2.py:9:11: W0718: Catching too general exception Exception (broad-exception-caught)
+CWE-022/author_2.py:13:12: C0103: Variable name "jsonObj" doesn't conform to snake_case naming style (invalid-name)
+CWE-022/author_2.py:8:19: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+************* Module codeql_1
+CWE-022/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-022/codeql_1.py:4:0: C0103: Function name "getFileData" doesn't conform to snake_case naming style (invalid-name)
+CWE-022/codeql_1.py:9:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+CWE-022/codeql_1.py:14:15: E1123: Unexpected keyword argument 'content_type' in constructor call (unexpected-keyword-arg)
+CWE-022/codeql_1.py:10:15: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+************* Module codeql_2
+CWE-022/codeql_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-022/codeql_2.py:7:10: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+
+Report
+======
+33 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |4          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |4          |=          |100.00      |75.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+59 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |44     |74.58 |29       |+15.00     |
++----------+-------+------+---------+-----------+
+|docstring |12     |20.34 |12       |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |3      |5.08  |3        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |10     |7        |7          |
++-----------+-------+---------+-----------+
+|refactor   |5      |2        |2          |
++-----------+-------+---------+-----------+
+|warning    |3      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |2      |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|missing-module-docstring   |4           |
++---------------------------+------------+
+|invalid-name               |4           |
++---------------------------+------------+
+|consider-using-with        |3           |
++---------------------------+------------+
+|missing-final-newline      |2           |
++---------------------------+------------+
+|unused-variable            |1           |
++---------------------------+------------+
+|unused-import              |1           |
++---------------------------+------------+
+|unexpected-keyword-arg     |1           |
++---------------------------+------------+
+|undefined-variable         |1           |
++---------------------------+------------+
+|no-else-return             |1           |
++---------------------------+------------+
+|consider-using-from-import |1           |
++---------------------------+------------+
+|broad-exception-caught     |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 1.52/10 (previous run: 5.71/10, -4.20)
+

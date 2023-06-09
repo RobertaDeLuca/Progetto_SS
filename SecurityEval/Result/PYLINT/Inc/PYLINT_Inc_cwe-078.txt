@@ -1,0 +1,115 @@
+************* Module author_1
+CWE-078/author_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-078/author_1.py:6:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:7:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:8:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:9:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:10:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:11:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:12:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:13:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:14:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:15:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:16:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:17:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:18:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:19:21: E0602: Undefined variable 'sys' (undefined-variable)
+CWE-078/author_1.py:20:21: E0602: Undefined variable 'sys' (undefined-variable)
+************* Module codeql_1
+CWE-078/codeql_1.py:11:0: C0304: Final newline missing (missing-final-newline)
+CWE-078/codeql_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+CWE-078/codeql_1.py:8:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+CWE-078/codeql_1.py:11:11: E0602: Undefined variable 'jsonify' (undefined-variable)
+
+
+Report
+======
+25 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |2          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+35 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |29     |82.86 |14       |+15.00     |
++----------+-------+------+---------+-----------+
+|docstring |6      |17.14 |6        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |0          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |4      |2        |2          |
++-----------+-------+---------+-----------+
+|refactor   |0      |1        |1          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |0          |
++-----------+-------+---------+-----------+
+|error      |16     |0        |0          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------+------------+
+|message id               |occurrences |
++=========================+============+
+|undefined-variable       |16          |
++-------------------------+------------+
+|missing-module-docstring |2           |
++-------------------------+------------+
+|missing-final-newline    |1           |
++-------------------------+------------+
+|invalid-name             |1           |
++-------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 7.00/10, -7.00)
+
